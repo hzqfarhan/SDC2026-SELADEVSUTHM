@@ -1,0 +1,128 @@
+{
+  "retrievedAt": "2026-10-19T22:37:26.801Z",
+  "period": "2026 Q2",
+  "sourceUrl": "https://storage.dosm.gov.my/labour/lfs_qtr_state.csv",
+  "catalogueUrl": "https://open.dosm.gov.my/data-catalogue/lfs_qtr_state",
+  "granularity": "State / federal territory",
+  "units": {
+    "unemploymentRate": "%",
+    "participationRate": "%",
+    "employedThousands": "thousand persons",
+    "labourForceThousands": "thousand persons"
+  },
+  "rows": [
+    {
+      "state": "Johor",
+      "unemploymentRate": 2.3,
+      "participationRate": 71.7,
+      "employedThousands": 2143.1,
+      "labourForceThousands": 2194.4
+    },
+    {
+      "state": "Kedah",
+      "unemploymentRate": 2.5,
+      "participationRate": 66.3,
+      "employedThousands": 976.4,
+      "labourForceThousands": 1001.1
+    },
+    {
+      "state": "Kelantan",
+      "unemploymentRate": 4.1,
+      "participationRate": 59.1,
+      "employedThousands": 713,
+      "labourForceThousands": 743.7
+    },
+    {
+      "state": "Melaka",
+      "unemploymentRate": 2,
+      "participationRate": 69.7,
+      "employedThousands": 512,
+      "labourForceThousands": 522.3
+    },
+    {
+      "state": "Negeri Sembilan",
+      "unemploymentRate": 2.4,
+      "participationRate": 67.1,
+      "employedThousands": 566.9,
+      "labourForceThousands": 581
+    },
+    {
+      "state": "Pahang",
+      "unemploymentRate": 2,
+      "participationRate": 65.5,
+      "employedThousands": 759.3,
+      "labourForceThousands": 774.7
+    },
+    {
+      "state": "Pulau Pinang",
+      "unemploymentRate": 2.6,
+      "participationRate": 72,
+      "employedThousands": 925.6,
+      "labourForceThousands": 950.7
+    },
+    {
+      "state": "Perak",
+      "unemploymentRate": 3.3,
+      "participationRate": 68.8,
+      "employedThousands": 1197.4,
+      "labourForceThousands": 1238.2
+    },
+    {
+      "state": "Perlis",
+      "unemploymentRate": 3.2,
+      "participationRate": 62.9,
+      "employedThousands": 131.8,
+      "labourForceThousands": 136.2
+    },
+    {
+      "state": "Selangor",
+      "unemploymentRate": 2.1,
+      "participationRate": 77.9,
+      "employedThousands": 4047.7,
+      "labourForceThousands": 4132.9
+    },
+    {
+      "state": "Terengganu",
+      "unemploymentRate": 2.9,
+      "participationRate": 61.3,
+      "employedThousands": 497.6,
+      "labourForceThousands": 512.2
+    },
+    {
+      "state": "Sabah",
+      "unemploymentRate": 5.6,
+      "participationRate": 70.6,
+      "employedThousands": 1791.9,
+      "labourForceThousands": 1898.6
+    },
+    {
+      "state": "Sarawak",
+      "unemploymentRate": 3.3,
+      "participationRate": 69.9,
+      "employedThousands": 1225.8,
+      "labourForceThousands": 1267.3
+    },
+    {
+      "state": "W.P. Kuala Lumpur",
+      "unemploymentRate": 3.5,
+      "participationRate": 76,
+      "employedThousands": 1168.7,
+      "labourForceThousands": 1210.5
+    },
+    {
+      "state": "W.P. Labuan",
+      "unemploymentRate": 4.8,
+      "participationRate": 67.4,
+      "employedThousands": 45,
+      "labourForceThousands": 47.3
+    },
+    {
+      "state": "W.P. Putrajaya",
+      "unemploymentRate": 1.3,
+      "participationRate": 79.4,
+      "employedThousands": 63.9,
+      "labourForceThousands": 64.7
+    }
+  ],
+  "sha256": "e69b08f55916ff86e2376fd8c4b221be6bd037969f2229f5bcee379eb50898f1"
+}

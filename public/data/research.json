@@ -1,0 +1,69 @@
+{
+  "retrievedAt": "2026-10-19T22:34:54.093Z",
+  "sourceUrl": "https://export.arxiv.org/api/query?search_query=all:%22generative%20AI%22%20AND%20(all:labour%20OR%20all:labor)&start=0&max_results=6&sortBy=submittedDate&sortOrder=descending",
+  "status": "Unreviewed research metadata. Optional title-topic weights can change rubric scores; this is not hiring-demand evidence.",
+  "sha256": "d59f0ae1b57b9e5453972e1c16c521e0874767e9c4eb2b46e0e70390ad6541fb",
+  "items": [
+    {
+      "title": "The interpreter as developer: An autoethnographic design study of building a computer-assisted interpreting tool through human-LLM co-creation",
+      "url": "https://arxiv.org/abs/2610.16460v1",
+      "published": "2026-10-12T09:19:55Z",
+      "authors": [
+        "Zeming Zhao"
+      ]
+    },
+    {
+      "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
+      "url": "https://arxiv.org/abs/2610.07296v1",
+      "published": "2026-10-05T19:35:56Z",
+      "authors": [
+        "Zhuchenyang Liu",
+        "Nianchong Qu",
+        "Yao Zhang",
+        "Marie O'Mahony",
+        "Qi Wang",
+        "Yu Xiao"
+      ]
+    },
+    {
+      "title": "Navigating the Changing Landscape of Online Knowledge Consumption and Production in the Age of Generative AI: Evidence from Stack Overflow",
+      "url": "https://arxiv.org/abs/2609.38563v1",
+      "published": "2026-09-29T21:23:10Z",
+      "authors": [
+        "Ji Eun Kim",
+        "Léa Vitale",
+        "Libby Hemphill",
+        "Yulin Yu"
+      ]
+    },
+    {
+      "title": "Can Generative AI Automate Data Extraction for Meta-Analysis? A Case Study on Intercropping Research",
+      "url": "https://arxiv.org/abs/2609.35089v2",
+      "published": "2026-09-28T13:04:41Z",
+      "authors": [
+        "Zehao Lu",
+        "Xingguo Xiong",
+        "Wopke van der Werf",
+        "Thijs L. van der Plas",
+        "Ioannis N. Athanasiadis"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence as an Economic, Environmental, Geopolitical, and Social Transformation",
+      "url": "https://arxiv.org/abs/2609.21632v1",
+      "published": "2026-09-18T11:21:35Z",
+      "authors": [
+        "Marcin Marciniak"
+      ]
+    },
+    {
+      "title": "Governance-as-Code: Translating EU AI Act Technical Requirements into Executable Compliance Pipelines for Generative AI Systems",
+      "url": "https://arxiv.org/abs/2609.20016v1",
+      "published": "2026-09-17T10:23:54Z",
+      "authors": [
+        "Rudrendu Kumar Paul",
+        "Sourav Nandy"
+      ]
+    }
+  ]
+}

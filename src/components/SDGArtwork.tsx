@@ -1,0 +1,4 @@
+import {sdgs} from '@/lib/catalogue';
+export const sdgImage=(id:number)=>`/images/sdg/E_SDG_Icons-${String(id).padStart(2,'0')}.jpg`;
+export function SDGIcon({id,className=''}:{id:number;className?:string}){const goal=sdgs.find(s=>s.id===id);return <img src={sdgImage(id)} alt={`SDG ${id}: ${goal?.name??''}`} className={`official-sdg-icon ${className}`} width={100} height={100} loading="lazy"/>;}
+export function SDGGallery({onSelect}:{onSelect:(id:number)=>void}){return <div className="sdg-reveal-gallery"><span className="gallery-eyebrow">17 GOALS · SELECT A PATHWAY</span><div className="sdg-reveal-grid">{sdgs.map(s=><button key={s.id} aria-label={`Explore SDG ${s.id}: ${s.name}`} onClick={()=>onSelect(s.id)}><SDGIcon id={s.id}/></button>)}</div><a href="https://sdgs.un.org/goals" target="_blank" rel="noreferrer">Official United Nations goal artwork ↗</a></div>;}

@@ -1,0 +1,2374 @@
+{
+  "retrievedAt": "2026-10-19T22:46:05.425300+00:00",
+  "coordinatePublisher": "Wikidata contributors",
+  "coordinateLicense": "CC0",
+  "coordinateSha256": "0231f4dbc2505dba580a90d29c5cd6402ee5b229340e99145890c565ae5ecb54",
+  "landmarkSha256": "9dee333a788822e651cb8cc5f90152320cfc4eaf8b36b07b9c393297ffe173ea",
+  "registrySources": [
+    {
+      "url": "https://www.mqa.gov.my/mqr/akrbyipta.cfm",
+      "sha256": "743e46c020a99feed4719f4f0b52c474846f9ae02b0b2d3395dd160a0c0bc91a"
+    },
+    {
+      "url": "https://www.mqa.gov.my/mqr/akrbyipts.cfm",
+      "sha256": "ca34ff074db97fbe310526ab9465ee14b5b489ff7b99298d942ee7ef4e85c798"
+    },
+    {
+      "url": "https://www.mqa.gov.my/mqr/akrbyipts.cfm?StartRow=26",
+      "sha256": "36c29fb0d48b2cfc1427fc33d0896021dcf6814abea76ca65a5c74bc2c547f33"
+    },
+    {
+      "url": "https://www.mqa.gov.my/mqr/akrbyipts.cfm?StartRow=51",
+      "sha256": "506a713bc8bed04cf84b8192d7f9865b9e42a3cd80c34e997d1e9c4692bf1d86"
+    },
+    {
+      "url": "https://www.mqa.gov.my/mqr/akrbyipts.cfm?StartRow=76",
+      "sha256": "94a6724ec593a0a668a38ba4e9d0c37cd506c967efc497f95805eaade14e7980"
+    },
+    {
+      "url": "https://www.mqa.gov.my/mqr/akrbyipts.cfm?StartRow=77",
+      "sha256": "5f254fb93358c74f03c9bbf457694021b06484f1a1fdcd5664ac776387d5246c"
+    }
+  ],
+  "coverage": "All rows fetched from MQA public and private university register pages, deduplicated by current name and state. Includes campuses; excludes the separate university-college/college directories. MQR is a programme register, not a guarantee of all currently operating institutions. Wikidata points are separate, community-maintained institution coordinates, not verified campus entrances.",
+  "institutions": [
+    {
+      "id": "mqa-483",
+      "name": "Al-Madinah International University (MEDIU)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=483"
+      ]
+    },
+    {
+      "id": "mqa-4",
+      "name": "Asia Pacific University of Technology and Innovation",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=4"
+      ]
+    },
+    {
+      "id": "mqa-826",
+      "name": "Asia School of Business (ASB)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=826"
+      ]
+    },
+    {
+      "id": "mqa-478",
+      "name": "Asia e University (Aeu)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=478"
+      ]
+    },
+    {
+      "id": "mqa-7",
+      "name": "Binary University of Management & Entrepreneurship (BUME)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=7"
+      ]
+    },
+    {
+      "id": "mqa-195",
+      "name": "City University",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=195"
+      ]
+    },
+    {
+      "id": "mqa-1057",
+      "name": "City University Kampus Johor Bahru",
+      "state": "Johor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=1057"
+      ]
+    },
+    {
+      "id": "mqa-200",
+      "name": "Curtin University, Malaysia",
+      "state": "Sarawak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=200"
+      ]
+    },
+    {
+      "id": "mqa-603",
+      "name": "DRB-HICOM University of Automotive Malaysia",
+      "state": "Pahang",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=603"
+      ]
+    },
+    {
+      "id": "mqa-705",
+      "name": "Heriot-Watt University Malaysia",
+      "state": "Wilayah Persekutuan Putrajaya",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=705"
+      ]
+    },
+    {
+      "id": "mqa-196",
+      "name": "IMU University",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=196"
+      ]
+    },
+    {
+      "id": "mqa-311",
+      "name": "INCEIF University",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=311"
+      ]
+    },
+    {
+      "id": "mqa-629",
+      "name": "MILA University",
+      "state": "Negeri Sembilan",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=629"
+      ]
+    },
+    {
+      "id": "mqa-635",
+      "name": "Malaysian Institute for Supply Chain Innovation (MISI)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=635"
+      ]
+    },
+    {
+      "id": "mqa-837",
+      "name": "Meritus University",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=837"
+      ]
+    },
+    {
+      "id": "mqa-150",
+      "name": "Monash University Malaysia",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=150"
+      ]
+    },
+    {
+      "id": "mqa-672",
+      "name": "Newcastle University Medicine Malaysia",
+      "state": "Johor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=672"
+      ]
+    },
+    {
+      "id": "mqa-764",
+      "name": "Perdana University",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=764"
+      ]
+    },
+    {
+      "id": "mqa-683",
+      "name": "Putra Business School (PBS)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=683"
+      ]
+    },
+    {
+      "id": "mqa-577",
+      "name": "Quest International University (QIU)",
+      "state": "Perak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=577"
+      ]
+    },
+    {
+      "id": "mqa-599",
+      "name": "Raffles University (RU)",
+      "state": "Johor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=599"
+      ]
+    },
+    {
+      "id": "mqa-109",
+      "name": "Royal College of Surgeons in Ireland and University College Dublin Malaysia Campus",
+      "state": "Pulau Pinang",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=109"
+      ]
+    },
+    {
+      "id": "mqa-121",
+      "name": "Sunway University",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=121"
+      ]
+    },
+    {
+      "id": "mqa-174",
+      "name": "Swinburne University of Technology Sarawak Campus",
+      "state": "Sarawak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=174"
+      ]
+    },
+    {
+      "id": "mqa-238",
+      "name": "Tunku Abdul Rahman University of Management and Technology (TAR UMT)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=238"
+      ]
+    },
+    {
+      "id": "mqa-431",
+      "name": "Tunku Abdul Rahman University of Management and Technology Cawangan Johor",
+      "state": "Johor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=431"
+      ]
+    },
+    {
+      "id": "mqa-907",
+      "name": "Tunku Abdul Rahman University of Management and Technology Cawangan Pahang",
+      "state": "Pahang",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=907"
+      ]
+    },
+    {
+      "id": "mqa-430",
+      "name": "Tunku Abdul Rahman University of Management and Technology Cawangan Perak",
+      "state": "Perak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=430"
+      ]
+    },
+    {
+      "id": "mqa-429",
+      "name": "Tunku Abdul Rahman University of Management and Technology Cawangan Pulau Pinang",
+      "state": "Pulau Pinang",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=429"
+      ]
+    },
+    {
+      "id": "mqa-851",
+      "name": "Tunku Abdul Rahman University of Management and Technology Cawangan Sabah",
+      "state": "Sabah",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=851"
+      ]
+    },
+    {
+      "id": "mqa-598",
+      "name": "UNITAR International University",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=598"
+      ]
+    },
+    {
+      "id": "mqa-1",
+      "name": "Universiti AIMST",
+      "state": "Kedah",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=1"
+      ]
+    },
+    {
+      "id": "mqa-82",
+      "name": "Universiti Al-Quran Al-Sultan Abdullah Ahmad Shah Pahang (UNIQSAAS)",
+      "state": "Pahang",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=82"
+      ]
+    },
+    {
+      "id": "mqa-594",
+      "name": "Universiti Antarabangsa Albukhary",
+      "state": "Kedah",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=594"
+      ]
+    },
+    {
+      "id": "mqa-44",
+      "name": "Universiti Antarabangsa INTI",
+      "state": "Negeri Sembilan",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=44"
+      ]
+    },
+    {
+      "id": "mqa-301",
+      "name": "Universiti Cyberjaya",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=301"
+      ]
+    },
+    {
+      "id": "mqa-318",
+      "name": "Universiti Geomatika Malaysia",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=318"
+      ]
+    },
+    {
+      "id": "mqa-744",
+      "name": "Universiti GlobalNxt",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=744"
+      ]
+    },
+    {
+      "id": "mqa-26",
+      "name": "Universiti HELP",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=26"
+      ]
+    },
+    {
+      "id": "mqa-252",
+      "name": "Universiti Islam Antarabangsa Malaysia (IIUM)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=252"
+      ]
+    },
+    {
+      "id": "mqa-353",
+      "name": "Universiti Islam Antarabangsa Malaysia (IIUM)",
+      "state": "Pahang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=353"
+      ]
+    },
+    {
+      "id": "mqa-37",
+      "name": "Universiti Islam Antarabangsa Sultan Abdul Halim Mu'adzam Shah (UniSHAMS)",
+      "state": "Kedah",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=37"
+      ]
+    },
+    {
+      "id": "mqa-769",
+      "name": "Universiti Islam Antarabangsa Tuanku Syed Sirajuddin (UniSIRAJ)",
+      "state": "Perlis",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=769"
+      ]
+    },
+    {
+      "id": "mqa-790",
+      "name": "Universiti Islam Malaysia",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=790"
+      ]
+    },
+    {
+      "id": "mqa-357",
+      "name": "Universiti Islam Melaka (UNIMEL)",
+      "state": "Melaka",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=357"
+      ]
+    },
+    {
+      "id": "mqa-79",
+      "name": "Universiti Islam Selangor (UIS)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=79"
+      ]
+    },
+    {
+      "id": "mqa-346",
+      "name": "Universiti KPJ Healthcare",
+      "state": "Negeri Sembilan",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=346"
+      ]
+    },
+    {
+      "id": "mqa-356",
+      "name": "Universiti Kebangsaan Malaysia (UKM)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=356",
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=587"
+      ]
+    },
+    {
+      "id": "mqa-253",
+      "name": "Universiti Kebangsaan Malaysia (UKM)",
+      "state": "Selangor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=253"
+      ]
+    },
+    {
+      "id": "mqa-1063",
+      "name": "Universiti Keusahawanan Koperasi Malaysia",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=1063"
+      ]
+    },
+    {
+      "id": "mqa-588",
+      "name": "Universiti Kuala Lumpur (UniKL)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=588",
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=537"
+      ]
+    },
+    {
+      "id": "mqa-185",
+      "name": "Universiti Kuala Lumpur - Kampus Kota (UniKL - Kampus Kota) Malaysian Institute of Information Technology (MIIT)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=185"
+      ]
+    },
+    {
+      "id": "mqa-183",
+      "name": "Universiti Kuala Lumpur - Malaysian Institute of Aviation Technology (UniKL MIAT)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=183"
+      ]
+    },
+    {
+      "id": "mqa-234",
+      "name": "Universiti Kuala Lumpur - Malaysian Institute of Marine Engineering Technology (UniKL MIMET)",
+      "state": "Perak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=234"
+      ]
+    },
+    {
+      "id": "mqa-205",
+      "name": "Universiti Kuala Lumpur - Malaysian Spanish Institute (UniKL MSI)",
+      "state": "Kedah",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=205"
+      ]
+    },
+    {
+      "id": "mqa-179",
+      "name": "Universiti Kuala Lumpur Kampus Cawangan British Malaysian Institute (UniKL - BMI)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=179"
+      ]
+    },
+    {
+      "id": "mqa-535",
+      "name": "Universiti Kuala Lumpur Kampus Cawangan Institute of Medical Science Technology (UniKL - MESTECH)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=535"
+      ]
+    },
+    {
+      "id": "mqa-182",
+      "name": "Universiti Kuala Lumpur Kampus Cawangan Malaysia France Institute (UniKL-MFI)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=182"
+      ]
+    },
+    {
+      "id": "mqa-181",
+      "name": "Universiti Kuala Lumpur Kampus Cawangan Malaysia Italy Design Institute (UniKL MIDI)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=181"
+      ]
+    },
+    {
+      "id": "mqa-184",
+      "name": "Universiti Kuala Lumpur Kampus Cawangan Malaysian Institute of Chemical and Bioengineering Technology (UniKL MICET)",
+      "state": "Melaka",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=184"
+      ]
+    },
+    {
+      "id": "mqa-520",
+      "name": "Universiti Kuala Lumpur Kampus Cawangan Malaysian Institute of Industrial Technology (UniKL - MITEC)",
+      "state": "Johor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=520"
+      ]
+    },
+    {
+      "id": "mqa-186",
+      "name": "Universiti Kuala Lumpur Kampus Cawangan Royal College of Medicine Perak (UniKL-RCMP)",
+      "state": "Perak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=186"
+      ]
+    },
+    {
+      "id": "mqa-236",
+      "name": "Universiti MAHSA",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=236"
+      ]
+    },
+    {
+      "id": "mqa-251",
+      "name": "Universiti Malaya",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=251"
+      ]
+    },
+    {
+      "id": "mqa-685",
+      "name": "Universiti Malaya-Wales (UM-Wales)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=685"
+      ]
+    },
+    {
+      "id": "mqa-592",
+      "name": "Universiti Malaysia Kelantan (UMK)",
+      "state": "Kelantan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=592",
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=946"
+      ]
+    },
+    {
+      "id": "mqa-254",
+      "name": "Universiti Malaysia Pahang Al-Sultan Abdullah",
+      "state": "Pahang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=254"
+      ]
+    },
+    {
+      "id": "mqa-256",
+      "name": "Universiti Malaysia Perlis (UniMAP)",
+      "state": "Perlis",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=256"
+      ]
+    },
+    {
+      "id": "mqa-250",
+      "name": "Universiti Malaysia Sabah (UMS)",
+      "state": "Sabah",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=250"
+      ]
+    },
+    {
+      "id": "mqa-257",
+      "name": "Universiti Malaysia Sarawak",
+      "state": "Sarawak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=257"
+      ]
+    },
+    {
+      "id": "mqa-573",
+      "name": "Universiti Malaysia Sarawak (UNIMAS) (Kuching)",
+      "state": "Sarawak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=573"
+      ]
+    },
+    {
+      "id": "mqa-255",
+      "name": "Universiti Malaysia Terengganu (UMT)",
+      "state": "Terengganu",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=255"
+      ]
+    },
+    {
+      "id": "mqa-630",
+      "name": "Universiti Metropolitan Asia",
+      "state": "Johor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=630"
+      ]
+    },
+    {
+      "id": "mqa-85",
+      "name": "Universiti Metropolitan Asia Kampus Cyberjaya",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=85"
+      ]
+    },
+    {
+      "id": "mqa-148",
+      "name": "Universiti Multimedia (MMU), Kampus Cyberjaya",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=148"
+      ]
+    },
+    {
+      "id": "mqa-149",
+      "name": "Universiti Multimedia (MMU), Kampus Melaka",
+      "state": "Melaka",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=149"
+      ]
+    },
+    {
+      "id": "mqa-96",
+      "name": "Universiti Nilai",
+      "state": "Negeri Sembilan",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=96"
+      ]
+    },
+    {
+      "id": "mqa-197",
+      "name": "Universiti Nottingham Malaysia",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=197"
+      ]
+    },
+    {
+      "id": "mqa-263",
+      "name": "Universiti Pendidikan Sultan Idris (UPSI)",
+      "state": "Perak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=263"
+      ]
+    },
+    {
+      "id": "mqa-137",
+      "name": "Universiti Pengurusan dan Sains",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=137"
+      ]
+    },
+    {
+      "id": "mqa-258",
+      "name": "Universiti Pertahanan Nasional Malaysia",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=258"
+      ]
+    },
+    {
+      "id": "mqa-157",
+      "name": "Universiti Poly-Tech Malaysia (UPTM)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=157"
+      ]
+    },
+    {
+      "id": "mqa-262",
+      "name": "Universiti Putra Malaysia (UPM)",
+      "state": "Selangor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=262"
+      ]
+    },
+    {
+      "id": "mqa-1059",
+      "name": "Universiti Putra Malaysia (UPM)",
+      "state": "Sarawak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1059"
+      ]
+    },
+    {
+      "id": "mqa-307",
+      "name": "Universiti SEGi",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=307"
+      ]
+    },
+    {
+      "id": "mqa-259",
+      "name": "Universiti Sains Islam Malaysia (USIM)",
+      "state": "Negeri Sembilan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=259"
+      ]
+    },
+    {
+      "id": "mqa-264",
+      "name": "Universiti Sains Malaysia (USM)",
+      "state": "Pulau Pinang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=264"
+      ]
+    },
+    {
+      "id": "mqa-354",
+      "name": "Universiti Sains Malaysia (USM) (Kampus Kesihatan)",
+      "state": "Kelantan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=354"
+      ]
+    },
+    {
+      "id": "mqa-625",
+      "name": "Universiti Sains Malaysia (USM) (Nibong Tebal)",
+      "state": "Pulau Pinang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=625"
+      ]
+    },
+    {
+      "id": "mqa-129",
+      "name": "Universiti Sains dan Teknologi Kuala Lumpur",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=129"
+      ]
+    },
+    {
+      "id": "mqa-152",
+      "name": "Universiti Sains dan Teknologi Malaysia",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=152"
+      ]
+    },
+    {
+      "id": "mqa-189",
+      "name": "Universiti Selangor (UNISEL), Kampus Bestari Jaya",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=189"
+      ]
+    },
+    {
+      "id": "mqa-188",
+      "name": "Universiti Selangor (UNISEL), Kampus Shah Alam",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=188"
+      ]
+    },
+    {
+      "id": "mqa-81",
+      "name": "Universiti Sultan Azlan Shah (USAS)",
+      "state": "Perak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=81"
+      ]
+    },
+    {
+      "id": "mqa-684",
+      "name": "Universiti Sultan Zainal Abidin (UniSZA)",
+      "state": "Terengganu",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=684",
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=247"
+      ]
+    },
+    {
+      "id": "mqa-545",
+      "name": "Universiti Sultan Zainal Abidin (UniSZA) (Kampus Gong Badak)",
+      "state": "Terengganu",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=545"
+      ]
+    },
+    {
+      "id": "mqa-176",
+      "name": "Universiti Taylor's",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=176"
+      ]
+    },
+    {
+      "id": "mqa-260",
+      "name": "Universiti Teknikal Malaysia Melaka (UTeM)",
+      "state": "Melaka",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=260"
+      ]
+    },
+    {
+      "id": "mqa-141",
+      "name": "Universiti Teknologi Kreatif Limkokwing",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=141"
+      ]
+    },
+    {
+      "id": "mqa-987",
+      "name": "Universiti Teknologi MARA (UiTM) Cawangan Pulau Pinang Kampus Balik Pulau",
+      "state": "Pulau Pinang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=987"
+      ]
+    },
+    {
+      "id": "mqa-248",
+      "name": "Universiti Teknologi MARA (UiTM) Shah Alam",
+      "state": "Selangor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=248"
+      ]
+    },
+    {
+      "id": "mqa-992",
+      "name": "Universiti Teknologi MARA Cawangan Johor Kampus Johor Bahru",
+      "state": "Johor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=992"
+      ]
+    },
+    {
+      "id": "mqa-1034",
+      "name": "Universiti Teknologi MARA Cawangan Johor Kampus Larkin",
+      "state": "Johor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1034"
+      ]
+    },
+    {
+      "id": "mqa-930",
+      "name": "Universiti Teknologi MARA Cawangan Johor Kampus Pasir Gudang",
+      "state": "Johor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=930"
+      ]
+    },
+    {
+      "id": "mqa-817",
+      "name": "Universiti Teknologi MARA Cawangan Johor Kampus Segamat",
+      "state": "Johor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=817"
+      ]
+    },
+    {
+      "id": "mqa-1000",
+      "name": "Universiti Teknologi MARA Cawangan Kedah Kampus Alor Setar",
+      "state": "Kedah",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1000"
+      ]
+    },
+    {
+      "id": "mqa-942",
+      "name": "Universiti Teknologi MARA Cawangan Kedah Kampus Sungai Petani",
+      "state": "Kedah",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=942"
+      ]
+    },
+    {
+      "id": "mqa-935",
+      "name": "Universiti Teknologi MARA Cawangan Kelantan Kampus Kota Bharu",
+      "state": "Kelantan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=935"
+      ]
+    },
+    {
+      "id": "mqa-939",
+      "name": "Universiti Teknologi MARA Cawangan Kelantan Kampus Machang",
+      "state": "Kelantan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=939"
+      ]
+    },
+    {
+      "id": "mqa-846",
+      "name": "Universiti Teknologi MARA Cawangan Melaka Kampus Alor Gajah",
+      "state": "Melaka",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=846"
+      ]
+    },
+    {
+      "id": "mqa-957",
+      "name": "Universiti Teknologi MARA Cawangan Melaka Kampus Bandaraya Melaka",
+      "state": "Melaka",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=957"
+      ]
+    },
+    {
+      "id": "mqa-958",
+      "name": "Universiti Teknologi MARA Cawangan Melaka Kampus Jasin",
+      "state": "Melaka",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=958"
+      ]
+    },
+    {
+      "id": "mqa-949",
+      "name": "Universiti Teknologi MARA Cawangan Negeri Sembilan Kampus Kuala Pilah",
+      "state": "Negeri Sembilan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=949"
+      ]
+    },
+    {
+      "id": "mqa-1036",
+      "name": "Universiti Teknologi MARA Cawangan Negeri Sembilan Kampus Kuala Pilah (Beting)",
+      "state": "Negeri Sembilan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1036"
+      ]
+    },
+    {
+      "id": "mqa-956",
+      "name": "Universiti Teknologi MARA Cawangan Negeri Sembilan Kampus Rembau",
+      "state": "Negeri Sembilan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=956"
+      ]
+    },
+    {
+      "id": "mqa-798",
+      "name": "Universiti Teknologi MARA Cawangan Negeri Sembilan Kampus Seremban",
+      "state": "Negeri Sembilan",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=798"
+      ]
+    },
+    {
+      "id": "mqa-991",
+      "name": "Universiti Teknologi MARA Cawangan Pahang Kampus Bukit Sekilau",
+      "state": "Pahang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=991"
+      ]
+    },
+    {
+      "id": "mqa-933",
+      "name": "Universiti Teknologi MARA Cawangan Pahang Kampus Jengka",
+      "state": "Pahang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=933"
+      ]
+    },
+    {
+      "id": "mqa-941",
+      "name": "Universiti Teknologi MARA Cawangan Pahang Kampus Kuantan",
+      "state": "Pahang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=941"
+      ]
+    },
+    {
+      "id": "mqa-962",
+      "name": "Universiti Teknologi MARA Cawangan Pahang Kampus Raub",
+      "state": "Pahang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=962"
+      ]
+    },
+    {
+      "id": "mqa-772",
+      "name": "Universiti Teknologi MARA Cawangan Perak Kampus Seri Iskandar",
+      "state": "Perak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=772"
+      ]
+    },
+    {
+      "id": "mqa-950",
+      "name": "Universiti Teknologi MARA Cawangan Perak Kampus Tapah",
+      "state": "Perak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=950"
+      ]
+    },
+    {
+      "id": "mqa-675",
+      "name": "Universiti Teknologi MARA Cawangan Perlis Kampus Arau",
+      "state": "Perlis",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=675"
+      ]
+    },
+    {
+      "id": "mqa-955",
+      "name": "Universiti Teknologi MARA Cawangan Pulau Pinang Kampus Bertam",
+      "state": "Pulau Pinang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=955"
+      ]
+    },
+    {
+      "id": "mqa-1033",
+      "name": "Universiti Teknologi MARA Cawangan Pulau Pinang Kampus Bukit Mertajam",
+      "state": "Pulau Pinang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1033"
+      ]
+    },
+    {
+      "id": "mqa-785",
+      "name": "Universiti Teknologi MARA Cawangan Pulau Pinang Kampus Permatang Pauh",
+      "state": "Pulau Pinang",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=785"
+      ]
+    },
+    {
+      "id": "mqa-940",
+      "name": "Universiti Teknologi MARA Cawangan Sabah Kampus Kota Kinabalu",
+      "state": "Sabah",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=940"
+      ]
+    },
+    {
+      "id": "mqa-938",
+      "name": "Universiti Teknologi MARA Cawangan Sabah Kampus Tawau",
+      "state": "Sabah",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=938"
+      ]
+    },
+    {
+      "id": "mqa-937",
+      "name": "Universiti Teknologi MARA Cawangan Sarawak Kampus Mukah",
+      "state": "Sarawak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=937"
+      ]
+    },
+    {
+      "id": "mqa-985",
+      "name": "Universiti Teknologi MARA Cawangan Sarawak Kampus Mukah 2",
+      "state": "Sarawak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=985"
+      ]
+    },
+    {
+      "id": "mqa-792",
+      "name": "Universiti Teknologi MARA Cawangan Sarawak Kampus Samarahan",
+      "state": "Sarawak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=792"
+      ]
+    },
+    {
+      "id": "mqa-936",
+      "name": "Universiti Teknologi MARA Cawangan Sarawak Kampus Samarahan 2",
+      "state": "Sarawak",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=936"
+      ]
+    },
+    {
+      "id": "mqa-989",
+      "name": "Universiti Teknologi MARA Cawangan Selangor Kampus Dengkil",
+      "state": "Selangor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=989"
+      ]
+    },
+    {
+      "id": "mqa-459",
+      "name": "Universiti Teknologi MARA Cawangan Selangor Kampus Puncak Alam",
+      "state": "Selangor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPListAA.cfm?IDAkrIPTS=459"
+      ]
+    },
+    {
+      "id": "mqa-954",
+      "name": "Universiti Teknologi MARA Cawangan Selangor Kampus Puncak Perdana",
+      "state": "Selangor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=954"
+      ]
+    },
+    {
+      "id": "mqa-990",
+      "name": "Universiti Teknologi MARA Cawangan Selangor Kampus Seksyen 17",
+      "state": "Selangor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=990"
+      ]
+    },
+    {
+      "id": "mqa-628",
+      "name": "Universiti Teknologi MARA Cawangan Selangor Kampus Sungai Buloh",
+      "state": "Selangor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=628"
+      ]
+    },
+    {
+      "id": "mqa-1045",
+      "name": "Universiti Teknologi MARA Cawangan Terengganu Kampus Bukit Besi",
+      "state": "Terengganu",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1045"
+      ]
+    },
+    {
+      "id": "mqa-952",
+      "name": "Universiti Teknologi MARA Cawangan Terengganu Kampus Dungun",
+      "state": "Terengganu",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=952"
+      ]
+    },
+    {
+      "id": "mqa-934",
+      "name": "Universiti Teknologi MARA Cawangan Terengganu Kampus Kuala Terengganu",
+      "state": "Terengganu",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=934"
+      ]
+    },
+    {
+      "id": "mqa-1032",
+      "name": "Universiti Teknologi MARA Cawangan Terengganu Kampus Kuala Terengganu (Cendering)",
+      "state": "Terengganu",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1032"
+      ]
+    },
+    {
+      "id": "mqa-1075",
+      "name": "Universiti Teknologi Malaysia (Kampus) (Cawangan Kuala Lumpur)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1075"
+      ]
+    },
+    {
+      "id": "mqa-261",
+      "name": "Universiti Teknologi Malaysia (UTM)",
+      "state": "Johor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=261"
+      ]
+    },
+    {
+      "id": "mqa-201",
+      "name": "Universiti Teknologi PETRONAS (UTP)",
+      "state": "Perak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=201"
+      ]
+    },
+    {
+      "id": "mqa-678",
+      "name": "Universiti Teknologi Sarawak (UTS)",
+      "state": "Sarawak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=678"
+      ]
+    },
+    {
+      "id": "mqa-193",
+      "name": "Universiti Tenaga Nasional (UNITEN, Kampus Sultan Haji Ahmad Shah)",
+      "state": "Pahang",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=193"
+      ]
+    },
+    {
+      "id": "mqa-192",
+      "name": "Universiti Tenaga Nasional Kampus Putrajaya (UNITEN, Kampus Putrajaya)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=192"
+      ]
+    },
+    {
+      "id": "mqa-191",
+      "name": "Universiti Terbuka Malaysia (UNITEM)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=191"
+      ]
+    },
+    {
+      "id": "mqa-450",
+      "name": "Universiti Terbuka Wawasan",
+      "state": "Pulau Pinang",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=450"
+      ]
+    },
+    {
+      "id": "mqa-444",
+      "name": "Universiti Tun Abdul Razak (UNIRAZAK)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=444"
+      ]
+    },
+    {
+      "id": "mqa-536",
+      "name": "Universiti Tun Abdul Razak (UNIRAZAK)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=536"
+      ]
+    },
+    {
+      "id": "mqa-190",
+      "name": "Universiti Tun Abdul Razak (UNIRAZAK) Kampus PINTAR",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=190"
+      ]
+    },
+    {
+      "id": "mqa-847",
+      "name": "Universiti Tun Hussein Onn Malaysia (UTHM)",
+      "state": "Johor",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=847",
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=265"
+      ]
+    },
+    {
+      "id": "mqa-239",
+      "name": "Universiti Tunku Abdul Rahman (UTAR)",
+      "state": "Perak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=239"
+      ]
+    },
+    {
+      "id": "mqa-219",
+      "name": "Universiti Tunku Abdul Rahman (UTAR) Kampus Cawangan Sungai Long",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=219"
+      ]
+    },
+    {
+      "id": "mqa-199",
+      "name": "Universiti Tunku Abdul Rahman (UTAR), Kampus Kuala Lumpur",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=199"
+      ]
+    },
+    {
+      "id": "mqa-198",
+      "name": "Universiti Tunku Abdul Rahman (UTAR), Kampus Petaling Jaya",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=198"
+      ]
+    },
+    {
+      "id": "mqa-136",
+      "name": "Universiti UCSI",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=136"
+      ]
+    },
+    {
+      "id": "mqa-553",
+      "name": "Universiti UCSI (Kampus Terengganu)",
+      "state": "Terengganu",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=553"
+      ]
+    },
+    {
+      "id": "mqa-1056",
+      "name": "Universiti UCSI Kampus Bandar Springhill",
+      "state": "Negeri Sembilan",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=1056"
+      ]
+    },
+    {
+      "id": "mqa-226",
+      "name": "Universiti UCSI, Kampus Sarawak",
+      "state": "Sarawak",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=226"
+      ]
+    },
+    {
+      "id": "mqa-32",
+      "name": "Universiti UCYP",
+      "state": "Pahang",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=32"
+      ]
+    },
+    {
+      "id": "mqa-266",
+      "name": "Universiti Utara Malaysia (UUM)",
+      "state": "Kedah",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=266"
+      ]
+    },
+    {
+      "id": "mqa-1053",
+      "name": "Universiti Utara Malaysia - Kampus (Cawangan Kuala Lumpur)",
+      "state": "Wilayah Persekutuan Kuala Lumpur",
+      "sector": "Public",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/iptaKPList.cfm?IDAkrIPTS=1053"
+      ]
+    },
+    {
+      "id": "mqa-784",
+      "name": "Universiti Xiamen Malaysia",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=784"
+      ]
+    },
+    {
+      "id": "mqa-713",
+      "name": "University Malaysia of Computer Science and Engineering (UNIMY)",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=713"
+      ]
+    },
+    {
+      "id": "mqa-202",
+      "name": "University Of Wales",
+      "state": "Luar Negara",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=202"
+      ]
+    },
+    {
+      "id": "mqa-703",
+      "name": "University of Reading Malaysia",
+      "state": "Johor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=703"
+      ]
+    },
+    {
+      "id": "mqa-699",
+      "name": "University of Southampton Malaysia (UoSM)",
+      "state": "Johor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=699"
+      ]
+    },
+    {
+      "id": "mqa-73",
+      "name": "University of Wollongong Malaysia",
+      "state": "Selangor",
+      "sector": "Private / foreign branch",
+      "sources": [
+        "https://www.mqa.gov.my/mqr/akrKPList.cfm?IDAkrIPTS=73"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "uni-Q94810",
+      "name": "Universiti Tenaga Nasional",
+      "longitude": 101.73107,
+      "latitude": 2.977345,
+      "source": "https://www.wikidata.org/wiki/Q94810",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q4119675",
+      "name": "Limkokwing University of Creative Technology",
+      "longitude": 101.6625,
+      "latitude": 2.94,
+      "source": "https://www.wikidata.org/wiki/Q4119675",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q778594",
+      "name": "Universiti Malaysia Perlis",
+      "longitude": 100.244052,
+      "latitude": 6.447099,
+      "source": "https://www.wikidata.org/wiki/Q778594",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q841775",
+      "name": "Taylor's University",
+      "longitude": 101.591111,
+      "latitude": 3.075,
+      "source": "https://www.wikidata.org/wiki/Q841775",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1141386",
+      "name": "University Malaysia Sarawak",
+      "longitude": 110.444083333,
+      "latitude": 1.466111111,
+      "source": "https://www.wikidata.org/wiki/Q1141386",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1142275",
+      "name": "Universiti Malaysia Sabah",
+      "longitude": 116.118694444,
+      "latitude": 6.036552777,
+      "source": "https://www.wikidata.org/wiki/Q1142275",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1142924",
+      "name": "Universiti Malaya",
+      "longitude": 101.656388888,
+      "latitude": 3.120833333,
+      "source": "https://www.wikidata.org/wiki/Q1142924",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1146766",
+      "name": "Sultan Idris Education University",
+      "longitude": 101.525072222,
+      "latitude": 3.685111111,
+      "source": "https://www.wikidata.org/wiki/Q1146766",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1390612",
+      "name": "Open University Malaysia",
+      "longitude": 101.691388888,
+      "latitude": 3.159722222,
+      "source": "https://www.wikidata.org/wiki/Q1390612",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1421182",
+      "name": "Multimedia University",
+      "longitude": 102.276944,
+      "latitude": 2.248889,
+      "source": "https://www.wikidata.org/wiki/Q1421182",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1489002",
+      "name": "Universiti Malaysia Terengganu",
+      "longitude": 103.087682,
+      "latitude": 5.405339,
+      "source": "https://www.wikidata.org/wiki/Q1489002",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1520668",
+      "name": "Universiti Malaysia Kelantan",
+      "longitude": 102.282904,
+      "latitude": 6.164711,
+      "source": "https://www.wikidata.org/wiki/Q1520668",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1524992",
+      "name": "International Islamic University Malaysia",
+      "longitude": 101.7375,
+      "latitude": 3.252777777,
+      "source": "https://www.wikidata.org/wiki/Q1524992",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1568961",
+      "name": "Swinburne University of Technology Sarawak Campus",
+      "longitude": 110.35694444,
+      "latitude": 1.53194444,
+      "source": "https://www.wikidata.org/wiki/Q1568961",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1576899",
+      "name": "Universiti Teknologi MARA",
+      "longitude": 101.503663888,
+      "latitude": 3.069822222,
+      "source": "https://www.wikidata.org/wiki/Q1576899",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q4806454",
+      "name": "Asia Pacific University College of Technology & Innovation",
+      "longitude": 101.6925,
+      "latitude": 3.04805556,
+      "source": "https://www.wikidata.org/wiki/Q4806454",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1886891",
+      "name": "Malaysia University of Science & Technology",
+      "longitude": 101.59186,
+      "latitude": 3.105384,
+      "source": "https://www.wikidata.org/wiki/Q1886891",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1973130",
+      "name": "Universiti Sains Malaysia",
+      "longitude": 100.301388888,
+      "latitude": 5.356944444,
+      "source": "https://www.wikidata.org/wiki/Q1973130",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q2096395",
+      "name": "Universiti Teknologi Petronas",
+      "longitude": 100.979722222,
+      "latitude": 4.386388888,
+      "source": "https://www.wikidata.org/wiki/Q2096395",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q2399323",
+      "name": "Universiti Teknikal Malaysia Melaka",
+      "longitude": 102.318397,
+      "latitude": 2.31382,
+      "source": "https://www.wikidata.org/wiki/Q2399323",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q2474260",
+      "name": "UiTM Kampus Sabah",
+      "longitude": 116.135314,
+      "latitude": 6.064257,
+      "source": "https://www.wikidata.org/wiki/Q2474260",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q2495812",
+      "name": "Tun Hussein Onn University of Malaysia",
+      "longitude": 103.08628,
+      "latitude": 1.853047,
+      "source": "https://www.wikidata.org/wiki/Q2495812",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q2496084",
+      "name": "Universiti Malaysia Pahang Al-Sultan Abdullah",
+      "longitude": 103.121221,
+      "latitude": 3.718548,
+      "source": "https://www.wikidata.org/wiki/Q2496084",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q3077453",
+      "name": "Al-Madinah International University",
+      "longitude": 101.700420924,
+      "latitude": 3.083611127,
+      "source": "https://www.wikidata.org/wiki/Q3077453",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7227078",
+      "name": "Sultan Azlan Shah Polytechnic",
+      "longitude": 101.450107,
+      "latitude": 3.770015,
+      "source": "https://www.wikidata.org/wiki/Q7227078",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q20464496",
+      "name": "Ungku Omar Polytechnic",
+      "longitude": 101.1260066,
+      "latitude": 4.5885157,
+      "source": "https://www.wikidata.org/wiki/Q20464496",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q4327703",
+      "name": "University of Nottingham Malaysia Campus",
+      "longitude": 101.874,
+      "latitude": 2.945,
+      "source": "https://www.wikidata.org/wiki/Q4327703",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q4475815",
+      "name": "Sunway University",
+      "longitude": 101.604,
+      "latitude": 3.0684,
+      "source": "https://www.wikidata.org/wiki/Q4475815",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q4653315",
+      "name": "Asia Pacific Institute of Information Technology",
+      "longitude": 101.6925,
+      "latitude": 3.04833333,
+      "source": "https://www.wikidata.org/wiki/Q4653315",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q5195645",
+      "name": "Curtin University, Malaysia",
+      "longitude": 114.01666667,
+      "latitude": 4.51166667,
+      "source": "https://www.wikidata.org/wiki/Q5195645",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q5972777",
+      "name": "INTI International University",
+      "longitude": 101.75833333,
+      "latitude": 2.81194444,
+      "source": "https://www.wikidata.org/wiki/Q5972777",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q5974518",
+      "name": "International Institute of Islamic Thought and Civilisation",
+      "longitude": 101.674191,
+      "latitude": 3.166451,
+      "source": "https://www.wikidata.org/wiki/Q5974518",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q6039015",
+      "name": "Institut Sinaran",
+      "longitude": 116.147,
+      "latitude": 6.03675,
+      "source": "https://www.wikidata.org/wiki/Q6039015",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q6049076",
+      "name": "International Centre for Education in Islamic Finance",
+      "longitude": 101.690886463,
+      "latitude": 3.160231345,
+      "source": "https://www.wikidata.org/wiki/Q6049076",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7162219",
+      "name": "Penang Free School",
+      "longitude": 100.304205,
+      "latitude": 5.40269,
+      "source": "https://www.wikidata.org/wiki/Q7162219",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7210149",
+      "name": "Politeknik Ibrahim Sultan",
+      "longitude": 103.918333333,
+      "latitude": 1.506388888,
+      "source": "https://www.wikidata.org/wiki/Q7210149",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7391199",
+      "name": "SMK Batu Maung",
+      "longitude": 100.2856,
+      "latitude": 5.282,
+      "source": "https://www.wikidata.org/wiki/Q7391199",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q6427193",
+      "name": "Selangor Islamic University",
+      "longitude": 101.790991252,
+      "latitude": 2.890089201,
+      "source": "https://www.wikidata.org/wiki/Q6427193",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q6441018",
+      "name": "Infrastructure University Kuala Lumpur (IUKL)",
+      "longitude": 101.7379653,
+      "latitude": 2.9778164,
+      "source": "https://www.wikidata.org/wiki/Q6441018",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q6441023",
+      "name": "Kuala Lumpur Metropolitan University College",
+      "longitude": 101.7092343,
+      "latitude": 3.1541541,
+      "source": "https://www.wikidata.org/wiki/Q6441023",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q6741875",
+      "name": "Malaysia Institute of Aviation Technology",
+      "longitude": 101.73649,
+      "latitude": 2.85126,
+      "source": "https://www.wikidata.org/wiki/Q6741875",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7036842",
+      "name": "Nilai University",
+      "longitude": 101.770119,
+      "latitude": 2.814079,
+      "source": "https://www.wikidata.org/wiki/Q7036842",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q24936436",
+      "name": "Adventist College of Nursing and Health Sciences",
+      "longitude": 100.305997,
+      "latitude": 5.4333,
+      "source": "https://www.wikidata.org/wiki/Q24936436",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7588136",
+      "name": "St. George's Girls' School",
+      "longitude": 100.307946,
+      "latitude": 5.42233,
+      "source": "https://www.wikidata.org/wiki/Q7588136",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7853255",
+      "name": "Tunku Abdul Rahman University of Management and Technology",
+      "longitude": 101.726424,
+      "latitude": 3.214591,
+      "source": "https://www.wikidata.org/wiki/Q7853255",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7864125",
+      "name": "UCSI University",
+      "longitude": 101.733273853,
+      "latitude": 3.079943059,
+      "source": "https://www.wikidata.org/wiki/Q7864125",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q24401",
+      "name": "University of Technology Malaysia",
+      "longitude": 103.641389,
+      "latitude": 1.559167,
+      "source": "https://www.wikidata.org/wiki/Q24401",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1444125",
+      "name": "National University of Malaysia",
+      "longitude": 101.781388888,
+      "latitude": 2.925,
+      "source": "https://www.wikidata.org/wiki/Q1444125",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1458579",
+      "name": "University of Putra Malaysia",
+      "longitude": 101.707777777,
+      "latitude": 2.999166666,
+      "source": "https://www.wikidata.org/wiki/Q1458579",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7894430",
+      "name": "Universiti Putra Malaysia Sarawak",
+      "longitude": 113.099861111,
+      "latitude": 3.205777777,
+      "source": "https://www.wikidata.org/wiki/Q7894430",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7894431",
+      "name": "Universiti Sains Malaysia School of Medical Science",
+      "longitude": 102.280799,
+      "latitude": 6.099199,
+      "source": "https://www.wikidata.org/wiki/Q7894431",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7894437",
+      "name": "Universiti Tun Abdul Razak",
+      "longitude": 101.351944444,
+      "latitude": 3.255833333,
+      "source": "https://www.wikidata.org/wiki/Q7894437",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7894438",
+      "name": "Universiti Tunku Abdul Rahman",
+      "longitude": 101.139766,
+      "latitude": 4.339391,
+      "source": "https://www.wikidata.org/wiki/Q7894438",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7895613",
+      "name": "University of Kuala Lumpur",
+      "longitude": 101.7013584,
+      "latitude": 3.1592707,
+      "source": "https://www.wikidata.org/wiki/Q7895613",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7936142",
+      "name": "Vision College",
+      "longitude": 101.59985,
+      "latitude": 3.1061,
+      "source": "https://www.wikidata.org/wiki/Q7936142",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1146435",
+      "name": "National Defence University of Malaysia",
+      "longitude": 101.687861111,
+      "latitude": 3.135594444,
+      "source": "https://www.wikidata.org/wiki/Q1146435",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q12690299",
+      "name": "International University College Of Technology Twintech",
+      "longitude": 101.613,
+      "latitude": 3.201,
+      "source": "https://www.wikidata.org/wiki/Q12690299",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q12712163",
+      "name": "Management and Science University",
+      "longitude": 101.553,
+      "latitude": 3.0775,
+      "source": "https://www.wikidata.org/wiki/Q12712163",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q12712164",
+      "name": "IMU University",
+      "longitude": 101.6872,
+      "latitude": 3.0597,
+      "source": "https://www.wikidata.org/wiki/Q12712164",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q15149334",
+      "name": "Asia e University",
+      "longitude": 101.589747158,
+      "latitude": 3.076765362,
+      "source": "https://www.wikidata.org/wiki/Q15149334",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q16243161",
+      "name": "Asia Pacific University College of Technology & Innovation",
+      "longitude": 101.692,
+      "latitude": 3.04806,
+      "source": "https://www.wikidata.org/wiki/Q16243161",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q16248046",
+      "name": "Universiti Malaya-Wales",
+      "longitude": 101.69167278,
+      "latitude": 3.16021611,
+      "source": "https://www.wikidata.org/wiki/Q16248046",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q16250609",
+      "name": "ALFA International College",
+      "longitude": 101.58961,
+      "latitude": 3.07726,
+      "source": "https://www.wikidata.org/wiki/Q16250609",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q16934243",
+      "name": "Monash University Malaysia",
+      "longitude": 101.600682,
+      "latitude": 3.064411,
+      "source": "https://www.wikidata.org/wiki/Q16934243",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q16938304",
+      "name": "Institut Pendidikan Guru Kampus Pendidikan Teknik",
+      "longitude": 101.8014,
+      "latitude": 2.7311,
+      "source": "https://www.wikidata.org/wiki/Q16938304",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q17984793",
+      "name": "Perdana University and Royal College of Surgeons in Ireland School of Medicine",
+      "longitude": 101.700031,
+      "latitude": 2.980252,
+      "source": "https://www.wikidata.org/wiki/Q17984793",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q18351659",
+      "name": "Institut Latihan Perindustrian Kuala Lumpur",
+      "longitude": 101.6868246,
+      "latitude": 3.0920585,
+      "source": "https://www.wikidata.org/wiki/Q18351659",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q19600080",
+      "name": "University College of Technology Sarawak",
+      "longitude": 111.843333333,
+      "latitude": 2.341111111,
+      "source": "https://www.wikidata.org/wiki/Q19600080",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q19646433",
+      "name": "Taylor's College",
+      "longitude": 101.591,
+      "latitude": 3.075,
+      "source": "https://www.wikidata.org/wiki/Q19646433",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q19646467",
+      "name": "UiTM Faculty of Civil Engineering",
+      "longitude": 101.496168,
+      "latitude": 3.071438,
+      "source": "https://www.wikidata.org/wiki/Q19646467",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q19891082",
+      "name": "Asia School of Business",
+      "longitude": 101.69229,
+      "latitude": 3.15556,
+      "source": "https://www.wikidata.org/wiki/Q19891082",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q22344812",
+      "name": "University of Cyberjaya",
+      "longitude": 101.637222222,
+      "latitude": 2.930833333,
+      "source": "https://www.wikidata.org/wiki/Q22344812",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q29946580",
+      "name": "MARA Japan Industrial Institute Beranang",
+      "longitude": 101.8646,
+      "latitude": 2.9046,
+      "source": "https://www.wikidata.org/wiki/Q29946580",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q30266507",
+      "name": "Newcastle University Medicine Malaysia",
+      "longitude": 103.61354,
+      "latitude": 1.429281,
+      "source": "https://www.wikidata.org/wiki/Q30266507",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q30266508",
+      "name": "Raffles University Iskandar",
+      "longitude": 103.620833333,
+      "latitude": 1.441666666,
+      "source": "https://www.wikidata.org/wiki/Q30266508",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q54958341",
+      "name": "Sunway College",
+      "longitude": 101.6041,
+      "latitude": 3.0681,
+      "source": "https://www.wikidata.org/wiki/Q54958341",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q55637988",
+      "name": "Xiamen University Malaysia",
+      "longitude": 101.7029,
+      "latitude": 2.8329,
+      "source": "https://www.wikidata.org/wiki/Q55637988",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q55886289",
+      "name": "DISTED College",
+      "longitude": 100.30769983,
+      "latitude": 5.42352583,
+      "source": "https://www.wikidata.org/wiki/Q55886289",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q94673966",
+      "name": "University of Reading Malaysia",
+      "longitude": 103.615722222,
+      "latitude": 1.43025,
+      "source": "https://www.wikidata.org/wiki/Q94673966",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q94674366",
+      "name": "Netherlands Maritime Institute of Technology",
+      "longitude": 103.611277777,
+      "latitude": 1.430611111,
+      "source": "https://www.wikidata.org/wiki/Q94674366",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q99285466",
+      "name": "Asia Metropolitan University",
+      "longitude": 103.869027777,
+      "latitude": 1.510083333,
+      "source": "https://www.wikidata.org/wiki/Q99285466",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q1723289",
+      "name": "Universiti Utara Malaysia",
+      "longitude": 100.505583,
+      "latitude": 6.457844,
+      "source": "https://www.wikidata.org/wiki/Q1723289",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q7894433",
+      "name": "Universiti Sains Islam Malaysia",
+      "longitude": 101.777,
+      "latitude": 2.84361,
+      "source": "https://www.wikidata.org/wiki/Q7894433",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "uni-Q132284989",
+      "name": "Faculty of Dentistry, University of Malaya",
+      "longitude": 101.656388888,
+      "latitude": 3.120833333,
+      "source": "https://www.wikidata.org/wiki/Q132284989",
+      "kind": "university",
+      "model": "campus"
+    },
+    {
+      "id": "landmark-Q83063",
+      "name": "Petronas Towers",
+      "longitude": 101.71166666666667,
+      "latitude": 3.1577777777777776,
+      "source": "https://www.wikidata.org/wiki/Q83063",
+      "kind": "landmark",
+      "model": "twins"
+    },
+    {
+      "id": "landmark-Q745016",
+      "name": "Kuala Lumpur Tower",
+      "longitude": 101.70374880941304,
+      "latitude": 3.1528277102253313,
+      "source": "https://www.wikidata.org/wiki/Q745016",
+      "kind": "landmark",
+      "model": "tower"
+    },
+    {
+      "id": "landmark-Q7969454",
+      "name": "Merdeka 118",
+      "longitude": 101.70072222222223,
+      "latitude": 3.1416666666666666,
+      "source": "https://www.wikidata.org/wiki/Q7969454",
+      "kind": "landmark",
+      "model": "spire"
+    },
+    {
+      "id": "landmark-Q822518",
+      "name": "Kek Lok Si",
+      "longitude": 100.27305556,
+      "latitude": 5.39833333,
+      "source": "https://www.wikidata.org/wiki/Q822518",
+      "kind": "landmark",
+      "model": "pagoda"
+    },
+    {
+      "id": "landmark-Q60967",
+      "name": "Mount Kinabalu",
+      "longitude": 116.5586111111111,
+      "latitude": 6.075,
+      "source": "https://www.wikidata.org/wiki/Q60967",
+      "kind": "landmark",
+      "model": "mountain"
+    }
+  ]
+}

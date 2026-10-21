@@ -1,0 +1,128 @@
+{
+  "publisher": "United Nations",
+  "retrievedAt": "2026-10-19T22:23:24.280Z",
+  "sourcePage": "https://sdgs.un.org/goals",
+  "guidelines": "https://www.un.org/sustainabledevelopment/news/communications-material/",
+  "modifications": "None; original image bytes retained.",
+  "records": [
+    {
+      "goal": 1,
+      "file": "/images/sdg/E_SDG_Icons-01.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-01.jpg",
+      "bytes": 80247,
+      "sha256": "349ebc0d03f611734de28c3c44aaaaf8da8ac9a8080ef6ab6be1c58a01969ccb"
+    },
+    {
+      "goal": 2,
+      "file": "/images/sdg/E_SDG_Icons-02.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-02.jpg",
+      "bytes": 60460,
+      "sha256": "efa81ae8bfcc68b699fc391005596cfd5cf154c94334f26807a53b645108619a"
+    },
+    {
+      "goal": 3,
+      "file": "/images/sdg/E_SDG_Icons-03.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-03.jpg",
+      "bytes": 82134,
+      "sha256": "5c929122d326b3b72b788da75b2078d72f112bdc2767fd7bc26adf424e91e56d"
+    },
+    {
+      "goal": 4,
+      "file": "/images/sdg/E_SDG_Icons-04.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-04.jpg",
+      "bytes": 73321,
+      "sha256": "2335d4324473ea67279e975cf7209a5913a834964019c94e1ce619df28bc16aa"
+    },
+    {
+      "goal": 5,
+      "file": "/images/sdg/E_SDG_Icons-05.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-05.jpg",
+      "bytes": 71606,
+      "sha256": "af1ba4a2cade97f55730fb69f6e6c3152355a833684e2f4ab551b915cd3b11c8"
+    },
+    {
+      "goal": 6,
+      "file": "/images/sdg/E_SDG_Icons-06.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-06.jpg",
+      "bytes": 81935,
+      "sha256": "08fc791a959f56961cde3ef20b252ec9ffc694fe530a31404f48f01dde3a200d"
+    },
+    {
+      "goal": 7,
+      "file": "/images/sdg/E_SDG_Icons-07.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-07.jpg",
+      "bytes": 95073,
+      "sha256": "0353cdde34d2ed770d2d71546a8bd6a4607a566f4a54b0989af50d163eb6267b"
+    },
+    {
+      "goal": 8,
+      "file": "/images/sdg/E_SDG_Icons-08.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-08.jpg",
+      "bytes": 90530,
+      "sha256": "5ee3d46572f377940fc0acceb0e66cc16a00e3fb7f314bb7bc841698a8d93785"
+    },
+    {
+      "goal": 9,
+      "file": "/images/sdg/E_SDG_Icons-09.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-09.jpg",
+      "bytes": 109563,
+      "sha256": "35d6d9a2fdb0775c8e9935f4b07a0d3a7de4a74b50d247d4ee7b2522cc226b9f"
+    },
+    {
+      "goal": 10,
+      "file": "/images/sdg/E_SDG_Icons-10.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-10.jpg",
+      "bytes": 27913,
+      "sha256": "749bef4b9c4d41af96b0666d4b28670b4c72701bdf9ceb8c3773ba0437c9c766"
+    },
+    {
+      "goal": 11,
+      "file": "/images/sdg/E_SDG_Icons-11.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-11.jpg",
+      "bytes": 105578,
+      "sha256": "38ce5767c694ad136f6839a804f6411f50c26c9ee181dd5994278e2aa09f3df6"
+    },
+    {
+      "goal": 12,
+      "file": "/images/sdg/E_SDG_Icons-12.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-12.jpg",
+      "bytes": 106280,
+      "sha256": "55e1b73a10bc5ef4151d7eadfff88fc4610b640ee8d727ded081ada251ec72ef"
+    },
+    {
+      "goal": 13,
+      "file": "/images/sdg/E_SDG_Icons-13.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-13.jpg",
+      "bytes": 72657,
+      "sha256": "aa8f654fa0ca89c53876fc0ddb84619cce30e88b3d69aa3d9c989efed2880dda"
+    },
+    {
+      "goal": 14,
+      "file": "/images/sdg/E_SDG_Icons-14.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-14.jpg",
+      "bytes": 85779,
+      "sha256": "318b50aa8a02156e19e7df1bd36726864d5125a53a50634ccfc151896b81b848"
+    },
+    {
+      "goal": 15,
+      "file": "/images/sdg/E_SDG_Icons-15.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-15.jpg",
+      "bytes": 60297,
+      "sha256": "bbd176f75bed8ecbb03bf8e76bd5976e148a0f79f68c5cc4b5644d808fb47920"
+    },
+    {
+      "goal": 16,
+      "file": "/images/sdg/E_SDG_Icons-16.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-16.jpg",
+      "bytes": 100035,
+      "sha256": "22ce40b9cc3aaf0a5d535b81023cea413b717eea95ddffd161e25a80ff13f5c5"
+    },
+    {
+      "goal": 17,
+      "file": "/images/sdg/E_SDG_Icons-17.jpg",
+      "source": "https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-17.jpg",
+      "bytes": 100789,
+      "sha256": "579de0ca367ddd197ea5f44f8e82b38dd36ea0f59cc318dbebb38f568a4c5000"
+    }
+  ]
+}

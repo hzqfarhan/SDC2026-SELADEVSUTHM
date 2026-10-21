@@ -1,0 +1,11 @@
+import {mkdir,writeFile,rename} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const endpoint='https://export.arxiv.org/api/query?search_query=all:%22generative%20AI%22%20AND%20(all:labour%20OR%20all:labor)&start=0&max_results=6&sortBy=submittedDate&sortOrder=descending';
+const decode=s=>s.replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&apos;/g,"'").replace(/\s+/g,' ').trim();
+const response=await fetch(endpoint,{headers:{'User-Agent':'SHIFTATLAS-Research-Demo/1.0'},signal:AbortSignal.timeout(30000)});
+if(!response.ok)throw new Error(`arXiv returned ${response.status}; existing snapshot retained.`);
+const xml=await response.text();
+const items=[...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map(m=>{const field=key=>decode(m[1].match(new RegExp(`<${key}>([\\s\\S]*?)<\\/${key}>`))?.[1]??'');return {title:field('title'),url:field('id').replace('http:','https:'),published:field('published'),authors:[...m[1].matchAll(/<name>([\s\S]*?)<\/name>/g)].map(x=>decode(x[1]))};});
+if(!items.length||items.some(p=>!p.title||!p.authors.length||!/^https:\/\/arxiv.org\/abs\//.test(p.url)||!Number.isFinite(Date.parse(p.published))))throw Error('Invalid arXiv response; existing snapshot retained.');
+const snapshot={retrievedAt:new Date().toISOString(),sourceUrl:endpoint,status:'Unreviewed research metadata. Optional title-topic weights can change rubric scores; this is not hiring-demand evidence.',sha256:createHash('sha256').update(xml).digest('hex'),items};
+await mkdir('public/data',{recursive:true});await writeFile('public/data/research.json.tmp',JSON.stringify(snapshot,null,2)+'\n');await rename('public/data/research.json.tmp','public/data/research.json');console.log(`Updated ${items.length} research records. Review them before changing curated trends.`);
