@@ -54,3 +54,7 @@ The team-supplied RunPod response for job `abdc818d-4447-4171-95d1-adafa18b47ce-
 ## Final downloadable-package check
 
 The extracted final demo served the landing page, atlas/skills route, Council route, both cloud status routes, research data and the original SDG 4 image with HTTP 200 and appropriate MIME types. With credentials absent, an explicit semantic POST returned HTTP 503 and no model output. This check submitted no provider jobs. Both ZIPs passed integrity checks; the source contains both root Dockerfiles, worker sources and the redacted E5 receipt, and the built demo contains the same receipt documentation. Source/model quality and account deployment remain distinct from package serving.
+
+## Direct Qwen profile-stage execution
+
+Job `2bed0b24-4f56-4c9c-85f3-8703b0cd7b05-e2` on endpoint `yx2pzhigxtbnnm` returned `COMPLETED`, stage `profile`, device `cuda`, the pinned Qwen model/revision and a schema-valid review at 04:22:17 MYT on 25 October 2026. Both worker and gateway validators accepted its source IDs and exact fictional quotation. Provider execution was 5,927 ms, queue delay 9,342 ms and worker-reported duration 5,756 ms, with 343 input and 83 output tokens. This is one direct stage, separate from the full application/four-stage check and model-quality evaluation. See RUNPOD_EXECUTION.md and the exact provider receipt.

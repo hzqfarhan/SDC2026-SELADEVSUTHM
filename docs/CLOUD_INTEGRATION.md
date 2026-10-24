@@ -87,7 +87,7 @@ Uploaded synthetic resumes parse locally. A separate cloud request sends only th
 Application tests mock provider contracts; worker tests inject fake encoders and generators. These validate software behavior, not model quality, actual CUDA execution or billing. Deployment acceptance requires completed image builds, real E5/Council receipts, signed-out application access, streaming verification and redacted own-account evidence. Current acceptance status and reproducible checks are in [deployment setup](REPLIT_RUNPOD_SETUP.md) and VERIFICATION.md.
 
 
-The [recorded E5 worker run](RUNPOD_EXECUTION.md) completed one synthetic CUDA request on 25 October 2026. Its pinned model output passed the application schema validator. The six-role Replit application route, signed-out publication and four Qwen Council passes remain separate acceptance checks.
+The [recorded E5 worker run](RUNPOD_EXECUTION.md) completed one synthetic CUDA request on 25 October 2026. Its pinned model output passed the application schema validator. The six-role Replit application route, signed-out publication and complete four-stage Qwen Council flow remain separate acceptance checks; the direct profile-stage CUDA receipt is recorded.
 
 
 ## One AI, four perspectives

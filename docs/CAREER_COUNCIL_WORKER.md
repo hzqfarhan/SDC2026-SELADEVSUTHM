@@ -1,6 +1,6 @@
 # Career Council generation worker
 
-Prepared 25 October 2026, Asia/Kuala_Lumpur. **Source implementation and offline fake-generator tests are provided. No successful container build, real Qwen inference or Runpod GPU execution is claimed by those tests.** Record actual provider results separately.
+Prepared 25 October 2026, Asia/Kuala_Lumpur. **The profile-review stage has a recorded real Qwen CUDA completion on 25 October 2026, separate from the offline fake-generator tests.** See [execution evidence](RUNPOD_EXECUTION.md). The complete four-stage/application flow and exact build provenance require separate records.
 
 ## Four viewpoints, one model
 

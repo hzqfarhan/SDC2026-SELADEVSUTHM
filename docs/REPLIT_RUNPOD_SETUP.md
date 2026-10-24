@@ -160,8 +160,10 @@ Keep source/release/image/model identifiers, configuration, test results and red
 | Node publication and judge access | Not verified |
 | RunPod sponsor credit | US$25 redeemed and auto-pay off, confirmed by the team; remaining balance is checked in Billing |
 | E5 image build/download/upload | Completed; build log and image tag recorded |
-| Council image build | Separate deployment check |
+| Council runtime / build provenance | Profile-stage CUDA completed; exact image/build records are separate |
 | E5 GPU completion | COMPLETED / CUDA; 3.452 s execution, 11.626 s delay; exact receipt retained |
-| Four-stage Council completion | Not verified |
+| Council endpoint | `yx2pzhigxtbnnm` |
+| Council profile completion | COMPLETED / CUDA; 5.927 s execution, 9.342 s delay |
+| Four-stage Council completion | Full application test is next |
 
 After testing, inspect active workers, endpoints, Pods, volumes and billing. Export results before removing resources. No persistent volume is required by the baked-model recipes.

@@ -39,4 +39,21 @@ The exported OCI digest was read from build output; it has not been independentl
 
 Use the exact worker contract in [RUNPOD_WORKER.md](RUNPOD_WORKER.md). Send an explicitly confirmed synthetic fixture to a Queue endpoint built from the reviewed recipe. Preserve the full completed response, model/revision, device, execution and delay metadata. Never include a provider API key in evidence. For application-level validation, configure the Replit server and run `scripts/smoke-cloud.mjs --run-cloud-job` with the private demo access code in the server environment.
 
-The separate Qwen Career Council model has not yet been built or executed in the recorded evidence. Its four stages share one model and require four validated completion receipts.
+## Council profile-stage CUDA execution
+
+Our separate Qwen worker completed its profile-review stage on endpoint `yx2pzhigxtbnnm`. The team-supplied [provider receipt](evidence/runpod-council-profile-completion.json) passes both the Python worker review validator and Node gateway receipt validator against the original fictional fixture.
+
+| Field | Observed value |
+|---|---|
+| Job | `2bed0b24-4f56-4c9c-85f3-8703b0cd7b05-e2` |
+| Model | `Qwen/Qwen3-4B-Instruct-2507` |
+| Revision | `cdbee75f17c01a7cc42f958dc650907174af0554` |
+| Device / stage | `cuda` / `profile` |
+| Worker | `gmlsig8b43zt8h` |
+| Generated at | 25 October 2026, 04:22:17 MYT / 24 October 2026, 20:22:17 UTC |
+| Provider execution | 5,927 ms |
+| Worker-reported duration | 5,756 ms |
+| Queue delay | 9,342 ms |
+| Tokens | 343 input / 83 output |
+
+The review cites `profile` and quotes the actual fictional substring `used SQL to analyse public datasets`. Its interpretation remains a model suggestion rather than a proficiency assessment. Provider execution and worker duration are different measurements. This receipt establishes the first of four Council stages; roles, learning, critic and the full application flow require their own completions. Runtime success does not independently establish the exact registry image digest, build log, exported package freeze or model manifest.

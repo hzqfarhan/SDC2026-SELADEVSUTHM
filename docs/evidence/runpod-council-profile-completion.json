@@ -1,0 +1,35 @@
+{
+  "delayTime": 9342,
+  "executionTime": 5927,
+  "id": "2bed0b24-4f56-4c9c-85f3-8703b0cd7b05-e2",
+  "output": {
+    "device": "cuda",
+    "durationMs": 5756,
+    "generatedAt": "2026-10-24T20:22:17.029499Z",
+    "inputTokens": 343,
+    "model": "Qwen/Qwen3-4B-Instruct-2507",
+    "outputTokens": 83,
+    "review": {
+      "observations": [
+        {
+          "interpretation": "Exposure to SQL through data analysis tasks, but no evidence of proficiency or application depth",
+          "quote": "used SQL to analyse public datasets",
+          "skillId": "sql"
+        }
+      ],
+      "sourceIds": [
+        "profile"
+      ],
+      "summary": "The learner used SQL to analyse public datasets, indicating exposure to SQL.",
+      "uncertainties": [
+        "No evidence of hands-on implementation or problem-solving with SQL",
+        "Proficiency level not validated"
+      ]
+    },
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "schemaVersion": 1,
+    "stage": "profile"
+  },
+  "status": "COMPLETED",
+  "workerId": "gmlsig8b43zt8h"
+}
