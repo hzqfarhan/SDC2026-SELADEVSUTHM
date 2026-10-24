@@ -1,6 +1,10 @@
 import http from 'node:http';
+import {createCloudGateway} from './cloud-gateway.mjs';
+import {createCouncilGateway} from './council-gateway.mjs';
 import {readFile,stat} from 'node:fs/promises';
 import path from 'node:path';
 const root=path.resolve('out');const port=Number(process.env.PORT||3000);const host=process.env.HOST||'127.0.0.1';
 const types={'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.mjs':'text/javascript','.txt':'text/plain; charset=utf-8','.csv':'text/csv; charset=utf-8','.jpg':'image/jpeg','.json':'application/json','.geojson':'application/geo+json','.svg':'image/svg+xml','.png':'image/png','.woff2':'font/woff2','.ico':'image/x-icon'};
-http.createServer(async(req,res)=>{try{const requestPath=decodeURIComponent(new URL(req.url,'http://localhost').pathname);let file=path.resolve(root,'.'+requestPath);if(file!==root&&!file.startsWith(root+path.sep)){res.writeHead(403);return res.end();}if((await stat(file)).isDirectory())file=path.join(file,'index.html');const data=await readFile(file);res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','X-Content-Type-Options':'nosniff'});res.end(data);}catch{res.writeHead(404,{'Content-Type':'text/plain'});res.end('Not found');}}).listen(port,host,()=>console.log(`Local: http://127.0.0.1:${port}`));
+const cloudGateway=createCloudGateway(),councilGateway=createCouncilGateway();
+const cloud=async(req,res)=>await councilGateway(req,res)||await cloudGateway(req,res);
+http.createServer(async(req,res)=>{try{if(await cloud(req,res))return;const requestPath=decodeURIComponent(new URL(req.url,'http://localhost').pathname);let file=path.resolve(root,'.'+requestPath);if(file!==root&&!file.startsWith(root+path.sep)){res.writeHead(403);return res.end();}if((await stat(file)).isDirectory())file=path.join(file,'index.html');const data=await readFile(file);res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','X-Content-Type-Options':'nosniff'});res.end(data);}catch{res.writeHead(404,{'Content-Type':'text/plain'});res.end('Not found');}}).listen(port,host,()=>console.log(`Local: http://127.0.0.1:${port}`));

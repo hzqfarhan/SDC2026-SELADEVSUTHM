@@ -1,0 +1,6 @@
+**
+!runpod/
+!runpod/*.py
+!runpod/requirements.txt
+!Dockerfile.e5
+!Dockerfile.council

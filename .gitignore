@@ -8,3 +8,8 @@ out/
 *.tar.gz
 
 .map-source/
+
+__pycache__/
+*.pyc
+submission-evidence/
+.data/

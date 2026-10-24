@@ -1,0 +1,14 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {COUNCIL_MODEL,COUNCIL_REVISION,STAGES} from './council-gateway.mjs';
+if(!process.argv.includes('--run-four-cloud-jobs')){console.log('This submits up to FOUR potentially billable model jobs. Verify sponsor credit and worker limits, then run: node scripts/smoke-council.mjs --run-four-cloud-jobs');process.exit(0);}
+const url=new URL(process.env.CLOUD_APP_URL??'http://127.0.0.1:3000');
+if(url.protocol!=='https:'&&!['127.0.0.1','localhost'].includes(url.hostname))throw Error('Use HTTPS or local development.');
+const response=await fetch(new URL('/api/career-council',url),{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({syntheticConfirmed:true,text:'A fictional learner has practised SQL queries and created spreadsheet reports for a student sustainability project. They enjoy explaining data to a team and want a structured learning route. Their technical ability has not been independently assessed.',accessCode:process.env.CLOUD_ACCESS_CODE??''}),signal:AbortSignal.timeout(410000)});
+if(!response.ok){const body=await response.json();throw Error(body.error??'Council unavailable.');}
+if(!response.body)throw Error('No response stream.');const reader=response.body.getReader(),decoder=new TextDecoder();let pending='',report;
+function accept(line){if(!line.trim())return;const event=JSON.parse(line);if(event.event==='error')throw Error(event.error);if(event.event==='started')console.log(`Review started: ${event.stage}`);if(event.event==='complete')report=event.report;}
+while(true){const chunk=await reader.read();pending+=decoder.decode(chunk.value,{stream:!chunk.done});let newline;while((newline=pending.indexOf('\n'))>=0){accept(pending.slice(0,newline));pending=pending.slice(newline+1);}if(chunk.done)break;}if(pending.trim())accept(pending);
+if(report?.model!==COUNCIL_MODEL||report?.revision!==COUNCIL_REVISION||report?.reviews?.length!==4||report.reviews.some((r,i)=>r.stage!==STAGES[i]||!['cpu','cuda'].includes(r.device)))throw Error('No complete compatible Council receipt.');
+const receipt={recordedAt:new Date().toISOString(),appOrigin:url.origin,syntheticFixture:true,cached:report.cached,model:report.model,revision:report.revision,reviews:report.reviews.map(({stage,jobId,device,generatedAt,durationMs,inputTokens,outputTokens})=>({stage,jobId,device,generatedAt,durationMs,inputTokens,outputTokens})),disclosure:'Metadata from a completed app request. Dashboard proof is still required; cached output does not establish a new run.'};
+await mkdir('submission-evidence/runpod',{recursive:true});await writeFile('submission-evidence/runpod/latest-council-completion.json',JSON.stringify(receipt,null,2)+'\n');
+console.log(JSON.stringify({completed:true,cached:report.cached,devices:report.reviews.map(r=>r.device),receipt:'submission-evidence/runpod/latest-council-completion.json'},null,2));

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "roles": [
+    {
+      "id": "analyst",
+      "name": "Business intelligence analyst",
+      "text": "Business intelligence analyst. Turn data into clear reports that help teams make better decisions. Related work: data analytics statistics excel spreadsheet SQL databases reports dashboards business research. Relevant dimensions: Data literacy, SQL & databases, Python, Communication, Critical thinking, AI literacy.",
+      "sourceUrl": "https://www.onetonline.org/link/summary/15-2051.01"
+    },
+    {
+      "id": "sustainability",
+      "name": "Sustainability specialist",
+      "text": "Sustainability specialist. Evaluate environmental programmes and communicate practical improvements. Related work: sustainability environment climate carbon energy conservation programmes operations project. Relevant dimensions: Sustainability, Data literacy, Communication, Critical thinking, Project delivery.",
+      "sourceUrl": "https://www.onetonline.org/link/summary/13-1199.05"
+    },
+    {
+      "id": "developer",
+      "name": "Software developer",
+      "text": "Software developer. Build and test software that serves people and organisations. Related work: software python programming databases testing design accessible digital applications. Relevant dimensions: Python, SQL & databases, Critical thinking, Human-centred design, Digital security, AI literacy.",
+      "sourceUrl": "https://www.onetonline.org/link/summary/15-1252.00"
+    },
+    {
+      "id": "security",
+      "name": "Information security analyst",
+      "text": "Information security analyst. Assess digital risks and help protect systems and information. Related work: cybersecurity security privacy risk analysis threat systems protection. Relevant dimensions: Digital security, Critical thinking, Python, Data literacy, Communication, AI literacy.",
+      "sourceUrl": "https://www.onetonline.org/link/summary/15-1212.00"
+    },
+    {
+      "id": "learning",
+      "name": "Learning & development specialist",
+      "text": "Learning & development specialist. Design learning experiences and assess whether they help people improve. Related work: teaching training education communication design learning facilitation writing. Relevant dimensions: Communication, Human-centred design, Project delivery, AI literacy, Critical thinking.",
+      "sourceUrl": "https://www.onetonline.org/link/summary/13-1151.00"
+    },
+    {
+      "id": "operations",
+      "name": "Project management specialist",
+      "text": "Project management specialist. Coordinate people, resources, schedules and project outcomes. Related work: project operations planning coordination agile budget resources delivery. Relevant dimensions: Project delivery, Communication, Critical thinking, Data literacy, AI literacy.",
+      "sourceUrl": "https://www.onetonline.org/link/summary/13-1082.00"
+    }
+  ]
+}

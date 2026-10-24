@@ -8,11 +8,12 @@
     "build": "next build --webpack",
     "start": "node scripts/serve.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test tests/*.test.ts",
+    "test": "tsx --test tests/*.test.ts tests/*.test.mjs",
     "refresh:labour": "node scripts/refresh-labour.mjs",
     "refresh:research": "node scripts/refresh-research.mjs",
-    "prebuild": "node scripts/prepare-workers.mjs",
-    "predev": "node scripts/prepare-workers.mjs"
+    "prebuild": "node scripts/prepare-workers.mjs && tsx scripts/export-cloud-catalogue.ts",
+    "predev": "node scripts/prepare-workers.mjs && tsx scripts/export-cloud-catalogue.ts",
+    "test:worker": "python -m unittest discover -s runpod -p test_*.py"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.6",

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-25",
+  "skills": [
+    {
+      "id": "data",
+      "name": "Data literacy"
+    },
+    {
+      "id": "sql",
+      "name": "SQL & databases"
+    },
+    {
+      "id": "python",
+      "name": "Python"
+    },
+    {
+      "id": "ai",
+      "name": "AI literacy"
+    },
+    {
+      "id": "communication",
+      "name": "Communication"
+    },
+    {
+      "id": "critical",
+      "name": "Critical thinking"
+    },
+    {
+      "id": "sustainability",
+      "name": "Sustainability"
+    },
+    {
+      "id": "project",
+      "name": "Project delivery"
+    },
+    {
+      "id": "design",
+      "name": "Human-centred design"
+    },
+    {
+      "id": "security",
+      "name": "Digital security"
+    }
+  ],
+  "roles": [
+    {
+      "id": "analyst",
+      "name": "Business intelligence analyst",
+      "summary": "Turn data into clear reports that help teams make better decisions.",
+      "sourceId": "role:analyst",
+      "url": "https://www.onetonline.org/link/summary/15-2051.01"
+    },
+    {
+      "id": "sustainability",
+      "name": "Sustainability specialist",
+      "summary": "Evaluate environmental programmes and communicate practical improvements.",
+      "sourceId": "role:sustainability",
+      "url": "https://www.onetonline.org/link/summary/13-1199.05"
+    },
+    {
+      "id": "developer",
+      "name": "Software developer",
+      "summary": "Build and test software that serves people and organisations.",
+      "sourceId": "role:developer",
+      "url": "https://www.onetonline.org/link/summary/15-1252.00"
+    },
+    {
+      "id": "security",
+      "name": "Information security analyst",
+      "summary": "Assess digital risks and help protect systems and information.",
+      "sourceId": "role:security",
+      "url": "https://www.onetonline.org/link/summary/15-1212.00"
+    },
+    {
+      "id": "learning",
+      "name": "Learning & development specialist",
+      "summary": "Design learning experiences and assess whether they help people improve.",
+      "sourceId": "role:learning",
+      "url": "https://www.onetonline.org/link/summary/13-1151.00"
+    },
+    {
+      "id": "operations",
+      "name": "Project management specialist",
+      "summary": "Coordinate people, resources, schedules and project outcomes.",
+      "sourceId": "role:operations",
+      "url": "https://www.onetonline.org/link/summary/13-1082.00"
+    }
+  ],
+  "courses": [
+    {
+      "id": "data",
+      "title": "Build your first data report",
+      "provider": "Microsoft Learn",
+      "skill": "data",
+      "url": "https://learn.microsoft.com/en-us/training/modules/introduction-power-bi/",
+      "hours": 6,
+      "cost": 0,
+      "prerequisites": [],
+      "access": "Free learning content; optional exams and some software services may cost extra.",
+      "outcome": "Create a one-page report and explain its limitations.",
+      "sourceId": "course:data"
+    },
+    {
+      "id": "sql",
+      "title": "Query a dataset with SQL",
+      "provider": "SQLBolt",
+      "skill": "sql",
+      "url": "https://sqlbolt.com/",
+      "hours": 8,
+      "cost": 0,
+      "prerequisites": [
+        "data"
+      ],
+      "access": "Free browser exercises; no paid certificate assumed.",
+      "outcome": "Write SELECT, JOIN and GROUP BY queries on practice data.",
+      "sourceId": "course:sql"
+    },
+    {
+      "id": "python",
+      "title": "Python foundations",
+      "provider": "Python Software Foundation",
+      "skill": "python",
+      "url": "https://docs.python.org/3/tutorial/",
+      "hours": 16,
+      "cost": 0,
+      "prerequisites": [],
+      "access": "Free documentation. Prior programming concepts help; allow extra practice if new.",
+      "outcome": "Clean a small CSV with a reproducible script.",
+      "sourceId": "course:python"
+    },
+    {
+      "id": "ai",
+      "title": "AI foundations & responsible use",
+      "provider": "IBM SkillsBuild",
+      "skill": "ai",
+      "url": "https://skillsbuild.org/adult-learners",
+      "hours": 8,
+      "cost": 0,
+      "prerequisites": [],
+      "access": "Free catalogue; registration may be required. Confirm current course availability.",
+      "outcome": "Compare an AI answer with primary sources and record its errors.",
+      "sourceId": "course:ai"
+    },
+    {
+      "id": "communication",
+      "title": "Communicate a technical finding",
+      "provider": "Google Technical Writing",
+      "skill": "communication",
+      "url": "https://developers.google.com/tech-writing/one",
+      "hours": 6,
+      "cost": 0,
+      "prerequisites": [],
+      "access": "Free course materials; focused on technical writing.",
+      "outcome": "Write a plain-language brief for a non-specialist audience.",
+      "sourceId": "course:communication"
+    },
+    {
+      "id": "critical",
+      "title": "Evaluate data and model limits",
+      "provider": "Google ML Crash Course",
+      "skill": "critical",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "hours": 10,
+      "cost": 0,
+      "prerequisites": [
+        "data",
+        "python"
+      ],
+      "access": "Free lessons; Python and basic maths recommended.",
+      "outcome": "Identify leakage, bias and missing evidence in a sample analysis.",
+      "sourceId": "course:critical"
+    },
+    {
+      "id": "sustainability",
+      "title": "Understand the sustainability goals",
+      "provider": "United Nations",
+      "skill": "sustainability",
+      "url": "https://sdgs.un.org/goals",
+      "hours": 6,
+      "cost": 0,
+      "prerequisites": [],
+      "access": "Free reference material; self-directed study, not an accredited course.",
+      "outcome": "Write a local project brief tied to one measurable SDG target.",
+      "sourceId": "course:sustainability"
+    },
+    {
+      "id": "project",
+      "title": "Project delivery foundations",
+      "provider": "IBM SkillsBuild",
+      "skill": "project",
+      "url": "https://skillsbuild.org/adult-learners",
+      "hours": 10,
+      "cost": 0,
+      "prerequisites": [],
+      "access": "Free catalogue; registration may be required. Select project management content.",
+      "outcome": "Create a scoped project plan with risks and milestones.",
+      "sourceId": "course:project"
+    },
+    {
+      "id": "design",
+      "title": "Design for accessibility",
+      "provider": "W3C WAI",
+      "skill": "design",
+      "url": "https://www.w3.org/WAI/tutorials/",
+      "hours": 8,
+      "cost": 0,
+      "prerequisites": [],
+      "access": "Free tutorials; some technical examples use HTML.",
+      "outcome": "Audit a form for labels, keyboard use and readable errors.",
+      "sourceId": "course:design"
+    },
+    {
+      "id": "security",
+      "title": "Digital security foundations",
+      "provider": "IBM SkillsBuild",
+      "skill": "security",
+      "url": "https://skillsbuild.org/adult-learners",
+      "hours": 10,
+      "cost": 0,
+      "prerequisites": [],
+      "access": "Free catalogue; registration may be required. Select cybersecurity content.",
+      "outcome": "Document a basic threat model and data protection checklist.",
+      "sourceId": "course:security"
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:talentcorp",
+      "title": "Malaysia’s transition spans AI, digital and green skills",
+      "url": "https://www.talentcorp.com.my/resources/press-releases/talentcorp-launches-landmark-study-on-workforce-impact-of-ai-digitalisation-and-green-economy/",
+      "date": "2024-11-18",
+      "summary": "The workforce impact study examines changing roles and skills across ten sectors. Use it as sector context, not a current vacancy count.",
+      "limit": "Sector coverage and study assumptions limit generalisation."
+    },
+    {
+      "id": "source:ilo",
+      "title": "Task exposure does not establish job loss",
+      "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+      "date": "2025-05-20",
+      "summary": "A refined occupational index finds potential for tasks to change. Human input remains important in many exposed occupations.",
+      "limit": "Exposure estimates are not adoption rates or Malaysian forecasts."
+    },
+    {
+      "id": "source:divide",
+      "title": "Digital access shapes who benefits",
+      "url": "https://www.ilo.org/resource/news/new-ilo%E2%80%93world-bank-paper-highlights-uneven-global-impact-generative-ai-jobs",
+      "date": "2026-03-27",
+      "summary": "Research highlights how infrastructure and task differences may produce unequal effects from generative AI.",
+      "limit": "Global comparisons do not identify local individual outcomes."
+    },
+    {
+      "id": "source:gpts",
+      "title": "Exposure is sensitive to tools and task assumptions",
+      "url": "https://arxiv.org/abs/2303.10130",
+      "date": "2023-03-17",
+      "summary": "A task-based analysis explores possible LLM exposure. It explicitly does not predict a development or adoption timeline.",
+      "limit": "US context; conceptual exposure must not be read as Malaysian demand."
+    }
+  ]
+}

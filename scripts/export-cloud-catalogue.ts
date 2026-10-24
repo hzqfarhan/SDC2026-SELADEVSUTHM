@@ -1,0 +1,5 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {roles,skills,courses,trends} from '../src/lib/catalogue';
+await mkdir('server-data',{recursive:true});
+await writeFile('server-data/semantic-catalogue.json',JSON.stringify({schemaVersion:1,roles:roles.map(r=>({id:r.id,name:r.name,text:`${r.name}. ${r.summary} Related work: ${r.keywords}. Relevant dimensions: ${Object.keys(r.requirements).map(id=>skills.find(s=>s.id===id)?.name).join(', ')}.`,sourceUrl:`https://www.onetonline.org/link/summary/${r.onet}`}))},null,2)+'\n');
+await writeFile('server-data/council-catalogue.json',JSON.stringify({schemaVersion:1,revision:'2026-10-25',skills:skills.map(s=>({id:s.id,name:s.name})),roles:roles.map(r=>({id:r.id,name:r.name,summary:r.summary,sourceId:`role:${r.id}`,url:`https://www.onetonline.org/link/summary/${r.onet}`})),courses:courses.map(c=>({...c,sourceId:`course:${c.id}`})),sources:trends.map(t=>({id:`source:${t.id}`,title:t.title,url:t.url,date:t.published,summary:t.summary,limit:t.limit}))},null,2)+'\n');

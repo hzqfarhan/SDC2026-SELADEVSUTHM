@@ -1,0 +1,42 @@
+# syntax=docker/dockerfile:1
+FROM pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime@sha256:c16f4c749e2d9e96878875cdf6cc45cddda1d1a36fddd371dd6f2360f1b6e2a2
+ARG COUNCIL_MODEL_REVISION=cdbee75f17c01a7cc42f958dc650907174af0554
+ENV PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 HF_HUB_DISABLE_TELEMETRY=1 \
+    TOKENIZERS_PARALLELISM=false REQUIRE_GPU=1 \
+    COUNCIL_MODEL_PATH=/opt/models/qwen3-4b-instruct-2507 \
+    COUNCIL_MODEL_REVISION=${COUNCIL_MODEL_REVISION}
+WORKDIR /app
+RUN python -m pip uninstall -y torchvision torchaudio
+COPY requirements.txt /app/requirements.txt
+RUN python -m pip install --no-cache-dir -r /app/requirements.txt \
+    && python -m pip check && python -m pip freeze > /app/python-freeze.txt
+RUN python - <<'PY'
+import hashlib, json, os, re
+from pathlib import Path
+from huggingface_hub import snapshot_download
+revision = os.environ['COUNCIL_MODEL_REVISION']
+assert re.fullmatch(r'[0-9a-f]{40}', revision), 'A full reviewed model commit SHA is required'
+directory = Path(os.environ['COUNCIL_MODEL_PATH'])
+snapshot_download(
+    repo_id='Qwen/Qwen3-4B-Instruct-2507', revision=revision, local_dir=str(directory),
+    allow_patterns=['*.json', '*.safetensors', '*.txt', 'README.md', 'LICENSE'],
+    ignore_patterns=['*.bin', 'original/*', '.eval_results/*'],
+)
+files = {}
+for file in sorted(directory.rglob('*')):
+    if file.is_file() and '.cache' not in file.parts:
+        digest = hashlib.sha256()
+        with file.open('rb') as stream:
+            for block in iter(lambda: stream.read(1024 * 1024), b''):
+                digest.update(block)
+        files[str(file.relative_to(directory))] = digest.hexdigest()
+(directory / 'shiftatlas-model.json').write_text(json.dumps({
+    'model': 'Qwen/Qwen3-4B-Instruct-2507', 'revision': revision,
+    'files': files, 'license': 'Apache-2.0',
+    'source': 'https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507',
+}, indent=2), encoding='utf-8')
+PY
+ENV HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+COPY council_worker.py test_council_worker.py /app/
+RUN python -m unittest test_council_worker -v
+CMD ["python", "-u", "/app/council_worker.py"]

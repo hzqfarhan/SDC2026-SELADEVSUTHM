@@ -1,5 +1,3 @@
-# Preview configuration. Import the project root containing package.json.
-# Run npm ci once in Shell before the first Run.
 entrypoint = "scripts/serve.mjs"
 modules = ["nodejs-22"]
 run = "npm run build && npm start"
@@ -12,5 +10,3 @@ PORT = "3000"
 localPort = 3000
 externalPort = 80
 
-# Choose publishing type and review cost/access settings in Replit before publishing.
-# For this static export: build = npm ci && npm run build; public directory = out.
