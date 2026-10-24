@@ -1,79 +1,29 @@
-# Replit and Runpod setup and genuine usage evidence
+# Replit and Runpod deployment
 
-Reviewed **25 October 2026, Asia/Kuala_Lumpur**, against the linked official documentation. UI labels, availability and prices can change. The team project was actually imported into Replit on 25 October 2026 at https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM. Replit import briefly scaffolded a PNPM workspace; the original source was restored from .migration-backup and npm ci was started. Build completion, publishing, plan/credit status and signed-out judge access have not yet been verified. Runpod was not used.
+Updated 25 October 2026. Repository: [hzqfarhan/SDC2026-SELADEVSUTHM](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM). Application project: [SDC2026-SELADEVSUTHM on Replit](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM).
 
-## What each service would do
+The application uses a Replit-compatible Node gateway and two Runpod Queue endpoints: E5 semantic retrieval and Qwen Career Council. Local Docker is not required for the preferred GitHub deployment route.
 
-| Service | Appropriate role for this version | Current status |
-|---|---|---|
-| Replit | Import, edit, test, build and preview the application; optionally publish the static export | Own-account project imported; build/publication verification pending |
-| Runpod | Optional remote compute for a future, separately evaluated model experiment | Not integrated or required by the current browser/rule-based MVP |
+## 1. Activate sponsor resources
 
-The Three.js game and atlas run on the visitor's device. A cloud GPU does not make their browser rendering faster. Matching, text retrieval and keyword extraction do not require a GPU. Do not describe a prepared configuration as a sponsor integration or fabricate proof. Check the competition's current handbook and organiser instructions for the precise sponsor requirement.
+The SDC Participant Handbook, section 9.1–9.2, PDF page 28, provides Replit Core worth US$20 per participant and US$25 Runpod credit per team for the Preliminary Round. Resources are distributed through the team leader's official portal. Sign in at [sdchack.my/login](https://sdchack.my/login) and follow the account-specific resource instructions. Section 9.3 requires Replit in the solution; section 9.4 requires Runpod for work needing a GPU.
 
-## Replit: import and run
+Deployment policy is **SDC sponsor credit only, with no additional spending**. Before a paid build, endpoint or publication:
 
-1. Push the actual app root to the team's GitHub repository. The root must contain `package.json`, `package-lock.json`, `.replit`, `src/`, `public/` and `scripts/`. Do not import the surrounding Codex workspace, dependency folders, caches or credentials.
-2. Open Replit's [import screen](https://replit.com/import), choose **GitHub**, select or enter that repository, and import it. A ZIP import is an alternative for preview; it does not create the judge-facing GitHub history. Replit documents both routes in [Import from a provider](https://docs.replit.com/build/import-from-providers).
-3. Open Shell in the imported project. Verify a current Node.js 22 release, at least 22.13, and install from the lockfile:
+- Confirm the credit has reached the correct account and check its remaining balance, expiry and permitted services.
+- Disable automatic payment/reload and avoid paid overages or purchases beyond sponsor credit.
+- Review the current build, hosting, inference and retained-storage charges.
+- Keep each model endpoint at zero active workers and one maximum worker.
 
-```sh
-node --version
-npm ci
-npm test
-npm run typecheck
-```
+Worker and application limits reduce exposure; they do not establish a monetary hard cap. Account billing must remain within the credited allowance. [Runpod billing](https://docs.runpod.io/accounts-billing/billing), [Replit spend management](https://docs.replit.com/billing/managing-spend).
 
-4. Select **Run**. The checked-in `.replit` builds the export and starts the included server on port 3000. It explicitly sets `HOST=0.0.0.0` so Replit can reach it and maps internal port 3000 to external port 80. The local default remains loopback. See [App Configuration](https://docs.replit.com/features/project-setup/configuration) and [Ports](https://docs.replit.com/features/project-setup/ports).
-5. If import replaces the Run workflow, set its command to `npm run build && npm start`, with `HOST=0.0.0.0` and `PORT=3000`. If the Node module alias is unavailable in that workspace, use Replit's Dependencies tool to select Node.js 22 or later and recheck the actual version. No custom `replit.nix` is needed for this JavaScript-only app.
-6. In Preview open `/`, `/atlas/?module=skills`, `/atlas/?module=careers`, `/atlas/?module=quest` and `/atlas/?module=malaysia`. Test a fictional resume, a skill-level change, an explained match, a learning plan and a completed quest check. Reload to check that only the documented browser-local state persists.
+## 2. Prepare the Replit application
 
-For manual diagnosis after a successful build:
+Import or pull the repository's `main` branch into the existing Replit project. Its root contains `package.json`, `.replit`, `src/`, `public/`, `scripts/`, `server-data/` and `runpod/`. Confirm the package name is `shiftatlas-3d`.
+
+In Replit Shell:
 
 ```sh
-HOST=0.0.0.0 PORT=3000 npm start
-```
-
-Use this command instead of the Run workflow, not simultaneously on the same port. No application API secret is required. Never paste a GitHub or provider token into source files or proof screenshots.
-
-## Replit: optional published judge demo
-
-This app uses a Next.js **static export**. In Publishing, review **Adjust settings → Deployment type**. If Static is available for the imported project, use:
-
-| Setting | Value |
-|---|---|
-| Build command | `npm ci && npm run build` |
-| Public directory | `out` |
-| Base path | Domain root |
-| Start command | None for Static |
-
-Replit states that Static serves files without a backend and that Agent-created apps may require another deployment type. If Static is unavailable, the small Node server can be used with Autoscale: use the same build command, `npm start`, `HOST=0.0.0.0` and the mapped port. Confirm those variables in the publishing environment. [Deployment types](https://docs.replit.com/features/publishing/deployment-types).
-
-Before publishing, review the current plan, access and cost settings. Check Usage after the import and build; an import requiring Agent migration can consume credits. Use available budget controls and avoid unnecessary Agent work or automatic credit reloads. Do not assume sponsor credit, free publication or a zero bill. [Managing Your Spend](https://docs.replit.com/billing/managing-spend).
-
-After publication, open the actual URL in a signed-out window. Test direct navigation to `/atlas/`, data files, the PDF worker and the quest. A workspace Preview URL is not proof of a durable published judge demo. Preserve the local fallback.
-
-## Record real Replit usage proof
-
-Create `submission-evidence/replit/` only when there is actual evidence to put in it. Capture:
-
-- Project identity and imported repository/commit, with no secrets visible.
-- Shell output showing the actual `node --version`, tests, type check and successful build.
-- Replit Preview showing a skill change affecting an explained match and learning plan.
-- An actual change made and reviewed by the team in Replit, with its genuine commit/diff if a development-use claim is made.
-- Published URL and signed-out access check only if publication actually occurred.
-
-Suggested filenames are `01-project.png`, `02-verification.png`, `03-match-demo.png` and `04-team-change.png`. These are planned names, not existing screenshots. Record team member, date, commit, URL and what was demonstrated in a short `README.md`. A localhost screenshot from Codex does not establish Replit usage.
-
-## Runpod: optional, with a concrete purpose
-
-Do not rent a GPU merely to serve this static application. A meaningful future experiment could compare a reviewed open embedding model against the current six-role TF-IDF baseline on a fixed **synthetic** query set. Record model licence/version, fixture hashes, retrieval metrics, runtime and cost; retain explanations and human review. That experiment and any application integration are **not implemented** in this handoff.
-
-If the organiser explicitly requests a Runpod execution demonstration, a short CPU Pod is sufficient for building and testing this repository, where available. Runpod's official management guide supports CPU and GPU Pod choices. Select a trusted image/environment with Node.js 22.13+ and Git, review the displayed rate and storage, then perform the following only in a resource the team intentionally created. [Manage Pods](https://docs.runpod.io/pods/manage-pods).
-
-```sh
-git clone YOUR_ACTUAL_GITHUB_REPOSITORY_URL shiftatlas-3d
-cd shiftatlas-3d
 node --version
 npm ci
 npm test
@@ -81,32 +31,136 @@ npm run typecheck
 npm run build
 ```
 
-Replace the uppercase repository placeholder before running. A successful CPU build is remote development evidence; it is not AI inference or GPU use. For an optional temporary web preview, expose HTTP port **3000** in the Pod settings and run:
+Use Node.js 22.13 or later. The build prepares the PDF worker and exports the trusted server catalogues. Required outputs are `out/index.html`, `out/atlas/index.html`, `server-data/semantic-catalogue.json` and `server-data/council-catalogue.json`.
+
+The Run workflow builds and starts the application. To start an existing build directly:
 
 ```sh
 HOST=0.0.0.0 PORT=3000 npm start
 ```
 
-Use the HTTPS service URL shown by Runpod's **Connect** panel. Its documented proxy pattern is `https://<pod-id>-3000.proxy.runpod.net`; use the actual console-generated URL. The app serves public synthetic demonstration content only. Keep management terminals and credentials separate. [Expose ports](https://docs.runpod.io/pods/configuration/expose-ports).
+`.replit` maps internal port 3000 to external port 80. Use one server process per port. [Replit configuration](https://docs.replit.com/features/project-setup/configuration), [port configuration](https://docs.replit.com/features/project-setup/ports).
 
-## Runpod cost and cleanup controls
+## 3. Build Runpod endpoints directly from GitHub
 
-Review the quoted compute rate and storage before starting. Set a short time budget and a reminder to stop; enable low-balance notifications if useful. Avoid automatic top-ups unless the account owner deliberately wants them. A balance warning is not a spending cap. Runpod bills resource usage against credits, and storage can continue accruing charges after compute stops. [Billing overview](https://docs.runpod.io/accounts-billing/billing).
+Runpod can build, store and deploy an image directly from the repository. The root recipes `Dockerfile.e5` and `Dockerfile.council` use repository-root `COPY` paths; `.dockerignore` limits the build context to worker files. [Official GitHub integration](https://docs.runpod.io/serverless/workers/github-integration).
 
-Export logs and outputs before cleanup. **Stop** and **Terminate** have different data-retention behavior; termination deletes data outside a network volume, and retained storage can remain billable. The account owner should review the affected resource and confirm destructive cleanup in the console. Afterwards inspect Pods, endpoints, volumes and Billing to confirm what remains. Do not rely on an empty account balance as cleanup. [Pod lifecycle and cleanup](https://docs.runpod.io/pods/manage-pods).
+1. In Runpod **Settings → Connections**, connect GitHub and grant access to the selected `hzqfarhan/SDC2026-SELADEVSUTHM` repository.
+2. Open **Serverless → New Endpoint → Import Git Repository**.
+3. Select the repository and branch `main`.
+4. Create the E5 endpoint using **Dockerfile Path: `Dockerfile.e5`**.
+5. Select **Queue** and configure the limits below before deploying.
+6. Create a separate Council endpoint from the same repository and branch using **Dockerfile Path: `Dockerfile.council`**.
+7. Inspect each endpoint's **Builds** tab and build logs. A completed build is distinct from a completed inference job.
 
-If actual Runpod use occurs, save console resource identity, executed commands and successful outputs, dates, genuine model details if applicable, and cost/cleanup evidence under `submission-evidence/runpod/`. Remove credentials from copies. Leave the submission claim as **not used / not applicable** until that work has actually happened.
+| Setting | E5 | Career Council |
+|---|---|---|
+| Endpoint type | Queue | Queue |
+| Dockerfile path | `Dockerfile.e5` | `Dockerfile.council` |
+| Active workers | 0 | 0 |
+| Maximum workers | 1 | 1 |
+| GPUs per worker | 1 | 1 |
+| `REQUIRE_GPU` | 1 | 1 |
+| Idle timeout | Short, e.g. 5 seconds | Short, e.g. 5 seconds |
+| Network volume | Not required | Not required |
 
-## Team completion record
+Select CUDA-compatible hardware and review its current rate. A 24 GB GPU is an initial planning option for Council, not a measured requirement. Apply a bounded execution timeout and verify cold-start latency against the gateway's approximately 90-second provider wait. These Queue workers need no exposed HTTP/TCP port.
 
-| Check | Actual evidence |
+Runpod's GitHub integration builds the image automatically. Subsequent source changes require a repository release to trigger the documented update flow; record the deployed release/commit and image digest. [GitHub build lifecycle](https://docs.runpod.io/serverless/workers/github-integration), [endpoint settings](https://docs.runpod.io/serverless/endpoints/endpoint-configurations).
+
+### Alternative: local container build
+
+For a registry-managed release, build the same root recipes with repository-root context:
+
+```sh
+docker build --platform linux/amd64 -f Dockerfile.e5 -t TEAM_REGISTRY/shiftatlas-e5:1.0.0 .
+docker build --platform linux/amd64 -f Dockerfile.council -t TEAM_REGISTRY/shiftatlas-council:1.0.0 .
+```
+
+Replace `TEAM_REGISTRY` with the actual registry namespace, push the images through its authenticated workflow and deploy their immutable digests. This alternative is unnecessary when using direct GitHub builds. [Registry deployment](https://docs.runpod.io/serverless/workers/deploy).
+
+The E5 worker has a recorded direct CUDA completion on endpoint `7ib627oev3kwlb`; see [the execution record](RUNPOD_EXECUTION.md). This endpoint ID is a configuration identifier, not a credential. The application gateway must still be configured and tested.
+
+## 4. Configure Replit Secrets
+
+Set the following in the application's server environment. The first four values are required for both AI paths; the remaining values control the demo allowance and server binding.
+
+| Name | Value |
 |---|---|
-| Replit project imported | Verified in haziqfarhan174 account: https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM |
-| Actual tests/build completed inside Replit | Pending |
-| Team's Replit development contribution recorded | Pending |
-| Judge URL published and access checked, if selected | Pending |
-| Runpod requirement clarified with organiser | Pending |
-| Runpod task executed, if applicable | Not used in this handoff |
-| Runpod outputs exported and billable resources checked, if used | Not applicable until a resource is created |
+| `RUNPOD_API_KEY` | Server-held provider credential |
+| `RUNPOD_ENDPOINT_ID` | E5 Queue endpoint ID |
+| `RUNPOD_COUNCIL_ENDPOINT_ID` | Council Queue endpoint ID |
+| `CLOUD_ACCESS_CODE` | Private demo access code, at least 12 characters |
+| `CLOUD_DAILY_JOB_LIMIT` | 20 by default; maximum 50 |
+| `COUNCIL_DAILY_SESSION_LIMIT` | 3 by default; maximum 5 |
+| `HOST` | `0.0.0.0` |
+| `PORT` | `3000` |
 
-Prepared files and local tests cannot fill in this record on the team's behalf.
+Use `.env.example` as the variable-name reference. Provider credentials must remain server-side, outside source control, browser bundles and `NEXT_PUBLIC_` variables. A scoped credential is preferable where supported. The demo access code is separate from the provider key. [Replit Secrets](https://docs.replit.com/core-concepts/project-editor/app-setup/secrets).
+
+E5 and Council allowances are independent. One Council session can submit four jobs. Both use one-hour process-memory caches; restarts and multiple instances can reset or multiply counters. They are application safeguards rather than billing caps.
+
+## 5. Check configuration
+
+With the Node server running, these read-only routes do not invoke a model:
+
+```sh
+curl -fsS http://127.0.0.1:3000/api/cloud-status
+curl -fsS http://127.0.0.1:3000/api/council-status
+```
+
+`configured: true` means the expected server values are present. The `configured-unverified` state does not establish endpoint health, credited balance or GPU execution.
+
+## 6. Verify E5 inference
+
+Use fictional experience without personal details in Cloud Semantic Lab. Confirm the transfer disclosure, enter the demo code and submit one request. Check the returned model revision, date, device, allowed role IDs and source links. Similarity remains separate from deterministic skill coverage.
+
+The Shell smoke check submits one request and records a completion receipt:
+
+```sh
+CLOUD_APP_URL=https://ACTUAL_APP_ORIGIN node scripts/smoke-cloud.mjs --run-cloud-job
+```
+
+Use the actual app origin with the demo code in the server environment. Review `submission-evidence/runpod/latest-completion.json` and its cached status. A cached result is not a new inference job. This command does not test Council.
+
+## 7. Verify all four Council stages
+
+Career Council sends a separately confirmed fictional brief. The gateway runs profile → roles → learning → critic as four distinct Queue jobs and streams NDJSON stage events to the browser. A complete report requires four validated receipts. The server checks source/role/course/skill IDs, exact profile quotations and learning prerequisites. Generated interpretations still require human review.
+
+The Council smoke check requests up to four jobs:
+
+```sh
+CLOUD_APP_URL=https://ACTUAL_APP_ORIGIN node scripts/smoke-council.mjs --run-four-cloud-jobs
+```
+
+Inspect `submission-evidence/runpod/latest-council-completion.json`, four actual provider job identities, model/revision/device, timing and token counts. Verify that skill levels and rubric scores remain unchanged. A timeout or interrupted client can leave provider work running; inspect jobs and account usage before another submission.
+
+## 8. Publish the Node application
+
+Use **Replit Autoscale or another Node-capable deployment**:
+
+| Setting | Value |
+|---|---|
+| Build | `npm ci && npm run build` |
+| Start | `npm start` |
+| Host / internal port | `0.0.0.0` / `3000` |
+| Required runtime files | `scripts/`, `server-data/`, `public/data/`, `out/` |
+| Environment | Server Secrets from step 4 |
+
+Static publishing serves the local atlas fallback only. It cannot run the AI gateways or use server secrets. After publication, test the real URL in a signed-out browser, both status routes, source links, PDF parsing and an authorised cloud flow. [Replit deployment types](https://docs.replit.com/features/publishing/deployment-types).
+
+## 9. Record deployment acceptance
+
+Keep source/release/image/model identifiers, configuration, test results and redacted completion receipts with the deployment record. The Participant Handbook, section 10.6–10.7, PDF page 29, requires own-account Replit proof and Runpod dashboard evidence; Serverless proof uses the endpoint URL in place of a Pod ID and includes GPU/runtime details.
+
+| Acceptance item | Status |
+|---|---|
+| Replit project | Imported |
+| Replit dependency installation/build | Not verified |
+| Node publication and judge access | Not verified |
+| Sponsor credit applied to the active accounts | Not verified |
+| E5 and Council image builds | Not verified |
+| E5 GPU completion | Not verified |
+| Four-stage Council completion | Not verified |
+
+After testing, inspect active workers, endpoints, Pods, volumes and billing. Export results before removing resources. No persistent volume is required by the baked-model recipes.

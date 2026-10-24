@@ -36,8 +36,12 @@ The object inspector overlays the scene, avoiding a sudden canvas resize on sele
 
 ## Verification and remaining acceptance
 
-Automated tests cover file type/size guards, exact evidence text, word-boundary false positives, local text parsing, real zipped DOCX parsing, empty-text handling, and the raw DOSM fingerprint. Type checking and the production export validate parser bundling. PDF worker serving must use JavaScript MIME (`.mjs`); the included server does so. Browser-controlled PDF extraction, camera feel, file picker, drag/drop, rapid clicks and mobile layout still need manual acceptance because browser automation is disabled in this environment.
+Automated tests cover file type/size guards, exact evidence text, word-boundary false positives, local text parsing, real zipped DOCX parsing, empty-text handling, and the raw DOSM fingerprint. Type checking and the production export validate parser bundling. PDF worker serving must use JavaScript MIME (`.mjs`); the included server does so. Browser-controlled PDF extraction, camera feel, file picker, drag/drop, rapid clicks and mobile layout still need manual acceptance on the intended presentation device.
 
 Dependency audit found a moderate `sprintf-js` advisory through Mammoth's CLI dependency chain (`argparse`). The implementation imports `mammoth/mammoth.browser`, not its CLI, and does not supply format strings. No patched compatible upstream chain was offered by npm at verification; do not blindly apply its suggested downgrade to Mammoth 0.3.29. Track GHSA-hp3w-g68c-fv3c before broader deployment.
 
 Parser documentation: [PDF.js](https://mozilla.github.io/pdf.js/examples/) (Apache-2.0), [Mammoth](https://github.com/mwilliamson/mammoth.js) (BSD-2-Clause). Installed versions: PDF.js 6.4.299; Mammoth 1.13.0. Exact dependencies are locked in `package-lock.json`.
+
+## Optional cloud studio added 25 October 2026
+
+The file parser described above remains local. Cloud Semantic Lab and Career Council use separately selected fictional text, with explicit confirmation of transmission to Replit and RunPod. They do not automatically upload the file, its name, the saved skill levels or contact details. The user can copy a sample narrative into the Council form and inspect it before confirmation. Provider processing/retention terms apply to this separate path. No real CV is permitted in the competition demo.

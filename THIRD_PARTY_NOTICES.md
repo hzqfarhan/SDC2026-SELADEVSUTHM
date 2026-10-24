@@ -2,6 +2,14 @@
 
 Prepared 25 October 2026, Asia/Kuala_Lumpur. The project's Apache-2.0 licence applies to original SHIFTATLAS code and documentation; it does not replace the terms for third-party software, datasets, images, marks or linked content.
 
+## Optional cloud models and worker software
+
+Model weights are not included in this repository or demo ZIP. The optional Docker builds obtain them from their official repositories, preserve the snapshot licence and record file hashes. Their licences remain separate from original SHIFTATLAS code.
+
+- **intfloat/multilingual-e5-base**: MIT, pinned revision `d128750597153bb5987e10b1c3493a34e5a4502a`; [official model card](https://huggingface.co/intfloat/multilingual-e5-base). Attribution/terms must accompany any model redistribution.
+- **Qwen/Qwen3-4B-Instruct-2507**: Apache License 2.0, pinned revision `cdbee75f17c01a7cc42f958dc650907174af0554`; [official model and licence](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507). Preserve upstream licence/notices with a built image.
+- Optional workers use PyTorch, the RunPod SDK, sentence-transformers, Transformers, Hugging Face Hub, Tokenizers, Safetensors and NumPy. Their own licences and transitive notices apply. Direct pins are in `runpod/requirements.txt`; retain the frozen installed inventory and image digest after building. CUDA/NVIDIA components retain their vendor terms; the project Apache licence does not replace them.
+
 ## Data, assets and reference materials
 
 | Material | Attribution and terms |

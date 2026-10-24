@@ -1,0 +1,50 @@
+[
+  {
+    "file": "lowpoly-background.png",
+    "bytes": 1343391,
+    "sha256": "b507bf5e093336cbdff09390b80d7c1b265217b974c95b6187de6010aa77ca99",
+    "source": "OpenAI built-in image generation, 25 October 2026"
+  },
+  {
+    "file": "lowpoly-choice.png",
+    "bytes": 1074364,
+    "sha256": "0ea30d85c9135f459476692ce7dd45b8e4eedf34f31ff7b505aabcb02e69dfb3",
+    "source": "OpenAI built-in image generation, 25 October 2026"
+  },
+  {
+    "file": "lowpoly-council.png",
+    "bytes": 865021,
+    "sha256": "ee47c89049c86dd5c645493e0bb31f3d7e496f6e2d5881f2e4966093d2f26b8d",
+    "source": "OpenAI built-in image generation, 25 October 2026"
+  },
+  {
+    "file": "lowpoly-gateway.png",
+    "bytes": 757556,
+    "sha256": "06919f5e8733b42421bad50b5cb1c5f7e8108a3e74d8c29652f4971e47145a41",
+    "source": "OpenAI built-in image generation, 25 October 2026"
+  },
+  {
+    "file": "lowpoly-verification.png",
+    "bytes": 1140117,
+    "sha256": "d37a31576db6e78bc3fbc5764a358334d8608a8a68276db8bc16b4fc6c1b42d1",
+    "source": "OpenAI built-in image generation, 25 October 2026"
+  },
+  {
+    "file": "lowpoly-pilot.png",
+    "bytes": 976119,
+    "sha256": "d3862eef2a341d5499603dda6772881a8b8f30a50f0c82976691418ce5234adf",
+    "source": "OpenAI built-in image generation, 25 October 2026"
+  },
+  {
+    "file": "seladevs-logo-official.png",
+    "bytes": 784935,
+    "sha256": "6967dc04eb70cd6998ec02d6b90418a96fe0f80cc0c3c651707e75eb2c877092",
+    "source": "https://www.seladevs.my/branding/seladevs-logo.png"
+  },
+  {
+    "file": "e5-runpod-request-history.png",
+    "bytes": 30970,
+    "sha256": "4f2a85293143f4612e7047f427c965097cad707523990e9cc8d3da538fe98f4c",
+    "source": "Actual Runpod endpoint request-history screenshot, 25 October 2026; outputs/submission/evidence/runpod/e5-completed-request-history.png"
+  }
+]

@@ -21,7 +21,7 @@ The brief accepts a rough working proof of the single most important feature in 
 
 - **Innovation and creativity, 30%:** connected spatial exploration and transparent source-to-score reasoning provide a concrete approach. Atlas Quest adds optional motivation. A learner pilot is needed before claiming engagement benefits.
 - **Problem–solution fit, 25%:** the six required areas form a connected journey. Be candid about the unvalidated emerging/declining forecasts and US occupational reference transfer.
-- **Feasibility, 25%:** 35 tests and a production build pass, with desktop checks, refresh validation and local fallback. Actual judge access, Replit proof and a reproducible repository remain submission requirements.
+- **Feasibility, 25%:** 55 application tests, 18 offline worker tests and a production build pass, with desktop checks, refresh validation and local fallback. Actual judge access, Replit proof and a reproducible repository remain submission requirements.
 - **Clarity, 20%:** the official proposal, declaration, deck and 5–7 minute combined video must agree. A coverage score is a rubric result, never an employment probability.
 
 ## Optional strengths and scope
@@ -31,3 +31,7 @@ The real DOSM state map, sourced institution directory/landmarks, inspectable 3D
 ## Submission position
 
 Strong preliminary prototype alignment with explicit predictive and validation limits. This is an implementation review, not a guarantee of selection or a certification of team eligibility. Use SUBMISSION_REQUIREMENTS_AUDIT.md for handbook requirements, sponsor proof, exact deadlines and declaration conditions.
+
+## Added optional cloud feature
+
+The core six-module demonstration remains the main Domain1 pathway. Career Council adds four separate review passes from one pinned Qwen model, while E5 adds multilingual semantic retrieval. The E5 worker has one verified direct synthetic CUDA completion; application gateway integration and Qwen Council execution require separate checks. The Replit-compatible Node server owns the catalogue boundary and request orchestration; the worker endpoints use sponsor-only setup. Existing skill scores, SDG targets and scenario assumptions remain independently inspectable. See CLOUD_INTEGRATION.md for the exact limits and proof still needed.

@@ -1,67 +1,40 @@
 # Deployment and maintenance
 
-**Publication status, 20 October 2026:** the Site was registered earlier, but both credential renewal and a subsequent lookup returned `Sites project not found`. No successful source push or production deployment was confirmed. The existing project ID is preserved; no duplicate Site was created. Reconnect the account/workspace that owns the registered project before resuming that route, or deploy the built static output independently. An expected Site URL is not a verified live demo.
+Updated 25 October 2026. The local core remains a Next.js static export, served by `scripts/serve.mjs`. The Node server now also runs the optional E5 and Career Council gateways. **Use a Node-capable Replit deployment for cloud features. Static hosting provides only the local core.**
 
 ## Reproduce locally
-
-Use Node.js 22 LTS and the committed package lock. No application secrets or paid API account are required.
 
 ```sh
 npm ci
 npm test
-npm run typecheck
 npm run build
 npm start
 ```
 
-`npm start` serves `out/` at `http://127.0.0.1:3000`. The custom server is for local demonstration, binds only to loopback and should not be used as an internet-facing production server. Use a static host for production. PowerShell alternate port:
+Requires Node.js22 LTS. Open http://127.0.0.1:3000. For another local port, set `PORT=3107` before starting. The build copies the PDF worker and exports server-owned catalogues to `server-data/`. Keep `scripts/`, `server-data/`, `public/data/` and `out/` together when running the Node server.
 
-```powershell
-$env:PORT='3107'
-npm start
-```
+## Replit and RunPod
 
-## Host the static build
+Follow [the current setup guide](REPLIT_RUNPOD_SETUP.md) and [cloud integration details](CLOUD_INTEGRATION.md). Replit project: https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM . Use the project’s tested published origin for judge access.
 
-Deploy the entire `out/` directory to a static host supporting directory index files. Preserve `_next/`, `data/` and `404.html`. Serve from the domain root because data URLs begin with `/data/`; subfolder hosting requires changing the base path and fetch URLs together. Use HTTPS and correct JSON/JavaScript/CSS content types. This app has no server functions, API routes or database migrations.
+For Node publishing: build `npm ci && npm run build`; start `npm start`; `HOST=0.0.0.0`, `PORT=3000`. Replit terminates HTTPS. Set provider credentials only in Secrets. Never use `NEXT_PUBLIC_` for a key. Keep both cloud features gated by a unique team demo code and fictional-text confirmation. The demo code is shared demo access, not individual user authentication.
 
-For a Git-connected static host, the normal build command is `npm ci && npm run build` and the output directory is `out`. Exact host control labels depend on the provider. Source imports and browser local storage remain independent of hosting.
+The E5 and Council endpoints use different supplied images. Create and test them only after verifying SDC sponsor credit and disabling reload/top-up. No extra charges are authorised. Application counters are per-process and ephemeral; they are not monetary hard limits. Review worker/storage charges and stop billable resources when finished.
 
-The checked-in `.openai/hosting.json` binds this checkout to its current **private Sites project** and declares `out` as the static directory. Preserve that ID when updating the same Site. Do not reuse its identity for a different team's Site. Source credentials are short-lived and must never be added to files or Git. Current Site publication is owner-private; judge access requires an intentional sharing decision or an independently hosted demo.
+The local starter does not read `.env` automatically. For local cloud development use Node22's `node --env-file=.env scripts/serve.mjs` after creating an untracked file; Replit injects Secrets directly. Core local use requires no secret.
 
-## Update evidence
+## Static fallback
 
-```sh
-npm run refresh:labour
-npm run refresh:research
-npx tsx scripts/source-register.ts
-npm test
-npm run typecheck
-npm run build
-```
+Deploy `out/` to any static host with directory index support for the core demo. Serve from the domain root; preserve `_next/`, `data/`, `workers/`, images and404.html with correct MIME types. Optional `/api/` routes will be unavailable and the UI will show setup required. Do not claim Static publishing runs the cloud studio.
 
-Inspect diffs in both JSON snapshots, the generated register and any curated catalogue changes. Commit the actual reviewed state, deploy its matching build and record the commit used for judging. The labour script checks the newest complete ended quarter and retains original source units. The research script retrieves up to six records; new retrieval dates do not imply new findings. Neither script rewrites the curated TalentCorp/ILO cards.
+The public repository and downloadable functional ZIP are linked in README. The ZIP requires Node22 but no npm install; it includes the small Node gateway and catalogue files with cloud credentials unset. Do not open HTML directly. No hosted judge URL is claimed until a real signed-out test succeeds.
 
-There is no scheduled updater in this MVP. The UI transparently shows snapshot dates. Keep the last good snapshot if an upstream source is unavailable; do not silently substitute invented data. If refreshing fails, use the pinned demo and disclose its date.
+## Release checks
 
-## GitHub handoff
+1. Run application tests, offline worker tests and build. Test actual browser/module flows on the presenting device.
+2. Rebuild/publish after changing source snapshots, worker identity, catalogue or UI. Preserve publisher URLs, dates, hashes and units.
+3. For cloud proof, save actual own-account project/endpoint/GPU/job screenshots plus real completion receipts. Injected test outputs do not qualify.
+4. Test direct routes, PDF worker, source data, unavailable cloud fallback and signed-out judge access.
+5. Review repository for credentials and real personal data; keep `.env`, caches, model weights and private submission contacts out of public commits.
 
-The organiser requires GitHub. The Sites source repository is separate and does not meet that requirement by itself. A destination GitHub account/repository was not provided or connected in this workspace, so no judge-facing GitHub repository has been created here.
-
-Create the team repository in accordance with the competition rules. Push the actual project source and authentic history, excluding `node_modules/`, `.next/`, `out/`, `.sites-runtime/`, credentials and `.env` files. Keep `package-lock.json`, source, tests, scripts, public snapshots and docs. Verify judge access and the submitted commit. Do not manufacture commits or backdate activity. Choose any project licence as a team decision; preserve source attributions.
-
-## Demo fallback and troubleshooting
-
-- If WebGL is unavailable, use **Use text view**. Equivalent selections and results are in the HTML panels.
-- If a map file fails to load, use the official-source link; missing statistics are not filled in.
-- If the feed is unavailable, display the existing dated snapshot. A refresh is not required to demonstrate deterministic matching.
-- If local storage is blocked, edits last only for the visit. Reset the synthetic sample before a new demonstration.
-- If a different app appears on localhost, use a fresh port; an unrelated service worker on a reused origin can intercept requests.
-- If fonts fail offline, system fallbacks remain usable. External source and resource pages require internet; the core matching and bundled data do not after local load.
-- If deployment fails, retain `out/` and the source archive for local presentation. Do not call a build successful unless the build process exits successfully.
-
-Resume support: `npm run build` runs the PDF worker-copy pre-hook. When invoking Next directly, first run `node scripts/prepare-workers.mjs`. Host `/workers/pdf.worker.min.mjs` with a JavaScript MIME type and serve the worker from the same origin. The included static server supports this.
-
-## SDC Replit configuration
-
-The root `.replit` selects Node.js 22. Run `npm ci` once in Replit Shell, then use Run. It builds `out/` and serves it with `HOST=0.0.0.0 PORT=3000`. Local `npm start` still defaults to loopback. For publishing a static export, use build `npm ci && npm run build` and public directory `out` where Static publishing is available; inspect the current Replit plan and cost controls. See REPLIT_RUNPOD_SETUP.md. Platform configuration is separate from actual own-account proof.
+External fonts/resources require internet. Browser-local progress is convenience storage and may reset across origins. Use text controls when WebGL is unavailable. Resume parsing is local; separately requested cloud text is transmitted as disclosed. A failed feed refresh preserves the last good snapshot rather than inventing missing values.

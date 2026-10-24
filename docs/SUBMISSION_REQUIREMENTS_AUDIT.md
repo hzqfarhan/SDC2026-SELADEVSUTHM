@@ -110,7 +110,7 @@ Teams that **used RunPod** must include an own-account dashboard screenshot in t
 | AI originality risk | Substantially AI-generated work with minimal original input, understanding or modification can lead to deduction/disqualification. Disclosure alone does not establish originality compliance | OH pp21–22 |
 | Required declarations | Major tools, APIs, cloud, AI, models, data, sponsor resources and pre-existing work; templates also ask about prior-owned work and employment/internship IP conflicts | OH p20; Proposal pp11–13; Declaration throughout |
 
-The earlier concept selection and extensive AI-assisted implementation must be disclosed accurately. Actual team review, adaptation, independent reasoning and understanding cannot be established by an assistant-written declaration. Do not claim workshop completion, approved prior work, team originality or absence of IP conflicts without the team's factual confirmation. These are eligibility facts, not code features.
+The earlier concept selection and extensive AI-assisted implementation must be disclosed accurately. Actual team review, adaptation, independent reasoning and understanding cannot be established by an unsigned declaration. Do not claim workshop completion, approved prior work, team originality or absence of IP conflicts without the team's factual confirmation. These are eligibility facts, not code features.
 
 Mentors may advise but cannot build, design, code, document or make final project decisions for a team (OH pp25–26; PH p33). This is distinct from the expressly permitted, declared AI-tool assistance.
 

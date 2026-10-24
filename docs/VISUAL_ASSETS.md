@@ -1,6 +1,6 @@
 # Visual asset provenance
 
-Updated 20 October 2026.
+Updated 25 October 2026.
 
 ## SHIFTATLAS app icon
 
@@ -25,3 +25,11 @@ Refer to the [UN communications materials and usage guidance](https://www.un.org
 Page backgrounds use CSS three-dimensional cubes, orbit lines and a diamond; scene backgrounds use original Three.js octahedra and rings. Decorations are not factual data. They avoid the official Malaysian map scene to keep geographic context clear.
 
 Entering SDG World focuses the globe and reveals the 17 official icon buttons. Selecting the central globe reopens the collection; selecting an individual icon focuses that goal and displays its original artwork with the target and contribution layers. The overview globe reveals the icon collection in its inspector before navigation. The accessible SDG cards also use the original artwork.
+
+## Presentation artwork and typography
+
+The final 14-slide deck uses Segoe UI, a white canvas and navy/cobalt/teal/amber objects. All 14 slides contain a prototype 3D view or a low-poly concept illustration. The six generated concept assets are the floating career landscape, fictional learner/bridges, one-model/four-viewpoint Council, source gateway, verification workbench and proposed pilot. They were created with OpenAI built-in image generation on 25 October 2026; the exact image-model version was not exposed. These illustrations do not encode measured data, deployed cloud success or learner outcomes. No narrator or mascot appears in the release.
+
+The deck's DESIGN_SOURCES.md and ASSET_PROVENANCE.json retain each final asset's brief, source and SHA-256. The official SELADEVS logo comes from https://www.seladevs.my/branding/seladevs-logo.png, SHA-256 `6967dc04eb70cd6998ec02d6b90418a96fe0f80cc0c3c651707e75eb2c877092`. SELADEVS and contributing student designers retain its rights under https://www.seladevs.my/terms; use identifies the submitting team and is separate from Apache 2.0. The deck reuses unchanged official SDGs 4, 8 and 10 with target-level rationales and the UN non-endorsement notice.
+
+Slide 13 also contains the actual own-account RunPod request-history capture associated with the recorded E5 CUDA response. Its small synthetic fixture and measured times are described in RUNPOD_EXECUTION.md. That screenshot is evidence, separate from the decorative concept illustration.

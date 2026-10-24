@@ -1,6 +1,6 @@
 # Demo and pitch material
 
-Suggested five-minute rehearsal; adjust to the Participant Handbook's actual limit. Use fictional **Aina** and reset before presenting. Keep the static backup ready. Read the technical declaration before describing the AI methods.
+Suggested five-minute core rehearsal within the Participant Handbook's 5–7 minute preliminary video requirement. Use fictional **Aina** and reset before presenting. Keep the static backup ready. Read the technical declaration before describing the AI methods.
 
 | Time | Action | Suggested narration |
 |---|---|---|
@@ -28,20 +28,24 @@ Keep the real checked-in arXiv snapshot. Show baseline versus active weighting f
 
 No slide count or duration in this outline is represented as an organiser requirement.
 
-## Questions to rehearse
+## Our method and next phase
 
-**What makes it AI-powered?** Classical TF-IDF retrieval and transparent rule-based topic/matching methods. No runtime LLM. Be precise about this modest MVP; do not promise predictive accuracy.
+We combine a transparent local rubric with optional neural retrieval. The local workflow uses TF-IDF, user-reviewed skill levels, capped research-topic weighting and prerequisite learning plans. Our E5 worker has a verified synthetic CUDA completion; the four-pass Qwen Council is implemented for a separate deployment check. We keep every suggestion inspectable and preserve the original coverage score.
 
-**Why not predict job losses?** Task exposure, adoption, labour demand and individual outcomes are different quantities. The available snapshot does not justify a Malaysian loss forecast.
+We built 3D worlds to make relationships easier to explore: skill clusters, career bridges, ordered learning islands, goal pathways and a state-level labour map. Equivalent text controls keep the same decisions accessible. Official source dates, hashes and geographical granularity travel with the evidence.
 
-**How do you update?** Official-source scripts validate and version dated snapshots; review and rebuild publish them. Research weights are opt-in; curated factual summaries require review.
-
-**Why 3D?** It gives the six modules a connected spatial interface. Heights/order encode disclosed quantities where appropriate. Equivalent text panels preserve access and make the claims inspectable.
-
-**Is it fair?** Names and location do not affect skill coverage, which tests confirm. This is not a full fairness evaluation; self-assessment, resource access and taxonomy coverage can still bias usefulness.
-
-**What did the team build?** Answer with actual participant contributions after reviewing and adapting this AI-assisted handoff. Do not imply that generated work was independently authored by participants.
+Our next phase tests Malaysian occupational relevance and whether learners can choose and explain a useful next step. We will compare planning time with a static resource list and inspect comprehension, accessibility and misleading recommendations. We will measure those outcomes before reporting improvement.
 
 ## Optional highlight: Atlas Quest (45 seconds)
 
 Open the landing-page **Play Atlas Quest** invitation. Walk the low-poly explorer to Evidence Observatory, open its challenge, and choose review/self-assessment. Show the 100 XP award and Evidence scout badge in the explorer passport, equip it and change an outfit colour. Follow **Explore this part of the atlas** into the actual skill workflow. Return once to demonstrate saved progress. Explain that these are activity badges, with no change to proficiency or match scores. See ATLAS_QUEST.md. This optional highlight should not displace the core data-to-matching proof.
+
+## Optional cloud showcase after account setup
+
+Open `/atlas/?module=council`, inspect the four-arm sculpture with the text buttons, then review the selected fictional brief and transmission checkbox. Enter the privately shared demo code and convene the Council. Show real pass status and actual device/model/timing receipts; do not narrate a setup screen as completed inference. Inspect a literal quote, role references, prerequisite-expanded learning suggestions and the critic. Export the report. The original skill coverage remains unchanged. A cold session may take several minutes, so rehearse before a timed pitch and clearly identify cached results.
+
+For E5, open Skills, try a fictional English/BM/Chinese example, confirm transfer and inspect cosine-ranked trusted roles. Language quality is unmeasured. If either endpoint is unavailable, show its honest status and continue with the local evidence-to-role-to-learning flow. Never substitute mocked outputs as deployment evidence.
+
+## Recorded E5 proof
+
+The direct E5 worker returned the expected pinned model revision and `device: cuda` on 25 October 2026. Its one-query/two-passage fixture took 3.452 seconds provider execution and 11.626 seconds queue delay. Show the real request-history capture or receipt from [RUNPOD_EXECUTION.md](RUNPOD_EXECUTION.md). Explain that this is one smoke test, not a quality or representative performance benchmark. Rehearse the six-role application request independently after setting Replit Secrets.

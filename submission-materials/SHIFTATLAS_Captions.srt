@@ -1,0 +1,355 @@
+1
+00:00:00,000 --> 00:00:01,570
+We are SELADEVS UTHM.
+
+2
+00:00:01,570 --> 00:00:07,064
+SHIFTATLAS helps Malaysian graduates choose a credible next learning step as AI changes work.
+
+3
+00:00:07,064 --> 00:00:12,166
+Our prototype connects reviewed skills with evidence, explainable role coverage and affordable learning.
+
+4
+00:00:13,602 --> 00:00:15,296
+Aina is our fictional graduate.
+
+5
+00:00:15,296 --> 00:00:20,720
+She can use spreadsheets, but cannot tell whether SQL, Python or another skill should come next.
+
+6
+00:00:20,720 --> 00:00:26,142
+A useful result explains the trade-off and gives her an ordered plan that fits her time.
+
+7
+00:00:29,147 --> 00:00:32,505
+The same profile connects all six modules.
+
+8
+00:00:32,505 --> 00:00:34,903
+Dated signals inform role coverage.
+
+9
+00:00:34,903 --> 00:00:37,302
+Visible gaps become learning steps.
+
+10
+00:00:37,302 --> 00:00:41,140
+SDG pathways add purpose, while scenarios expose uncertainty.
+
+11
+00:00:41,140 --> 00:00:45,937
+The interface offers both 3D exploration and equivalent text controls.
+
+12
+00:00:47,607 --> 00:00:49,961
+Resume parsing stays on the device.
+
+13
+00:00:49,961 --> 00:00:57,414
+Users can load a synthetic PDF, DOCX or text file and inspect the original excerpt behind each detected mention.
+
+14
+00:00:57,414 --> 00:01:00,552
+They review the evidence and choose their level.
+
+15
+00:01:00,552 --> 00:01:04,474
+The avatar reflects those self-assessments, without inferring personality or employability.
+
+16
+00:01:06,066 --> 00:01:09,421
+An updatable arXiv feed supplies dated research titles.
+
+17
+00:01:09,421 --> 00:01:15,711
+An explicit experiment counts skill-topic mentions and adjusts existing weights by at most twenty-five percent.
+
+18
+00:01:15,711 --> 00:01:21,163
+In the current synthetic example, analyst coverage changes from sixty-nine to seventy percent.
+
+19
+00:01:21,163 --> 00:01:23,678
+This demonstrates a working data-to-score loop.
+
+20
+00:01:23,678 --> 00:01:27,033
+Research attention does not establish Malaysian hiring demand.
+
+21
+00:01:28,412 --> 00:01:32,362
+Each role score exposes current level, target and weight.
+
+22
+00:01:32,362 --> 00:01:38,066
+O*NET supplies the six occupation references, while the project authors the numerical rubric.
+
+23
+00:01:38,066 --> 00:01:41,138
+Users can inspect every contribution and gap.
+
+24
+00:01:41,138 --> 00:01:45,965
+The percentage describes rubric coverage, with Malaysian transferability still requiring validation.
+
+25
+00:01:47,844 --> 00:01:54,523
+Learning Islands places foundations before dependent activities and estimates a sequence using skill gaps and weekly time.
+
+26
+00:01:54,523 --> 00:01:56,881
+Real provider resources support each activity.
+
+27
+00:01:56,881 --> 00:02:00,024
+Learners can track steps and export the plan.
+
+28
+00:02:00,024 --> 00:02:03,953
+Completion records activity and does not automatically certify a skill.
+
+29
+00:02:05,332 --> 00:02:10,240
+The Malaysia atlas uses actual DOSM state boundaries and quarterly state observations.
+
+30
+00:02:10,240 --> 00:02:14,329
+We preserve that resolution and avoid city or individual inferences.
+
+31
+00:02:14,329 --> 00:02:19,238
+Every role and required skill also connects to a specific SDG target.
+
+32
+00:02:19,238 --> 00:02:24,555
+The app explains intended contributions across all seventeen goals, without claiming measured outcomes.
+
+33
+00:02:25,735 --> 00:02:29,432
+The simulator compares a supported transition with accelerated adoption.
+
+34
+00:02:29,432 --> 00:02:33,130
+Users change the year and inspect every chosen coefficient.
+
+35
+00:02:33,130 --> 00:02:37,650
+These hypothetical indices illustrate how adoption and learning support could interact.
+
+36
+00:02:37,650 --> 00:02:44,223
+We assign no scenario probability and make no forecast of jobs lost or an individualâ€™s employment.
+
+37
+00:02:46,137 --> 00:02:49,261
+Atlas Quest adds a playable low-poly island.
+
+38
+00:02:49,261 --> 00:02:53,277
+Five checkpoints reinforce evidence review, geographical resolution and uncertainty.
+
+39
+00:02:53,277 --> 00:02:57,740
+Unique badges, outfits and companions personalise the saved explorer passport.
+
+40
+00:02:57,740 --> 00:02:59,971
+The rewards track exploration only.
+
+41
+00:02:59,971 --> 00:03:04,880
+A learner study is still needed to establish an engagement benefit.
+
+42
+00:03:06,540 --> 00:03:13,061
+Career Council adds four separate passes from one language model: profile, roles, learning and a grounding critic.
+
+43
+00:03:13,061 --> 00:03:18,432
+The Node gateway prepares trusted context and is designed to coordinate sequential RunPod jobs.
+
+44
+00:03:18,432 --> 00:03:22,268
+The server validates each result before showing a complete report.
+
+45
+00:03:22,268 --> 00:03:24,570
+The weighted skill rubric stays unchanged.
+
+46
+00:03:24,570 --> 00:03:28,789
+The cloud execution design uses the pinned worker and trusted catalogue.
+
+47
+00:03:29,858 --> 00:03:34,748
+The worker packages Qwen3-4B-Instruct-2507 at a pinned revision under Apache 2.0.
+
+48
+00:03:34,748 --> 00:03:38,749
+Replit checks schema, catalogue references and exact quoted phrases.
+
+49
+00:03:38,749 --> 00:03:41,861
+Those checks cannot prove every generated claim.
+
+50
+00:03:41,861 --> 00:03:46,750
+Separate consent controls cloud text, and secrets stay on the server.
+
+51
+00:03:46,750 --> 00:03:51,640
+The local matching flow remains available if a cloud review fails.
+
+52
+00:03:53,175 --> 00:04:00,083
+E5 completed a real RunPod CUDA job on a PRO six thousand M I G, twenty-four gigabyte GPU.
+
+53
+00:04:00,083 --> 00:04:02,769
+One fictional query retrieved two authored passages.
+
+54
+00:04:02,769 --> 00:04:09,676
+Execution took three point four five two seconds, after eleven point six two six seconds in the queue.
+
+55
+00:04:09,676 --> 00:04:14,665
+Fifty-five application tests, eighteen offline worker checks and the production build also pass.
+
+56
+00:04:14,665 --> 00:04:18,503
+This is an execution smoke test, not a quality benchmark.
+
+57
+00:04:18,503 --> 00:04:21,956
+Council and full Replit integration still require separate acceptance.
+
+58
+00:04:23,294 --> 00:04:30,382
+Our planned ten-learner pilot targets twenty percent less median planning time and eighty percent correctly explaining a score and uncertainty.
+
+59
+00:04:30,382 --> 00:04:32,509
+No learner outcomes have been measured.
+
+60
+00:04:32,509 --> 00:04:35,699
+Next we validate Malaysian job signals and role-change labels.
+
+61
+00:04:35,699 --> 00:04:40,662
+The next phase evaluates whether learners can choose and explain a useful next step.
+
+62
+00:04:41,754 --> 00:04:44,693
+These are actual recorded views of the prototype.
+
+63
+00:04:44,693 --> 00:04:47,264
+The fictional sample produces eight skill dimensions.
+
+64
+00:04:47,264 --> 00:04:50,938
+The evidence layer shows the original sentence for data literacy.
+
+65
+00:04:50,938 --> 00:04:56,448
+A reviewer can deselect a mention, then accept it at a minimum level of one.
+
+66
+00:04:56,448 --> 00:04:58,285
+The self-assessment controls remain editable.
+
+67
+00:04:58,285 --> 00:05:00,122
+No real CV is needed.
+
+68
+00:05:04,100 --> 00:05:08,672
+Future Skills City displays dated public references and a refreshable research snapshot.
+
+69
+00:05:08,672 --> 00:05:14,006
+The comparison table shows the baseline and experimental scores before the toggle is applied.
+
+70
+00:05:14,006 --> 00:05:19,339
+For the analyst sample, the research emphasis changes coverage from sixty-nine to seventy percent.
+
+71
+00:05:19,339 --> 00:05:22,006
+The small change is visible and explainable.
+
+72
+00:05:26,445 --> 00:05:28,697
+Career Bridges ranks six reference roles.
+
+73
+00:05:28,697 --> 00:05:34,326
+The analyst table exposes the current level, target, weight and score contribution for each skill.
+
+74
+00:05:34,326 --> 00:05:36,202
+These are authored rubric values.
+
+75
+00:05:36,202 --> 00:05:42,206
+A higher percentage means more rubric coverage, and does not mean a higher probability of employment.
+
+76
+00:05:46,848 --> 00:05:51,937
+The learning route puts prerequisite foundations before dependent practice and shows estimated weeks.
+
+77
+00:05:51,937 --> 00:05:55,069
+The time comes from the selected weekly availability.
+
+78
+00:05:55,069 --> 00:06:00,548
+Each activity links to a real provider resource, and the plan can be exported.
+
+79
+00:06:00,548 --> 00:06:03,288
+Completion flags record activity without certifying proficiency.
+
+80
+00:06:06,280 --> 00:06:09,218
+Atlas Quest offers a second way to engage.
+
+81
+00:06:09,218 --> 00:06:11,421
+The explorer walks to a checkpoint.
+
+82
+00:06:11,421 --> 00:06:15,460
+A correct answer unlocks its badge and one hundred exploration points.
+
+83
+00:06:15,460 --> 00:06:19,867
+The passport saves the outfit, companion and equipped title in this browser.
+
+84
+00:06:19,867 --> 00:06:23,171
+All five checks are also available through text controls.
+
+85
+00:06:27,654 --> 00:06:31,467
+The source map preserves Malaysian state boundaries and state-level statistics.
+
+86
+00:06:31,467 --> 00:06:36,044
+The Node gateway connects optional semantic retrieval and four Council review stages.
+
+87
+00:06:36,044 --> 00:06:39,477
+The public repository contains the code and Apache licence.
+
+88
+00:06:39,477 --> 00:06:42,910
+Methods, tools and sources are documented alongside the code.
+
+89
+00:06:42,910 --> 00:06:48,630
+The result is a sourced next step that a learner can inspect, change and revisit.
