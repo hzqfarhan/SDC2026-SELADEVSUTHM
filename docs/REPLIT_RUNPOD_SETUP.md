@@ -158,9 +158,10 @@ Keep source/release/image/model identifiers, configuration, test results and red
 | Replit project | Imported |
 | Replit dependency installation/build | Not verified |
 | Node publication and judge access | Not verified |
-| Sponsor credit applied to the active accounts | Not verified |
-| E5 and Council image builds | Not verified |
-| E5 GPU completion | Not verified |
+| RunPod sponsor credit | US$25 redeemed and auto-pay off, confirmed by the team; remaining balance is checked in Billing |
+| E5 image build/download/upload | Completed; build log and image tag recorded |
+| Council image build | Separate deployment check |
+| E5 GPU completion | COMPLETED / CUDA; 3.452 s execution, 11.626 s delay; exact receipt retained |
 | Four-stage Council completion | Not verified |
 
 After testing, inspect active workers, endpoints, Pods, volumes and billing. Export results before removing resources. No persistent volume is required by the baked-model recipes.

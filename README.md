@@ -12,7 +12,7 @@ Built with Next.js, React, React Three Fiber and Three.js. The low-poly worlds a
 
 **User and problem:** a Malaysian graduate or career switcher needs a source-checked next learning step as AI changes work. **Output:** an editable skill profile, six explainable role comparisons and an ordered learning plan tied to SDG targets. The optional dated research experiment visibly changes matching weights, while official Malaysian state statistics add geographic context. Atlas Quest adds five short concept checks and an explorer passport.
 
-**Runtime:** a local-first Next.js export plus a Replit-compatible Node gateway. The original matching, learning, research weighting and scenarios work without cloud inference. Two optional RunPod integrations add multilingual semantic retrieval and **Career Council**, a four-pass language-model review with an articulated low-poly 3D sculpture. Each cloud request needs separately confirmed fictional text and a team demo access code. The server owns the reference catalogue and validates returned IDs, literal profile quotes and execution metadata.
+**Runtime:** a local-first Next.js export plus a Replit-compatible Node gateway. The original matching, learning, research weighting and scenarios work without cloud inference. Two optional RunPod integrations add multilingual semantic retrieval and **Career Council: one AI, four perspectives**, a four-pass language-model review with an articulated low-poly 3D sculpture. Each cloud request needs separately confirmed fictional text and a team demo access code. The server owns the reference catalogue and validates returned IDs, literal profile quotes and execution metadata.
 
 **Cloud architecture:** The Replit-compatible Node application owns the catalogue boundary. RunPod supplies the optional E5 embedding worker and Qwen Career Council worker. Each request requires confirmed fictional text and a team demo access code; provider keys stay server-side. Build directly from GitHub with `Dockerfile.e5` and `Dockerfile.council`, then follow [the setup guide](docs/REPLIT_RUNPOD_SETUP.md). The core atlas works without cloud credentials.
 
@@ -88,7 +88,7 @@ All four of us completed the SDC GenAI, Database and Cloud Deployment workshops.
 
 ## Licence and attribution
 
-Original project code and documentation use [Apache License 2.0](LICENSE). Preserve [NOTICE](NOTICE) and [third-party notices](THIRD_PARTY_NOTICES.md). DOSM data, UN icons, Wikidata/MQA facts, upstream packages and linked provider content retain their own terms. Major Codex development assistance and the generated icon are disclosed in the technical declaration.
+Original project code and documentation use [Apache License 2.0](LICENSE). Preserve [NOTICE](NOTICE) and [third-party notices](THIRD_PARTY_NOTICES.md). DOSM data, UN icons, Wikidata/MQA facts, upstream packages and linked provider content retain their own terms. Our Codex/GPT-5.1 Sol, Qoder and Cortex Code (CoCo) coding assistance, generated artwork and other tools are disclosed in the technical declaration.
 
 ## Handoff
 

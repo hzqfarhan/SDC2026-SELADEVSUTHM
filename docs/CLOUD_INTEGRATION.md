@@ -88,3 +88,8 @@ Application tests mock provider contracts; worker tests inject fake encoders and
 
 
 The [recorded E5 worker run](RUNPOD_EXECUTION.md) completed one synthetic CUDA request on 25 October 2026. Its pinned model output passed the application schema validator. The six-role Replit application route, signed-out publication and four Qwen Council passes remain separate acceptance checks.
+
+
+## One AI, four perspectives
+
+Our Career Council assigns the same Qwen model four sequential roles: profile reviewer, career explorer, learning planner and critic. Each stage receives the earlier reviews, and the critic challenges the evidence and reasoning. This creates a structured comparison of suggestions for the learner. The roles share one model and are not independent experts. E5 is a separate semantic-retrieval component; it does not generate Council reviews. Our schema/citation checks organise the comparison, while the learner makes the final selection.

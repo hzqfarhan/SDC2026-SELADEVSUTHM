@@ -62,26 +62,26 @@ Atlas Quest adds a playable low-poly island. Five checkpoints reinforce evidence
 
 Sources: src/lib/quest.ts; src/components/AtlasQuest.tsx; docs/ATLAS_QUEST.md
 
-## 11 Career Council: four bounded reviews
+## 11 Career Council: one AI, four perspectives
 
-Career Council adds four separate passes from one language model: profile, roles, learning and a grounding critic. The Node gateway prepares trusted context and is designed to coordinate sequential RunPod jobs. The server validates each result before showing a complete report. The weighted skill rubric stays unchanged. The cloud execution design uses the pinned worker and trusted catalogue.
+Our Career Council gives one AI model four specialist roles: profile reviewer, career explorer, learning planner and critic. Each stage builds on the previous suggestions. The critic challenges the reasoning and highlights trade-offs. Our gateway brings the stages together around the same trusted catalogue, helping learners compare choices while keeping their original skill scores intact.
 
 Sources: src/components/CareerCouncil.tsx; scripts/council-gateway.mjs; Four viewpoints from one model, not four independent models; https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM; Council execution requires separate deployment acceptance
 
 ## 12 Grounding checks before the answer
 
-The worker packages Qwen3-4B-Instruct-2507 at a pinned revision under Apache 2.0. Replit checks schema, catalogue references and exact quoted phrases. Those checks cannot prove every generated claim. Separate consent controls cloud text, and secrets stay on the server. The local matching flow remains available if a cloud review fails.
+We designed the Council around source-linked choices. Our gateway checks the response structure, recognised roles and courses, and exact quotations from the fictional profile. It restores learning prerequisites and keeps API keys on the server. Qwen3-4B-Instruct-2507 supplies the four review roles; E5 separately provides semantic retrieval. Learners retain control over the final choice.
 
 Sources: https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507; https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/commit/cdbee75f17c01a7cc42f958dc650907174af0554; scripts/council-gateway.mjs, validateReview and validateReceipt; Qwen revision cdbee75f17c01a7cc42f958dc650907174af0554; This architecture slide does not present a completed Council result
 
 ## 13 Verified E5 GPU execution
 
-E5 completed a real RunPod CUDA job on a PRO six thousand M I G, twenty-four gigabyte GPU. One fictional query retrieved two authored passages. Execution took three point four five two seconds, after eleven point six two six seconds in the queue. Fifty-five application tests, eighteen offline worker checks and the production build also pass. This is an execution smoke test, not a quality benchmark. Council and full Replit integration still require separate acceptance.
+We built and ran our E5 worker on RunPod using a PRO six thousand M I G, twenty-four gigabyte GPU. Our recorded fictional query compared two role descriptions and returned CUDA results in three point four five two seconds, after eleven point six two six seconds in the queue. We also passed fifty-five application tests, eighteen offline worker checks and the production build. Our submission includes the actual request history and completion receipt.
 
 Sources: outputs/submission/evidence/runpod/e5-completion.json, Runpod job abdc818d-4447-4171-95d1-adafa18b47ce-e2, COMPLETED; outputs/submission/evidence/runpod/e5-completed-request-history.png, worker PRO 6000 MIG 24GB; Generated 2026-10-24T19:11:44.011980Z = 25 October 2026, 03:11 MYT; intfloat/multilingual-e5-base revision d128750597153bb5987e10b1c3493a34e5a4502a; One fictional query and two authored passages; executionTime 3452 ms; delayTime 11626 ms; 55 application tests, 18 offline worker contract checks, production build and TypeScript passed; docs/VERIFICATION.md; https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM
 
 ## 14 Pilot targets and the next phase
 
-Our planned ten-learner pilot targets twenty percent less median planning time and eighty percent correctly explaining a score and uncertainty. No learner outcomes have been measured. Next we validate Malaysian job signals and role-change labels. The next phase evaluates whether learners can choose and explain a useful next step.
+Our next phase brings SHIFTATLAS to ten learners. We aim for twenty percent less median planning time and eighty percent correctly explaining their score and uncertainty. We built the project with OpenAI Codex and GPT-five-point-one Sol, alongside coding assistance from Qoder and Cortex Code, CoCo. Our goal is clear: help learners choose a next step they can understand, afford and act on.
 
 Sources: Planned ten-learner pilot accepted for proposal preparation on 25 October 2026; docs/TECHNICAL_DECLARATION.md; Domain 1 brief PDF pages 7 and 8

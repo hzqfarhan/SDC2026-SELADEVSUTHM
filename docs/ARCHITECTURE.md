@@ -66,7 +66,7 @@ Deployment is limited to confirmed SDC sponsor credit, with no additional spendi
 
 ## Verification scope
 
-Local checks report 55 application tests and 18 offline worker tests passing. The app tests mock provider responses and worker tests inject fake encoders/generators. Model-container builds, GPU execution, credited resource consumption, live NDJSON acceptance and quality benefits require separate deployment/evaluation records. Replit project import is recorded. Replit build/publication, signed-out judge access and live cloud acceptance remain deployment acceptance items. See VERIFICATION.md for build status and the current evidence record.
+Local checks report 55 application tests and 18 offline worker tests passing. The app tests mock provider responses and worker tests inject fake encoders/generators. E5 image construction and one direct CUDA request have separate completed evidence in RUNPOD_EXECUTION.md. The Qwen build, live application/NDJSON acceptance, credited resource consumption and quality benefits require their own deployment/evaluation records. Replit project import is recorded. Replit build/publication, signed-out judge access and live cloud acceptance remain deployment acceptance items. See VERIFICATION.md for build status and the current evidence record.
 
 ## Deployment topology
 

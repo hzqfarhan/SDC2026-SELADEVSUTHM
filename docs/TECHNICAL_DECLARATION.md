@@ -4,7 +4,7 @@ Prepared 20 October 2026; revised 25 October 2026, Asia/Kuala_Lumpur, for the re
 
 ## Development assistance
 
-We used OpenAI Codex in Work extensively for implementation, research, data-processing scripts, tests and documentation. A completed bounded data-research helper was configured as GPT-6 Astra with High reasoning. Main Codex session model version: not recorded. We selected the project concept and scope. Code, prose, rubric choices and visual geometry in this handoff were substantially AI-assisted.
+We used OpenAI Codex extensively for implementation, research, data-processing scripts, tests and documentation. Our development-tool inventory also includes GPT-5.1 Sol, Qoder and Cortex Code (CoCo), which we used for coding assistance. We selected the project concept and scope. Code, prose, rubric choices and visual geometry in this handoff were substantially AI-assisted.
 
 We retain responsibility for reviewing the work, making substantive contributions and meeting the organiser’s AI/originality requirements. The public handbook discusses team understanding and substantive original input in section 8.5. [Official handbook](https://sdchack.my/legal/handbook-2026-08-17.pdf).
 
