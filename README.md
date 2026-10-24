@@ -2,7 +2,7 @@
 
 **SELADEVS UTHM** · Universiti Tun Hussein Onn Malaysia · SDC Hackathon 2026, Domain 1
 
-[GitHub repository](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM) · [Replit and RunPod setup](docs/REPLIT_RUNPOD_SETUP.md) · [Requirements audit](docs/SUBMISSION_REQUIREMENTS_AUDIT.md)
+[GitHub repository](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM) · [Download functional demo](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/raw/refs/heads/main/demo/SHIFTATLAS-3D-static-demo.zip) · [Replit project](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM) · [Replit and RunPod setup](docs/REPLIT_RUNPOD_SETUP.md) · [Requirements audit](docs/SUBMISSION_REQUIREMENTS_AUDIT.md)
 
 A source-traceable career exploration prototype for **SDC Hackathon 2026, Domain 1**. A fictional learner moves from skills to explainable role coverage, an affordable learning sequence, SDG pathways and uncertain AI-adoption scenarios.
 
@@ -12,11 +12,15 @@ Built with Next.js, React, React Three Fiber and Three.js. The low-poly worlds a
 
 **User and problem:** a Malaysian graduate or career switcher needs a source-checked next learning step as AI changes work. **Output:** an editable skill profile, six explainable role comparisons and an ordered learning plan tied to SDG targets. The optional dated research experiment visibly changes matching weights, while official Malaysian state statistics add geographic context. Atlas Quest adds five short concept checks and an explorer passport.
 
-**Runtime:** browser computation and local storage, with a static Next.js export. No backend account, private CV dataset, hosted LLM, trained job-loss predictor or cloud GPU inference. **Sponsor setup:** `.replit` uses Node.js 22, builds the static export and runs a cloud-compatible preview. Real account/project proof must accompany the submission. Current compute does not require a RunPod GPU.
+**Runtime:** browser computation and local storage, with a static Next.js export. No backend account, private CV dataset, hosted LLM, trained job-loss predictor or cloud GPU inference. **Sponsor setup:** `.replit` uses Node.js 22, builds the static export and runs a cloud-compatible preview. The actual team project was imported into Replit on 25 October 2026. Project link above; preview/publication verification remains pending. Current compute does not require a RunPod GPU.
 
 **Validation:** 35 tests and production build passed. Desktop prototype, resume sample, game checkpoints, rewards and persistence were checked. See the verification record for exact limits. No user-study or employment-outcome claim is made.
 
-## Run the demo
+## Prebuilt demo for judges
+
+Download and extract `demo/SHIFTATLAS-3D-static-demo.zip`, open `shiftatlas-demo`, then run `START-DEMO.cmd` on Windows. Requires Node.js 22; no dependency installation is needed. Other platforms: run `node serve.mjs` in that folder. Open the URL printed by the server. The build is interactive, uses the bundled data, and provides a fallback while Replit publication is verified.
+
+## Run from source
 
 Requires Node.js 22 LTS and npm. Tested on Node 22.20.0. From this folder:
 

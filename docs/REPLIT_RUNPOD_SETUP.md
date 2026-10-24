@@ -1,12 +1,12 @@
 # Replit and Runpod setup and genuine usage evidence
 
-Reviewed **25 October 2026, Asia/Kuala_Lumpur**, against the linked official documentation. UI labels, availability and prices can change. This is a prepared procedure, **not evidence that the team has already used or deployed to either service**. No account, paid resource, sponsor credit or live sponsor-hosted URL was created during this preparation.
+Reviewed **25 October 2026, Asia/Kuala_Lumpur**, against the linked official documentation. UI labels, availability and prices can change. The team project was actually imported into Replit on 25 October 2026 at https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM. Replit import briefly scaffolded a PNPM workspace; the original source was restored from .migration-backup and npm ci was started. Build completion, publishing, plan/credit status and signed-out judge access have not yet been verified. Runpod was not used.
 
 ## What each service would do
 
 | Service | Appropriate role for this version | Current status |
 |---|---|---|
-| Replit | Import, edit, test, build and preview the application; optionally publish the static export | Configuration prepared; team must perform and record actual usage |
+| Replit | Import, edit, test, build and preview the application; optionally publish the static export | Own-account project imported; build/publication verification pending |
 | Runpod | Optional remote compute for a future, separately evaluated model experiment | Not integrated or required by the current browser/rule-based MVP |
 
 The Three.js game and atlas run on the visitor's device. A cloud GPU does not make their browser rendering faster. Matching, text retrieval and keyword extraction do not require a GPU. Do not describe a prepared configuration as a sponsor integration or fabricate proof. Check the competition's current handbook and organiser instructions for the precise sponsor requirement.
@@ -101,7 +101,7 @@ If actual Runpod use occurs, save console resource identity, executed commands a
 
 | Check | Actual evidence |
 |---|---|
-| Replit project imported | Pending |
+| Replit project imported | Verified in haziqfarhan174 account: https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM |
 | Actual tests/build completed inside Replit | Pending |
 | Team's Replit development contribution recorded | Pending |
 | Judge URL published and access checked, if selected | Pending |
