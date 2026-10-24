@@ -1,6 +1,6 @@
 # Technical and AI-use declaration
 
-Prepared 20 October 2026 for team review. This is an accurate development disclosure, **not a signed declaration that the team has completed its own review**.
+Prepared 20 October 2026; revised 25 October 2026, Asia/Kuala_Lumpur, for team review. This is an accurate development disclosure, **not a signed declaration that the team has completed its own review**.
 
 ## Development assistance
 
@@ -8,7 +8,7 @@ OpenAI Codex in Work was used extensively for implementation, research, data-pro
 
 Do not represent this package as wholly hand-written by the team. Registered participants must understand, review and meaningfully adapt it, document their actual contributions, and comply with the organiser's AI/originality rules. The public handbook discusses team understanding and substantive original input in section 8.5. [Official handbook](https://sdchack.my/legal/handbook-2026-08-17.pdf).
 
-Tools used: Codex file/shell tools, web research, Node.js/npm, TypeScript, Node test runner via tsx, the Sites workflow for packaging/hosting, and PDF text extraction for the supplied brief. Browser preview was attempted but automated browser control was disabled; no visual QA result is claimed. The refined version adds an original app icon generated with OpenAI’s built-in image-generation tool and 17 unchanged official UN SDG images. See VISUAL_ASSETS.md for the generation prompt, source URLs and image hashes. No downloaded 3D model, Blender asset or video asset was used.
+Tools used: Codex file/shell tools, web research, Node.js/npm, TypeScript, Node test runner via tsx, the Sites workflow for packaging/hosting, and PDF text extraction for the supplied brief. Browser controls were initially disabled and became available during the 25 October refinement; the actual checks and remaining limits are recorded in VERIFICATION.md. The refined version adds an original app icon generated with OpenAI’s built-in image-generation tool and 17 unchanged official UN SDG images. See VISUAL_ASSETS.md for the generation prompt, source URLs and image hashes. No downloaded 3D model, Blender asset or video asset was used.
 
 ## Runtime AI and computation
 
@@ -37,7 +37,7 @@ Versions below are from the installed lockfile at verification. `package-lock.js
 | Mammoth | 1.13.0 | BSD-2-Clause | Browser DOCX raw-text extraction |
 | tsx | 4.23.15 | MIT | Test and TypeScript script execution |
 
-DM Sans and Manrope are requested through Google Fonts with system fallbacks; fonts are not bundled. Third-party links and data do not imply endorsement or partnership. No project-wide open-source licence is assigned on the team's behalf; decide that before public redistribution, while preserving third-party notices.
+DM Sans and Manrope are requested through Google Fonts with system fallbacks; fonts are not bundled. Third-party links and data do not imply endorsement or partnership. At the user's explicit request, original project code and documentation now use Apache License 2.0. LICENSE, NOTICE and THIRD_PARTY_NOTICES.md preserve the separate upstream and asset terms.
 
 ## Data and assets
 
@@ -74,3 +74,7 @@ Resume parsing is optional and local to the browser. PDF/DOCX/TXT extraction fee
 ## Malaysia discovery revision
 
 Added MQA public/private university directory facts and Wikidata CC0 coordinates. All low-poly landmark models, wind turbines, solar panels and medals are original code-generated illustrative geometry. They are not downloaded architectural models. Institution coordinates are not proof of accreditation or a complete campus inventory. See [Malaysia discovery](MALAYSIA_DISCOVERY.md) for exact coverage, attribution, hashes and source limitations. Badges are demo milestones, not credentials.
+
+## Profile studio and Atlas Quest revision
+
+Added an original procedural profile avatar, a CSS 3D resume/passport stack and the Atlas Quest low-poly exploration game. Geometry, challenge wording, UI and code were assisted by Codex. No downloaded game models, new external asset licences, game engine dependency or runtime AI service was added. The question bank paraphrases existing prototype methods and points to OpenDOSM, ILO and UN references where relevant. Correct concept checks award local demo XP and badges only; they do not certify proficiency or modify career scores. Quest progress, cosmetic choices and visited worlds are stored in the browser and are reset separately from the skill profile. See ATLAS_QUEST.md and PROFILE_STUDIO.md.

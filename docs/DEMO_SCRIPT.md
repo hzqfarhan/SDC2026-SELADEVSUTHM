@@ -41,3 +41,7 @@ No slide count or duration in this outline is represented as an organiser requir
 **Is it fair?** Names and location do not affect skill coverage, which tests confirm. This is not a full fairness evaluation; self-assessment, resource access and taxonomy coverage can still bias usefulness.
 
 **What did the team build?** Answer with actual participant contributions after reviewing and adapting this AI-assisted handoff. Do not imply that generated work was independently authored by participants.
+
+## Optional highlight: Atlas Quest (45 seconds)
+
+Open the landing-page **Play Atlas Quest** invitation. Walk the low-poly explorer to Evidence Observatory, open its challenge, and choose review/self-assessment. Show the 100 XP award and Evidence scout badge in the explorer passport, equip it and change an outfit colour. Follow **Explore this part of the atlas** into the actual skill workflow. Return once to demonstrate saved progress. Explain that these are activity badges, with no change to proficiency or match scores. See ATLAS_QUEST.md. This optional highlight should not displace the core data-to-matching proof.

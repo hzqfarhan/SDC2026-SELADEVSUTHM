@@ -56,3 +56,7 @@ The terms require an official GitHub repository created after competition commen
 - [ ] Submit through the authorised team portal before its deadline and preserve the receipt.
 
 The private Sites repository/preview does not substitute for the mandatory judge-accessible GitHub repository. Do not submit an owner-only demo URL as though judges can access it. Deployment instructions provide an independent hosting route; sharing the current private demo requires an explicit access change.
+
+## Additional highlight — 25 October refinement
+
+Atlas Quest is an optional engagement feature: a playable low-poly discovery island with five sourced concept checks, browser-local achievements, XP and an explorer passport. The landing page and dashboard highlight it. The 3D profile sculpture and layered resume studio connect the visual experience to actual self-assessment and reviewed text evidence. No measured engagement improvement, credential or new predictive capability is claimed. Keep the data-to-matching MVP central to the pitch; show the game briefly as a differentiator and include it in the AI/tool declaration.

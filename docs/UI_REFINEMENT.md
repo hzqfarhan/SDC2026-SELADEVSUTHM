@@ -31,6 +31,12 @@ Use **Full scene**, the close button, the existing camera-reset control, or Esca
 
 The DOSM map coordinates and original polygons were not changed. Role coverage, course-time heights, SDG emphasis and scenario indices keep their existing meanings. Numerical methods and source snapshots were not altered by this visual refinement.
 
+## Profile studio and game revision — 25 October 2026
+
+The skill world now includes a faceted explorer avatar and ten self-assessed skill bars. A CSS 3D document stack adds profile/resume modes, selectable layers, bounded rotations and a front-view reset. Local resume evidence is linked to the skill selector. See PROFILE_STUDIO.md.
+
+Atlas Quest adds a dedicated low-poly discovery island, movement, five concept checks, persistent unique badges/XP, an explorer passport and cosmetic choices. It has a highlighted invitation on the landing page and overview, plus sidebar and profile-button entry. See ATLAS_QUEST.md. Exploration badges now retain visited-world progress in browser storage.
+
 ## Verification limits
 
-Core tests and TypeScript checks are retained. Browser automation is disabled in Work settings, so screenshot, responsive layout and WebGL interaction acceptance remain manual tasks. The existing Sites project still returns `project not found`; the local build and ZIP packages are the available deliverables, not a confirmed hosted publication.
+Core tests and TypeScript checks are retained. Browser controls became available during the 25 October refinement. See VERIFICATION.md for the actual scope of browser checks; untested devices and interactions still require acceptance. The existing Sites project still returns `project not found`; the local build and ZIP packages are the available deliverables, not a confirmed hosted publication.

@@ -61,3 +61,7 @@ Create the team repository in accordance with the competition rules. Push the ac
 - If deployment fails, retain `out/` and the source archive for local presentation. Do not call a build successful unless the build process exits successfully.
 
 Resume support: `npm run build` runs the PDF worker-copy pre-hook. When invoking Next directly, first run `node scripts/prepare-workers.mjs`. Host `/workers/pdf.worker.min.mjs` with a JavaScript MIME type and serve the worker from the same origin. The included static server supports this.
+
+## SDC Replit configuration
+
+The root `.replit` selects Node.js 22. Run `npm ci` once in Replit Shell, then use Run. It builds `out/` and serves it with `HOST=0.0.0.0 PORT=3000`. Local `npm start` still defaults to loopback. For publishing a static export, use build `npm ci && npm run build` and public directory `out` where Static publishing is available; inspect the current Replit plan and cost controls. See REPLIT_RUNPOD_SETUP.md. Platform configuration is separate from actual own-account proof.
