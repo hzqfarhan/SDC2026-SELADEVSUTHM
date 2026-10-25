@@ -2,13 +2,15 @@
 
 **SELADEVS UTHM** · Universiti Tun Hussein Onn Malaysia · SDC Hackathon 2026, Domain 1
 
-[Live application](https://sdc-2026-seladevsuthm.replit.app/) · [YouTube pitch and demo](https://youtu.be/e8jtdJy6deo) · [GitHub repository](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM) · [Download functional demo](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/raw/refs/heads/main/demo/SHIFTATLAS-3D-static-demo.zip) · [Replit project](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM) · [Replit and RunPod setup](docs/REPLIT_RUNPOD_SETUP.md) · [Requirements audit](docs/SUBMISSION_REQUIREMENTS_AUDIT.md) · [Pitch and product video](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/tree/main/submission-materials)
+[Submission index](submission-materials/SUBMISSION_INDEX.md) · [Live application](https://sdc-2026-seladevsuthm.replit.app/) · [YouTube pitch and demo](https://youtu.be/e8jtdJy6deo) · [GitHub repository](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM) · [Download functional demo](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/raw/refs/heads/main/demo/SHIFTATLAS-3D-static-demo.zip) · [Replit project](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM) · [Replit and RunPod setup](docs/REPLIT_RUNPOD_SETUP.md) · [Requirements audit](docs/SUBMISSION_REQUIREMENTS_AUDIT.md) · [Pitch and product video](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/tree/main/submission-materials)
 
 We built SHIFTATLAS 3D to help Malaysian learners turn AI-era career uncertainty into a clear next learning step. Our **SDC Hackathon 2026, Domain 1** prototype connects a reviewed skill profile with explainable role coverage, an affordable learning sequence, SDG pathways and uncertain AI-adoption scenarios.
 
 Built with Next.js, React, React Three Fiber and Three.js. The low-poly worlds are interactive geometry, not images. The Malaysia scene uses actual DOSM state polygons and official quarterly labour observations.
 
 ## Submission summary
+
+Our team has completed the sdchack.my submission separately. The [repository submission index](submission-materials/SUBMISSION_INDEX.md) links the official proposal and technical declaration PDFs, slides, platform evidence, demo and prototype access.
 
 **User and problem:** a Malaysian graduate or career switcher needs a source-checked next learning step as AI changes work. **Output:** an editable skill profile, six explainable role comparisons and an ordered learning plan tied to SDG targets. The optional dated research experiment visibly changes matching weights, while official Malaysian state statistics add geographic context. Atlas Quest adds five short concept checks and an explorer passport.
 
@@ -111,4 +113,4 @@ Original project code and documentation use [Apache License 2.0](LICENSE). Prese
 - [Demo and pitch](docs/DEMO_SCRIPT.md): rehearsable demonstration and slide outline.
 - [Verification record](docs/VERIFICATION.md): completed checks and manual acceptance checklist.
 
-Only synthetic people are included. Sample edits and completed steps remain in browser local storage. Core matching uses no model service. Optional cloud features need server-only credentials and explicitly transmit selected fictional text and public context to Replit/RunPod; they do not automatically upload resume files or saved levels. Use fictional resumes for public demonstrations; optional resume parsing stays in browser memory, and only accepted skill levels persist. See the verification record for the latest automated checks, browser observations and outstanding device acceptance. The official submission includes signed forms, platform evidence, slides, a 5–7 minute YouTube demo and accessible prototype/repository links.
+Only synthetic people are included. Sample edits and completed steps remain in browser local storage. Core matching uses no model service. Optional cloud features need server-only credentials and explicitly transmit selected fictional text and public context to Replit/RunPod; they do not automatically upload resume files or saved levels. Use fictional resumes for public demonstrations; optional resume parsing stays in browser memory, and only accepted skill levels persist. See the verification record for the latest automated checks, browser observations and device acceptance scope. The repository includes the official proposal and technical declaration, platform evidence, slides, a 5–7 minute YouTube demo and accessible prototype/repository links.

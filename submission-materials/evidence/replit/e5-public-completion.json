@@ -1,0 +1,108 @@
+{
+  "recordedAt": "2026-10-25T02:09:41.478Z",
+  "appOrigin": "https://sdc-2026-seladevsuthm.replit.app",
+  "syntheticFixture": true,
+  "schemaVersion": 1,
+  "provider": "RunPod",
+  "model": "intfloat/multilingual-e5-base",
+  "revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "device": "cuda",
+  "generatedAt": "2026-10-25T02:09:41.191192Z",
+  "completedAt": "2026-10-25T02:09:41.436Z",
+  "cached": false,
+  "roles": [
+    {
+      "id": "analyst",
+      "name": "Business intelligence analyst",
+      "sourceUrl": "https://www.onetonline.org/link/summary/15-2051.01",
+      "rank": 1,
+      "similarity": 0.7916
+    },
+    {
+      "id": "security",
+      "name": "Information security analyst",
+      "sourceUrl": "https://www.onetonline.org/link/summary/15-1212.00",
+      "rank": 2,
+      "similarity": 0.7613
+    },
+    {
+      "id": "developer",
+      "name": "Software developer",
+      "sourceUrl": "https://www.onetonline.org/link/summary/15-1252.00",
+      "rank": 3,
+      "similarity": 0.7613
+    },
+    {
+      "id": "learning",
+      "name": "Learning & development specialist",
+      "sourceUrl": "https://www.onetonline.org/link/summary/13-1151.00",
+      "rank": 4,
+      "similarity": 0.7594
+    },
+    {
+      "id": "operations",
+      "name": "Project management specialist",
+      "sourceUrl": "https://www.onetonline.org/link/summary/13-1082.00",
+      "rank": 5,
+      "similarity": 0.7349
+    },
+    {
+      "id": "sustainability",
+      "name": "Sustainability specialist",
+      "sourceUrl": "https://www.onetonline.org/link/summary/13-1199.05",
+      "rank": 6,
+      "similarity": 0.7139
+    }
+  ],
+  "signals": [
+    {
+      "paperId": "paper-0",
+      "title": "The interpreter as developer: An autoethnographic design study of building a computer-assisted interpreting tool through human-LLM co-creation",
+      "published": "2026-10-12T09:19:55Z",
+      "url": "https://arxiv.org/abs/2610.16460v1",
+      "roleId": "learning",
+      "similarity": 0.7872
+    },
+    {
+      "paperId": "paper-1",
+      "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
+      "published": "2026-10-05T19:35:56Z",
+      "url": "https://arxiv.org/abs/2610.07296v1",
+      "roleId": "learning",
+      "similarity": 0.7789
+    },
+    {
+      "paperId": "paper-2",
+      "title": "Navigating the Changing Landscape of Online Knowledge Consumption and Production in the Age of Generative AI: Evidence from Stack Overflow",
+      "published": "2026-09-29T21:23:10Z",
+      "url": "https://arxiv.org/abs/2609.38563v1",
+      "roleId": "learning",
+      "similarity": 0.7686
+    },
+    {
+      "paperId": "paper-3",
+      "title": "Can Generative AI Automate Data Extraction for Meta-Analysis? A Case Study on Intercropping Research",
+      "published": "2026-09-28T13:04:41Z",
+      "url": "https://arxiv.org/abs/2609.35089v2",
+      "roleId": "analyst",
+      "similarity": 0.7757
+    },
+    {
+      "paperId": "paper-4",
+      "title": "Artificial Intelligence as an Economic, Environmental, Geopolitical, and Social Transformation",
+      "published": "2026-09-18T11:21:35Z",
+      "url": "https://arxiv.org/abs/2609.21632v1",
+      "roleId": "analyst",
+      "similarity": 0.7873
+    },
+    {
+      "paperId": "paper-5",
+      "title": "Governance-as-Code: Translating EU AI Act Technical Requirements into Executable Compliance Pipelines for Generative AI Systems",
+      "published": "2026-09-17T10:23:54Z",
+      "url": "https://arxiv.org/abs/2609.20016v1",
+      "roleId": "developer",
+      "similarity": 0.771
+    }
+  ],
+  "disclosure": "Raw cosine similarity ranks the trusted role descriptions. It does not establish proficiency, future demand or employment probability."
+}

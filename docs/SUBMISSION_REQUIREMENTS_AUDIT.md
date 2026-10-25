@@ -1,12 +1,29 @@
 # Submission requirements audit
 
-Reviewed **25 October 2026, Asia/Kuala_Lumpur**. This audit records requirements in the supplied documents; it does **not** certify team eligibility, attendance, originality, sponsor-platform use, repository access, licence ownership, video upload or successful submission.
+Reviewed **25 October 2026, Asia/Kuala_Lumpur**. The Domain 1 brief, both handbooks and both official templates were re-read from the five supplied originals. This audit connects their requirements to our repository package.
+
+The team confirmed on 25 October 2026 that its `sdchack.my` submission was already completed. This repository collects the prepared project materials.
+
+## Repository submission package
+
+| Deliverable | Repository file or access link |
+| --- | --- |
+| Official preliminary proposal | [SDC2026_SELADEVSUTHM_Preliminary.pdf](../submission-materials/SDC2026_SELADEVSUTHM_Preliminary.pdf) |
+| Official technical declaration | [SDC2026_SELADEVSUTHM_TechDeclaration.pdf](../submission-materials/SDC2026_SELADEVSUTHM_TechDeclaration.pdf) |
+| Pitch slides | [Editable PowerPoint](../submission-materials/SHIFTATLAS_PitchDeck.pptx) and [PDF](../submission-materials/SHIFTATLAS_PitchDeck.pdf) |
+| Pitch and product demonstration | [YouTube video](https://youtu.be/e8jtdJy6deo), [MP4](../submission-materials/SHIFTATLAS_PitchAndDemo.mp4) and [captions](../submission-materials/SHIFTATLAS_Captions.srt) |
+| Functional prototype | [Published Replit application](https://sdc-2026-seladevsuthm.replit.app/) and [downloadable runnable demo](../demo/SHIFTATLAS-3D-static-demo.zip) |
+| Complete source and licence | [Repository summary](../README.md), [application source](../src/), [server scripts](../scripts/), [RunPod workers](../runpod/) and [Apache 2.0 LICENSE](../LICENSE) |
+| Replit usage evidence | [Own-account CUDA execution capture](../submission-materials/evidence/replit/e5-public-cuda-completion.png) and [public application receipt](../submission-materials/evidence/replit/e5-public-completion.json) |
+| RunPod usage evidence | [Platform evidence PDF](../submission-materials/evidence/runpod/RunPod_Usage_Evidence.pdf), [dashboard capture](../submission-materials/evidence/runpod/e5-completed-request-history.png), [E5 completion](../submission-materials/evidence/runpod/e5-completion.json) and [Qwen profile completion](../submission-materials/evidence/runpod/council-profile-completion.json) |
+
+The published YouTube player displays 6:50, within the preliminary 5–7 minute requirement. Execution records include a completed six-role E5 application request on CUDA and a direct Qwen profile-stage CUDA request. Their scope is described in [RunPod execution](RUNPOD_EXECUTION.md) and [verification methods](VERIFICATION.md). The repository PDF copies retain blank leader signature fields.
 
 ## Sources and page convention
 
-All 35 PDF pages of the **Official Handbook** (OH) and all 43 PDF pages of the **Participant Handbook** (PH) were read from the extracted text. Submission and Technical Tools Declaration template text was also checked for format and word limits. The timeline, sponsor/tool requirements, submission rules, originality guidance and workshop checklist were checked against their rendered pages. Page references below are **PDF page numbers**, counting the cover as page 1; printed page numbers differ.
+The fresh review covered all 35 PDF pages of the **Official Handbook** (OH), 43 pages of the **Participant Handbook** (PH), 14 proposal-template pages, 16 technical-declaration-template pages and 8 Domain 1 pages. Format, word limits, platform evidence, source access, licence and declaration requirements were checked against the originals. Page references below are **PDF page numbers**, counting the cover as page 1; printed page numbers differ.
 
-The original files are in `C:/Users/haziq/Desktop/MUMHACKFINALSPEEDRUN`:
+The supplied originals reviewed were:
 
 | Reference | Supplied file | Pages |
 | --- | --- | ---: |
@@ -14,8 +31,9 @@ The original files are in `C:/Users/haziq/Desktop/MUMHACKFINALSPEEDRUN`:
 | PH | `3. SDC Hackathon Official Participant Handbook` | 43 |
 | Proposal | `1. SDC Hackathon_ Submission Template_` | 14 |
 | Declaration | `2. SDC Hackathon_ Technical Tools Declaration Template` | 16 |
+| Domain 1 | `Domain 1.pdf` | 8 |
 
-The originals are PDFs despite three filenames having no extension. Extraction, rendered pages and source hashes are recorded in the workspace's `work/submission-review/manifest.json`. This audit is separate from the Domain 1 feature/rubric review.
+Four original filenames have no extension; their content is PDF. The [artifact manifest](../submission-materials/ARTIFACT_MANIFEST.json) records their page counts and SHA-256 fingerprints. Domain 1 feature and rubric traceability is recorded in [the submission overview](SUBMISSION.md).
 
 ## Deadlines and submission channel
 
@@ -64,7 +82,7 @@ The Official Handbook also requires a working technical prototype, presentation/
 
 Both templates require the team leader's declaration, signature and date (Proposal p14; Declaration p16). They contain team/contact, university and project fields that must be supplied by the actual team. Do not invent or sign those details. Checklists must reflect verified facts.
 
-**Not specified in these four documents:** a maximum PDF page count, file-size limit, preliminary deck file format, maximum slide count, required video title or YouTube privacy setting. Fourteen and sixteen are the supplied templates' page counts, not stated maximum lengths. The final deck format is explicitly `.pptx`, but that is not evidence of a preliminary-format rule. Check the current submission portal, official domain folder and Discord for additional constraints. Any suggested deck length, video title or public/unlisted setting is a preparation choice unless separately verified as a rule. A private or otherwise inaccessible video would conflict with the general requirement that submitted links be judge-accessible (PH p40, §15.11).
+**Not specified in the handbooks and templates:** a maximum PDF page count, file-size limit, preliminary deck file format, maximum slide count, required video title or YouTube privacy setting. Fourteen and sixteen are the supplied templates' page counts, not stated maximum lengths. The final deck format is explicitly `.pptx`; our repository supplies both PowerPoint and PDF. Any additional operational constraints belong to the committee's official announcements. A private or otherwise inaccessible video would conflict with the requirement that submitted links be judge-accessible (PH p40, §15.11).
 
 ## Replit, RunPod and repository requirements
 
@@ -76,7 +94,7 @@ The rendered PH p28 **§9.3** says every team must use Replit as part of its sol
 - A Replit project link giving access to project history.
 - The document's exact wording, **“Replit credit finished.”** The wording does not define a screenshot format or minimum spend; obtain organiser clarification if relying on this option.
 
-The proof must show the **team's own account and project**. A local build, generated deployment instructions, placeholder Replit URL or a claim that code can run on Replit is not evidence that Replit was used. This audit does not establish actual Replit use.
+The proof must show the **team's own account and project**. Our repository links the published application, [team-account Replit project](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM), own-account execution capture and completed application receipt in the package table above.
 
 ### RunPod is conditional on GPU work
 
@@ -136,8 +154,8 @@ The handbooks refer to official criteria but do not provide a full weighted rubr
 
 Sponsor recognition and ORION membership are separate from the mandatory platform rules. PH p34 says sponsor marketing recognition can be declined via `xmumai@gmail.com`, without affecting participation, scoring, advancement or prizes. It does not imply employment, endorsement or a commercial relationship. PH pp35–36 describe automatic ORION membership and sharing registration contact/institution data, with opt-out at registration or by email and no judging/prize penalty for declining. These do not require SHIFTATLAS users to join, upload CVs to the sponsor or share profile data with ORION. Do not add such a product flow on this basis.
 
-## Rule hierarchy and outstanding verification
+## Rule hierarchy and repository record
 
 Both handbooks say official **Terms and Conditions take precedence** in a conflict (OH p5; PH p5). OH p6 says the Participant Handbook governs event operations while the Official Handbook and Terms govern eligibility/conduct/policy. PH p6 retains Official Handbook rules. The separate Terms and Conditions were not among the five supplied originals; the public official Terms are additionally linked in SUBMISSION.md. Current portal/committee updates and any event-specific access instructions remain the authority for final operational checks.
 
-Before marking submission ready, the actual team must verify: current deadline/any official extension; registration and workshop facts; truthful originality and tool declarations; real Replit evidence; RunPod applicability/evidence if used; Apache 2.0 plus third-party licence handling; real accessible public GitHub and designated collaborator access; completed official PDFs with genuine team details/signatures; actual accessible 5–7 minute YouTube video; correct deck; functional judge-accessible build; and the portal's final submission receipt. None is certified merely by having local documentation or ZIP packages.
+The repository package above records our prepared PDFs, platform evidence, pitch, video, prototype, source and licence. Team-confirmed workshop, originality and IP facts are recorded in the official forms. Portal submission is recorded as team-confirmed. Signature fields in the repository copies preserve their actual status. Original source requirements, authentic Git history and the recorded execution scope remain part of the project record.

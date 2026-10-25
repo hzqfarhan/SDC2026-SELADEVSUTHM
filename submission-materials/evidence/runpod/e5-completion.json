@@ -1,0 +1,29 @@
+{
+  "delayTime": 11626,
+  "executionTime": 3452,
+  "id": "abdc818d-4447-4171-95d1-adafa18b47ce-e2",
+  "output": {
+    "device": "cuda",
+    "generatedAt": "2026-10-24T19:11:44.011980Z",
+    "model": "intfloat/multilingual-e5-base",
+    "queryResults": [
+      {
+        "id": "fictional-learner",
+        "matches": [
+          {
+            "id": "data-analyst",
+            "similarity": 0.858772
+          },
+          {
+            "id": "cloud-support",
+            "similarity": 0.761758
+          }
+        ]
+      }
+    ],
+    "revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+    "schemaVersion": 1
+  },
+  "status": "COMPLETED",
+  "workerId": "bxd7e439wqr3xy"
+}

@@ -1,0 +1,172 @@
+{
+  "project": "SHIFTATLAS 3D",
+  "team": "SELADEVS UTHM",
+  "domain": 1,
+  "assembledDate": "2026-10-25",
+  "applicationCodeRevision": "097323fcb3d3340fa114327864885c9273f054f7",
+  "liveApp": "https://sdc-2026-seladevsuthm.replit.app/",
+  "youtube": "https://youtu.be/e8jtdJy6deo",
+  "portalSubmission": {
+    "handledBy": "team",
+    "status": "Completed, confirmed by the team on 25 October 2026"
+  },
+  "sourceDocumentReview": [
+    {
+      "file": "Domain 1.pdf",
+      "pages": 8,
+      "sha256": "367f3b5d53a61201a1017772ba4aaca62eca4dea3d3271af9c1ed8d40fd933a4"
+    },
+    {
+      "file": "1. SDC Hackathon Official Handbook",
+      "pages": 35,
+      "sha256": "363d9a7ff73c659c061dfbdb0abdf0d9cd324465774f1ec2fa4b6ed33555be1c"
+    },
+    {
+      "file": "3. SDC Hackathon Official Participant Handbook",
+      "pages": 43,
+      "sha256": "777fa99f961d7a130c349abaa64f11fb0d7cce4c0871e01104fb591aef41f2d3"
+    },
+    {
+      "file": "1. SDC Hackathon_ Submission Template_",
+      "pages": 14,
+      "sha256": "01f8a1f5fd1804b1b3d690710fb6ccdb68bf32276151bb4bbe302caafec98c4a"
+    },
+    {
+      "file": "2. SDC Hackathon_ Technical Tools Declaration Template",
+      "pages": 16,
+      "sha256": "12d205cc005b125d0dc1dd76a1d22c68a74bcd4bbb3404f3b50b1dd10754c339"
+    }
+  ],
+  "files": [
+    {
+      "path": "ASSET_PROVENANCE.json",
+      "bytes": 1868,
+      "sha256": "a7c215a051b4a385cff0753e75f4081d5bc75bcf3832fa07046ba3b5fd8b264d"
+    },
+    {
+      "path": "assets/e5-runpod-request-history.png",
+      "bytes": 30970,
+      "sha256": "4f2a85293143f4612e7047f427c965097cad707523990e9cc8d3da538fe98f4c"
+    },
+    {
+      "path": "assets/lowpoly-background.png",
+      "bytes": 1343391,
+      "sha256": "b507bf5e093336cbdff09390b80d7c1b265217b974c95b6187de6010aa77ca99"
+    },
+    {
+      "path": "assets/lowpoly-choice.png",
+      "bytes": 1074364,
+      "sha256": "0ea30d85c9135f459476692ce7dd45b8e4eedf34f31ff7b505aabcb02e69dfb3"
+    },
+    {
+      "path": "assets/lowpoly-council.png",
+      "bytes": 865021,
+      "sha256": "ee47c89049c86dd5c645493e0bb31f3d7e496f6e2d5881f2e4966093d2f26b8d"
+    },
+    {
+      "path": "assets/lowpoly-gateway.png",
+      "bytes": 757556,
+      "sha256": "06919f5e8733b42421bad50b5cb1c5f7e8108a3e74d8c29652f4971e47145a41"
+    },
+    {
+      "path": "assets/lowpoly-pilot.png",
+      "bytes": 976119,
+      "sha256": "d3862eef2a341d5499603dda6772881a8b8f30a50f0c82976691418ce5234adf"
+    },
+    {
+      "path": "assets/lowpoly-verification.png",
+      "bytes": 1140117,
+      "sha256": "d37a31576db6e78bc3fbc5764a358334d8608a8a68276db8bc16b4fc6c1b42d1"
+    },
+    {
+      "path": "assets/seladevs-logo-official.png",
+      "bytes": 784935,
+      "sha256": "6967dc04eb70cd6998ec02d6b90418a96fe0f80cc0c3c651707e75eb2c877092"
+    },
+    {
+      "path": "DESIGN_SOURCES.md",
+      "bytes": 4942,
+      "sha256": "4d21c29cb0e3b890add504d44bb0a2a385eeab11bc560b3f71452da3c997f293"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 1424,
+      "sha256": "170860dae77e6f0fe59afd39d5314f362ebe0e1f070256d53a8fe2b1cabcf5f3"
+    },
+    {
+      "path": "evidence/replit/e5-public-completion.json",
+      "bytes": 3780,
+      "sha256": "f83757c7c8b53b21b4bd78251ffadb9f2eaab83ce5638da59bb644691d9f0cb6"
+    },
+    {
+      "path": "evidence/replit/e5-public-cuda-completion.png",
+      "bytes": 121187,
+      "sha256": "0c19cb2a9ffcf25117a7f56d19b66f75e8c87fb0ca837f10f88cf94dcffdf6ca"
+    },
+    {
+      "path": "evidence/runpod/council-profile-completion.json",
+      "bytes": 1093,
+      "sha256": "f2b1d3474100e26abbcbf49ce3c3d7ed65635a2679965d4883876dd7f45fecb8"
+    },
+    {
+      "path": "evidence/runpod/e5-completed-request-history.png",
+      "bytes": 30970,
+      "sha256": "4f2a85293143f4612e7047f427c965097cad707523990e9cc8d3da538fe98f4c"
+    },
+    {
+      "path": "evidence/runpod/e5-completion.json",
+      "bytes": 706,
+      "sha256": "ef94cfdad17c4f63eabc9f2eb2ca94a07109941c82a8d0d2d6316c70cdc294fd"
+    },
+    {
+      "path": "evidence/runpod/RunPod_Usage_Evidence.pdf",
+      "bytes": 29643,
+      "sha256": "0dbe266b3287ec5890c05c26e824b366bdb8fae845f3385df805f897a7e4e9c4"
+    },
+    {
+      "path": "PITCH_SCRIPT.md",
+      "bytes": 7894,
+      "sha256": "da2dae72eec5b2e9d85bef02dd5f162e80f6b3b3dc07160a1fd79b6a637b9c19"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3185,
+      "sha256": "858abee2f20dae050ff4be1cfe561146c79f0963887074e05f00b825ebe71bb9"
+    },
+    {
+      "path": "SDC2026_SELADEVSUTHM_Preliminary.pdf",
+      "bytes": 23720552,
+      "sha256": "38698589147aabefff6e758df36077050df7088623ed2ccb87efd5fdfff5f1ff"
+    },
+    {
+      "path": "SDC2026_SELADEVSUTHM_TechDeclaration.pdf",
+      "bytes": 27120931,
+      "sha256": "f42939130289d0f97f1a3c0bb5434933f391b06f39e8bf27b0511c9efb47a2c6"
+    },
+    {
+      "path": "SHIFTATLAS_Captions.srt",
+      "bytes": 9666,
+      "sha256": "6c57f2c5810f2c4962811dd243eec6cdec9a83ef4fe4334d2d85dec188c04959"
+    },
+    {
+      "path": "SHIFTATLAS_PitchAndDemo.mp4",
+      "bytes": 9050643,
+      "sha256": "9d5f1d3e90eb988f870aad9af9d29500cdeea6761ab7f40fb4261f6beebd07ec"
+    },
+    {
+      "path": "SHIFTATLAS_PitchDeck.pdf",
+      "bytes": 19252967,
+      "sha256": "4a24fe6b2c277aa2b31963c4fcb669170e093cdb024ef110bd85d0acb7f3ddd1"
+    },
+    {
+      "path": "SHIFTATLAS_PitchDeck.pptx",
+      "bytes": 9309222,
+      "sha256": "c7e3def8a5cb2f931f7c520e7f4756f51a9c8117f9adbeb77fc99eb6ece659be"
+    },
+    {
+      "path": "SUBMISSION_INDEX.md",
+      "bytes": 3488,
+      "sha256": "17c7af9b8c539dab08570b836b4192ae50ae0563abe7cf22779b34066a6c3429"
+    }
+  ]
+}

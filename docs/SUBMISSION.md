@@ -1,55 +1,62 @@
-# SHIFTATLAS 3D — Domain 1 submission preparation
+# SHIFTATLAS 3D - Domain 1 repository submission
 
-Updated 25 October 2026 for SELADEVS UTHM, Universiti Tun Hussein Onn Malaysia. This document maps the implementation to Domain 1 and the supplied submission requirements. It does not constitute an organiser submission receipt.
+**SELADEVS UTHM** · Universiti Tun Hussein Onn Malaysia · SDC Hackathon 2026
 
-## Proposal
+We have already submitted our entry through sdchack.my, as confirmed by our team. This repository provides our implementation, product access, presentation and supporting documents. The [submission index](../submission-materials/SUBMISSION_INDEX.md) is the starting point for judges.
 
-**Problem.** A Malaysian graduate or career switcher can find AI news and long course lists, yet still struggle to decide what to learn next. Research findings, local labour context and personal skill gaps often arrive separately. A confident-looking recommendation can hide its assumptions.
+## Submission materials
 
-**Approach.** We built SHIFTATLAS to turn a learner's self-assessed skills into a connected, inspectable journey. A skill constellation feeds six referenced career directions. Each bridge exposes the exact coverage calculation and missing skills. Learning islands put prerequisites first and attach free resources, estimated practice time and a concrete output. The user can examine research-topic weighting, see how it changes scores, compare uncertain adoption scenarios, and connect skills to SDG targets. A separate Malaysia atlas places official state-level labour context alongside the decision without treating location as an individual's capability.
+| Material | Access |
+|---|---|
+| Official preliminary proposal | [SDC2026_SELADEVSUTHM_Preliminary.pdf](../submission-materials/SDC2026_SELADEVSUTHM_Preliminary.pdf) |
+| Official technical tools declaration | [SDC2026_SELADEVSUTHM_TechDeclaration.pdf](../submission-materials/SDC2026_SELADEVSUTHM_TechDeclaration.pdf) |
+| Pitch slides | [Editable PowerPoint](../submission-materials/SHIFTATLAS_PitchDeck.pptx) · [PDF](../submission-materials/SHIFTATLAS_PitchDeck.pdf) |
+| Pitch and product demonstration | [YouTube](https://youtu.be/e8jtdJy6deo) · [MP4](../submission-materials/SHIFTATLAS_PitchAndDemo.mp4) · [Captions](../submission-materials/SHIFTATLAS_Captions.srt) |
+| Live application | [SHIFTATLAS on Replit](https://sdc-2026-seladevsuthm.replit.app/) |
+| Functional local build | [Download demo ZIP](../demo/SHIFTATLAS-3D-static-demo.zip) |
+| Platform usage and source records | [Submission evidence index](../submission-materials/SUBMISSION_INDEX.md) · [RunPod execution](RUNPOD_EXECUTION.md) |
+| Source code and setup | [Repository README](../README.md) · [Architecture](ARCHITECTURE.md) · [Deployment](REPLIT_RUNPOD_SETUP.md) |
 
-**Expected outcome.** The learner leaves with a sourced, ordered plan and a clear account of what is known, assumed and still uncertain. Intended benefits are clearer next steps and lower search friction; employment, learning and SDG outcomes have not yet been measured.
+We preserve the supplied official template pages in our repository copies of the proposal and declaration.
 
-**Distinctive feature.** The 3D experience visualises inspectable decisions: coverage controls career towers, prerequisites order islands, and official labour rates extrude actual polygons. Every decision also works through text controls. The innovation to demonstrate is the traceable data → signal → match → pathway loop.
+## Problem, approach and intended outcome
 
-**Feasibility and principal risk.** The core Next.js prototype runs without paid model inference or a database. Optional E5 semantic retrieval and the four-pass Career Council use a Replit Node gateway plus RunPod workers once separately configured. One direct E5 CUDA request is recorded; our Qwen profile stage has also completed on CUDA. The complete gateway/four-stage flow is a separate check. Source snapshots make the demo reproducible. The hardest unresolved issue is whether research attention predicts useful Malaysian skill demand. The MVP labels that input as experimental; validation requires longitudinal occupational evidence and career-adviser review. It does not invent rising/declining job counts to fill that gap.
+We help Malaysian tertiary learners and early-career workers turn existing experience into a next learning step they can understand and afford. SHIFTATLAS connects a reviewed profile, dated evidence, explainable role comparisons and ordered learning through inspectable 3D worlds and text controls.
 
-## Domain brief traceability
+Our main demonstration is the **evidence → role match → learning pathway** loop. A learner changes a skill level or applies research-topic weights, inspects the resulting score contributions and gaps, then exports an ordered plan. Official Malaysian labour observations provide geographic context without being treated as individual capability or city-level hiring demand.
 
-Source: supplied **Domain 1.pdf**, “The Aiversecity Future-Ready Workforce Domain”, sections 4–8; reviewed alongside the official and participant handbooks and both submission templates.
+We aim to reduce planning friction and improve understanding of career choices. The learner-pilot percentages in our proposal are evaluation targets, not measured learning or employment outcomes.
 
-| Requirement | Implemented demonstration | Evidence / limitation |
-|---|---|---|
-| Skills intake | Form, synthetic samples, skill levels, weekly time, budget | Form is the chosen permitted intake route; no real CVs. |
-| Updatable AI-trend source with dates | arXiv refresh script, dated metadata, curated TalentCorp/ILO context | Manual refresh and rebuild; research attention does not prove job demand. |
-| Explainable role ranking and gaps | Career Bridges and contribution table | Six actual O*NET occupations; authored numeric rubric. |
-| Ordered affordable learning | Prerequisite traversal, weekly sequence and export | Free content resources; estimates exclude indirect costs. |
-| Each role and skill linked to SDGs | Expand pathway mapping; inspect all 17 goals | Intended contributions, not measured impact. |
-| Multiple uncertain futures | Supported and accelerated adoption scenarios | Explicit hypothetical coefficients, no probabilities. |
-| Output responds to evidence | Apply research signals; inspect baseline/adjusted table | Updates affect weights and may affect scores/order; no guaranteed movement for every profile. |
+## Domain 1 feature alignment
 
-## Preliminary rubric
+The supplied Domain 1 brief, PDF page 5, lists six required final-product features. For the preliminary round it asks the proposal to explain all six and the demonstration to show the most important working feature.
 
-The supplied brief gives **Innovation & Creativity 30%; Problem–Solution Fit 25%; Feasibility 25%; Clarity 20%**. Demonstrate the working evidence-to-match loop first. Explain all six features and identify the hardest risk. Use the map and 3D scenes to clarify the decision. The brief requires a GitHub repository accessible to judges and states that the final round has a separate rubric.
+| Domain 1 feature | Our implementation |
+|---|---|
+| Skills profile intake | Editable skills, experience, weekly time and budget, with synthetic samples and local PDF/DOCX/TXT resume extraction. Learners review detected mentions before applying them. |
+| Updatable AI-trend signal layer | Refreshable arXiv metadata with source URLs and dates, alongside dated public context. An explicit experiment converts title-topic mentions into bounded matching weights. |
+| Explainable future-role matching | Six O*NET-referenced occupations, ranked skill coverage, individual score contributions and clear gaps. Optional E5 retrieval supplies a separate semantic perspective. |
+| Personalised reskilling pathway | Prerequisites before dependent activities, estimated practice hours, weekly sequencing, free-first resources, progress tracking and plan export. |
+| Role and skill SDG mapping | Every role and required skill has an explained SDG connection; SDG World presents target-level pathways across all 17 goals. |
+| Handling uncertainty | Supported and accelerated adoption scenarios expose hypothetical coefficients and illustrative ranges instead of presenting a single certain prediction. |
 
-## Submission requirements
+Our research refresh and matching-sensitivity tests show that changed evidence can change effective weights and coverage scores. Research attention is not a calibrated forecast of emerging or declining Malaysian jobs. That distinction is central to our method.
 
-The supplied Participant Handbook gives the preliminary deadline as **25 October 2026, 07:59:59 AM MYT**, section 6.3.1, PDF page 10. Use the team portal or committee announcements to confirm any subsequent official change. Do not assume an extension; the requirements audit records the supplied source and timing.
+## Working proof and evaluation scope
 
-The official handbook, participant handbook, Domain 1 brief and both submission templates were reviewed. The detailed [requirements audit](SUBMISSION_REQUIREMENTS_AUDIT.md) records the required repository, Apache 2.0 licence, platform evidence, completed forms, slides, accessible prototype and 5–7 minute YouTube product demo. Signatures, the actual video URL and final organiser submission must use the team's completed account actions.
+Our validation record includes **55 application tests, 18 offline worker tests, TypeScript checks and a production build**. Our published Replit gateway completed an uncached E5 CUDA request returning all six trusted roles and six dated research-title matches. We also retain direct E5 and Qwen profile-stage CUDA receipts. The [execution record](RUNPOD_EXECUTION.md) distinguishes those checks and their inputs; they do not establish model quality or measured user outcomes.
 
-The terms require an official GitHub repository created after competition commencement, traceable actual commit history, and no changes after the submission deadline without organiser instruction. Keep authentic timestamps; do not invent earlier development history. AI/tool disclosure does not replace participant responsibility. [Terms, sections 5.5–5.8](https://sdchack.my/legal/terms-2026-08-21.pdf).
+Our hardest research risk is whether a small, query-biased set of research titles helps identify useful future skill priorities in Malaysia. We use transparent bounded weighting and a local matching fallback. Our evaluation plan calls for occupational evidence and career-adviser review before treating the experiment as a validated forecast.
 
-## Submission assembly
+The brief's preliminary rubric is **Innovation & Creativity 30%, Problem-Solution Fit 25%, Feasibility 25%, and Clarity 20%** (PDF pages 7–8). Those pages emphasise a rough working version of the central feature, usually trend signals feeding matching, backed by GitHub. Atlas Quest, badges, profile sculptures and the Malaysia discovery layer support that core journey as additional features.
 
-The public [repository](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM) contains the code, Apache 2.0 licence, notices, source snapshots, tests and deployment guides. The downloadable functional build provides a local fallback. The private handoff includes the official proposal and technical declaration, editable 14-slide deck, PDF, 5–7 minute pitch/walkthrough, platform evidence and source/demo packages.
+## Sources, tools and licences
 
-Our final submission process includes reviewing the added cloud code, signing the official declarations, verifying judge access to our application and video, providing designated committee repository access and submitting through the team portal. We retain the submitted commit and portal receipt.
+We use public, open or synthetic product data and fictional demonstration profiles. Recommendations reference the trusted occupation, learning and SDG catalogues. We keep human judgement central and present skill coverage separately from employment probability.
 
-## Additional highlight — 25 October refinement
+- [Data provenance](DATA_PROVENANCE.md) and [source register](SOURCE_REGISTER.md): sources, dates, hashes and geographical resolution.
+- [Technical declaration](TECHNICAL_DECLARATION.md): AI assistance, runtime models, public datasets, assets and sponsor services.
+- [Verification record](VERIFICATION.md): automated checks, actual execution records and the scope of observations.
+- [Apache License 2.0](../LICENSE), [NOTICE](../NOTICE) and [third-party notices](../THIRD_PARTY_NOTICES.md): original code terms and retained upstream obligations.
 
-Atlas Quest is an optional engagement feature: a playable low-poly discovery island with five sourced concept checks, browser-local achievements, XP and an explorer passport. The landing page and dashboard highlight it. The 3D profile sculpture and layered resume studio connect the visual experience to actual self-assessment and reviewed text evidence. No measured engagement improvement, credential or new predictive capability is claimed. Keep the data-to-matching MVP central to the pitch; show the game briefly as a differentiator and include it in the AI/tool declaration.
-
-## Current submission artifacts
-
-The local handoff includes official14-page proposal and16-page technical-declaration drafts, an updated14-slide editable pitch deck and PDF, a5–7minute edited pitch/walkthrough video, source/demo ZIPs, source provenance and cloud setup guides. A direct E5 CUDA request is evidenced in RUNPOD_EXECUTION.md. The leader signature, added-cloud participant review, Replit gateway/publication checks, Council execution, YouTube watch link and actual portal receipt remain separate completion steps. Do not equate completed local artifacts with a submitted entry.
+We use AI to support career exploration and learning choices. SHIFTATLAS makes no final hiring decision and does not invent vacancies, courses or statistics to fill gaps in the evidence.
