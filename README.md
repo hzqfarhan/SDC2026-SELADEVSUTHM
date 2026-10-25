@@ -2,7 +2,7 @@
 
 **SELADEVS UTHM** · Universiti Tun Hussein Onn Malaysia · SDC Hackathon 2026, Domain 1
 
-[GitHub repository](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM) · [Download functional demo](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/raw/refs/heads/main/demo/SHIFTATLAS-3D-static-demo.zip) · [Replit project](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM) · [Replit and RunPod setup](docs/REPLIT_RUNPOD_SETUP.md) · [Requirements audit](docs/SUBMISSION_REQUIREMENTS_AUDIT.md) · [Pitch and product video](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/tree/main/submission-materials)
+[Live application](https://sdc-2026-seladevsuthm.replit.app/) · [GitHub repository](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM) · [Download functional demo](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/raw/refs/heads/main/demo/SHIFTATLAS-3D-static-demo.zip) · [Replit project](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM) · [Replit and RunPod setup](docs/REPLIT_RUNPOD_SETUP.md) · [Requirements audit](docs/SUBMISSION_REQUIREMENTS_AUDIT.md) · [Pitch and product video](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM/tree/main/submission-materials)
 
 We built SHIFTATLAS 3D to help Malaysian learners turn AI-era career uncertainty into a clear next learning step. Our **SDC Hackathon 2026, Domain 1** prototype connects a reviewed skill profile with explainable role coverage, an affordable learning sequence, SDG pathways and uncertain AI-adoption scenarios.
 
@@ -16,11 +16,13 @@ Built with Next.js, React, React Three Fiber and Three.js. The low-poly worlds a
 
 **Cloud architecture:** The Replit-compatible Node application owns the catalogue boundary. RunPod supplies the optional E5 embedding worker and Qwen Career Council worker. Each request requires confirmed fictional text and a team demo access code; provider keys stay server-side. Build directly from GitHub with `Dockerfile.e5` and `Dockerfile.council`, then follow [the setup guide](docs/REPLIT_RUNPOD_SETUP.md). The core atlas works without cloud credentials.
 
+**Deployment:** [Open SHIFTATLAS on Replit](https://sdc-2026-seladevsuthm.replit.app/). Our published landing page and dashboard returned HTTP 200 during the 25 October 2026 check. The [deployment record](docs/REPLIT_RUNPOD_SETUP.md#9-record-deployment-acceptance) separates public page access, API configuration and completed model execution.
+
 **Validation:** 55 application tests, 18 offline worker contract tests and the production build pass. The cloud contract tests inject provider responses; they do not benchmark neural-model quality or cloud performance. [Validation methods](docs/VERIFICATION.md) describe the coverage. A direct RunPod E5 request completed on CUDA on 25 October 2026, with 3.452 seconds provider execution time and 11.626 seconds queue delay for one fictional query and two authored passages. Our Qwen Council profile reviewer also completed a real CUDA request in 5.927 seconds provider execution after 9.342 seconds queue delay. These are direct worker checks; the complete four-stage application flow is the next integration check. See the [execution record and exact receipt](docs/RUNPOD_EXECUTION.md).
 
 ## Prebuilt demo for judges
 
-Download and extract `demo/SHIFTATLAS-3D-static-demo.zip`, open `shiftatlas-demo`, then run `START-DEMO.cmd` on Windows. Requires Node.js 22; no dependency installation is needed. Other platforms: run `node serve.mjs` in that folder. Open the URL printed by the server. The build is interactive, uses the bundled data, and provides a fallback while Replit publication is verified.
+Download and extract `demo/SHIFTATLAS-3D-static-demo.zip`, open `shiftatlas-demo`, then run `START-DEMO.cmd` on Windows. Requires Node.js 22; no dependency installation is needed. Other platforms: run `node serve.mjs` in that folder. Open the URL printed by the server. The build is interactive and uses the bundled data. It provides a downloadable alternative to our [published Replit application](https://sdc-2026-seladevsuthm.replit.app/).
 
 ## Run from source
 

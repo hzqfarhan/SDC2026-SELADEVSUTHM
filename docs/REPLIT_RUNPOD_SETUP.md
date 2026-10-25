@@ -1,6 +1,6 @@
 # Replit and Runpod deployment
 
-Updated 25 October 2026. Repository: [hzqfarhan/SDC2026-SELADEVSUTHM](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM). Application project: [SDC2026-SELADEVSUTHM on Replit](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM).
+Updated 25 October 2026. Repository: [hzqfarhan/SDC2026-SELADEVSUTHM](https://github.com/hzqfarhan/SDC2026-SELADEVSUTHM). Published application: [SHIFTATLAS](https://sdc-2026-seladevsuthm.replit.app/). Application project: [SDC2026-SELADEVSUTHM on Replit](https://replit.com/@haziqfarhan174/SDC2026-SELADEVSUTHM).
 
 The application uses a Replit-compatible Node gateway and two Runpod Queue endpoints: E5 semantic retrieval and Qwen Career Council. Local Docker is not required for the preferred GitHub deployment route.
 
@@ -18,6 +18,8 @@ Deployment policy is **SDC sponsor credit only, with no additional spending**. B
 Worker and application limits reduce exposure; they do not establish a monetary hard cap. Account billing must remain within the credited allowance. [Runpod billing](https://docs.runpod.io/accounts-billing/billing), [Replit spend management](https://docs.replit.com/billing/managing-spend).
 
 ## 2. Prepare the Replit application
+
+For the existing Replit artifact workspace, follow [the artifact deployment guide](REPLIT_DEPLOYMENT.md). Its website and API production manifests control publishing. The source-only workflow below applies when importing the Next.js repository directly; changing the root `.replit` alone does not replace an artifact's publishing commands.
 
 Import or pull the repository's `main` branch into the existing Replit project. Its root contains `package.json`, `.replit`, `src/`, `public/`, `scripts/`, `server-data/` and `runpod/`. Confirm the package name is `shiftatlas-3d`.
 
@@ -109,7 +111,14 @@ curl -fsS http://127.0.0.1:3000/api/cloud-status
 curl -fsS http://127.0.0.1:3000/api/council-status
 ```
 
-`configured: true` means the expected server values are present. The `configured-unverified` state does not establish endpoint health, credited balance or GPU execution.
+`configured: true` means the expected server values are present. Configuration, endpoint health, credited balance and completed GPU execution are separate checks.
+
+For the published app, open the status pages directly; no Shell is needed:
+
+- [E5 connection status](https://sdc-2026-seladevsuthm.replit.app/api/cloud-status)
+- [Council connection status](https://sdc-2026-seladevsuthm.replit.app/api/council-status)
+
+Both status pages are read-only and submit no model jobs.
 
 ## 6. Verify E5 inference
 
@@ -118,7 +127,7 @@ Use fictional experience without personal details in Cloud Semantic Lab. Confirm
 The Shell smoke check submits one request and records a completion receipt:
 
 ```sh
-CLOUD_APP_URL=https://ACTUAL_APP_ORIGIN node scripts/smoke-cloud.mjs --run-cloud-job
+CLOUD_APP_URL=https://sdc-2026-seladevsuthm.replit.app node scripts/smoke-cloud.mjs --run-cloud-job
 ```
 
 Use the actual app origin with the demo code in the server environment. Review `submission-evidence/runpod/latest-completion.json` and its cached status. A cached result is not a new inference job. This command does not test Council.
@@ -130,12 +139,14 @@ Career Council sends a separately confirmed fictional brief. The gateway runs pr
 The Council smoke check requests up to four jobs:
 
 ```sh
-CLOUD_APP_URL=https://ACTUAL_APP_ORIGIN node scripts/smoke-council.mjs --run-four-cloud-jobs
+CLOUD_APP_URL=https://sdc-2026-seladevsuthm.replit.app node scripts/smoke-council.mjs --run-four-cloud-jobs
 ```
 
 Inspect `submission-evidence/runpod/latest-council-completion.json`, four actual provider job identities, model/revision/device, timing and token counts. Verify that skill levels and rubric scores remain unchanged. A timeout or interrupted client can leave provider work running; inspect jobs and account usage before another submission.
 
 ## 8. Publish the Node application
+
+Our existing project uses separate website and API artifacts. Use [the recorded artifact configuration](REPLIT_DEPLOYMENT.md) to publish the pinned Next.js export and Node gateways together. Preserve the existing artifact routes and resource allocation.
 
 Use **Replit Autoscale or another Node-capable deployment**:
 
@@ -156,8 +167,9 @@ Keep source/release/image/model identifiers, configuration, test results and red
 | Acceptance item | Status |
 |---|---|
 | Replit project | Imported |
-| Replit dependency installation/build | Not verified |
-| Node publication and judge access | Not verified |
+| Public Replit landing and dashboard | HTTP 200 on 25 October 2026 at the published URL above |
+| Public API routes in the first published build | `/api/cloud-status` and `/api/council-status` returned HTTP 404; the complete Node release is being restored |
+| Complete Node release in Replit workspace | Both status routes returned HTTP 200 with `configured: true` on temporary port 3109; public acceptance follows publication |
 | RunPod sponsor credit | US$25 redeemed and auto-pay off, confirmed by the team; remaining balance is checked in Billing |
 | E5 image build/download/upload | Completed; build log and image tag recorded |
 | Council runtime / build provenance | Profile-stage CUDA completed; exact image/build records are separate |
