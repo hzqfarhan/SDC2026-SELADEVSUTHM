@@ -4,6 +4,8 @@ SELADEVS UTHM. 14 slides with recorded GPU execution evidence. Includes source r
 
 Live app: https://sdc-2026-seladevsuthm.replit.app/
 
+Product demo: https://youtu.be/e8jtdJy6deo
+
 ## 1 SHIFTATLAS 3D
 
 We are SELADEVS UTHM. SHIFTATLAS helps Malaysian graduates choose a credible next learning step as AI changes work. Our prototype connects reviewed skills with evidence, explainable role coverage and affordable learning.
@@ -86,4 +88,4 @@ Sources: outputs/submission/evidence/runpod/e5-completion.json, Runpod job abdc8
 
 Our next phase brings SHIFTATLAS to ten learners. We aim for twenty percent less median planning time and eighty percent correctly explaining their score and uncertainty. We built the project with OpenAI Codex and GPT-five-point-one Sol, alongside coding assistance from Qoder and Cortex Code, CoCo. Our goal is clear: help learners choose a next step they can understand, afford and act on.
 
-Sources: Planned ten-learner pilot accepted for proposal preparation on 25 October 2026; docs/TECHNICAL_DECLARATION.md; Domain 1 brief PDF pages 7 and 8; https://sdc-2026-seladevsuthm.replit.app/
+Sources: Planned ten-learner pilot accepted for proposal preparation on 25 October 2026; docs/TECHNICAL_DECLARATION.md; Domain 1 brief PDF pages 7 and 8; https://sdc-2026-seladevsuthm.replit.app/; https://youtu.be/e8jtdJy6deo

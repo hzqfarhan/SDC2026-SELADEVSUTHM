@@ -39,13 +39,14 @@ Screenshots are delivered beside the source package as `atlas-quest-preview.png`
 - [ ] Test a synthetic PDF upload, scanned-PDF limitations and drag/drop. TXT and DOCX parsing have automated coverage; the browser sample check used the supplied TXT fixture.
 - [ ] Rehearse every module, all source/resource links, map state selection, university/landmark layers and scene camera/layer transitions on the intended device.
 - [ ] Check the core evidence → role contribution → learning plan → export flow and both uncertain scenarios before the demo.
-- [ ] Verify the judge-accessible hosted build and GitHub repository, team contributions and final submission requirements. No hosted publication or organiser submission is claimed by these local checks.
+- [x] Check the published landing page, dashboard and both API status routes: HTTP 200, expected JSON/model revisions and configured settings on 25 October 2026. The public six-role E5 request also completed on CUDA.
+- [ ] Confirm team contributions and final organiser submission requirements, then preserve the actual portal receipt.
 
 Browser badges and self-marked learning completions are activity records, not credentials. No study of retention, proficiency improvement, fairness or employment outcomes was conducted. Keep these limitations in the handoff and presentation.
 
 ## Local HTTP check after the cloud revision
 
-The server was restarted on port3107. GET `/`, `/atlas/`, both cloud status routes, the research snapshot and PDF worker returned200 with the expected MIME types. Both status routes honestly returned `configured:false`; explicit POSTs to unconfigured inference routes returned503 without model output. These are setup/fallback checks, not provider execution.
+The server was restarted on port3107. GET `/`, `/atlas/`, both cloud status routes, the research snapshot and PDF worker returned200 with the expected MIME types. Both local status routes returned `configured:false`; explicit POSTs to unconfigured inference routes returned503 without model output. These are setup/fallback checks, not provider execution.
 
 ## Direct E5 GPU execution
 
@@ -58,3 +59,18 @@ The extracted final demo served the landing page, atlas/skills route, Council ro
 ## Direct Qwen profile-stage execution
 
 Job `2bed0b24-4f56-4c9c-85f3-8703b0cd7b05-e2` on endpoint `yx2pzhigxtbnnm` returned `COMPLETED`, stage `profile`, device `cuda`, the pinned Qwen model/revision and a schema-valid review at 04:22:17 MYT on 25 October 2026. Both worker and gateway validators accepted its source IDs and exact fictional quotation. Provider execution was 5,927 ms, queue delay 9,342 ms and worker-reported duration 5,756 ms, with 343 input and 83 output tokens. This is one direct stage, separate from the full application/four-stage check and model-quality evaluation. See RUNPOD_EXECUTION.md and the exact provider receipt.
+
+
+## Published Replit application and E5 gateway
+
+On 25 October 2026, publication `7779ace0` served the Next.js landing page and `/atlas/?module=council` with HTTP 200. Both public status routes returned HTTP 200 JSON, `configured: true`, and the expected E5/Qwen model names and pinned revisions. The account showed Asia-region Autoscale hosting with 2 vCPU and 4 GiB RAM.
+
+The E5 smoke check ran from the Replit workspace against the public origin, using an explicit matching Origin header, fictional text and the server-held demo code. It completed on CUDA with the expected model/revision, `cached: false`, and six role results accepted by the original smoke validator. The receipt is retained in the Replit release at `submission-evidence/runpod/latest-completion.json`. This establishes one public application request, separate from the earlier two-passage direct worker fixture and any quality or performance study.
+
+The public Council attempt stopped before model execution because the provider returned HTTP 403. Its read-only endpoint health request also returned `Forbidden` with the provider detail, “You do not have permission to perform this action.” No complete Council report resulted from that attempt. The direct Qwen profile-stage CUDA receipt remains a separate successful worker check; the deployment guide records the endpoint-access action before another attempt.
+
+Replit publishing analytics were enabled in the observed production settings. The application includes no analytics SDK; platform analytics and provider records are separate from browser-local profiles.
+
+## Published product video
+
+The [YouTube pitch and demo](https://youtu.be/e8jtdJy6deo) returned an unauthenticated HTTP 200 oEmbed response titled `SDC2026 SELADEVSUTHM PitchAndDemo`; the player displayed 6:50. The local exported video has its own measured duration and caption files. No organiser submission is inferred from publishing a video.

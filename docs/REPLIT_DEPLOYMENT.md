@@ -4,6 +4,8 @@ Published application: [SHIFTATLAS](https://sdc-2026-seladevsuthm.replit.app/). 
 
 This project uses Replit's artifact workspace: one website artifact and one API artifact. Their production manifests control publishing. Updating the root `.replit` file alone does not change those artifact commands.
 
+On 25 October 2026, publication `7779ace0` served the Next.js landing page and dashboard with HTTP 200. Both public AI status routes returned HTTP 200 JSON with `configured: true` and the expected pinned model revisions. Our account showed Asia-region Autoscale hosting with 2 vCPU and 4 GiB RAM. The published six-role E5 gateway also completed a non-cached CUDA request with the expected model and revision. Page access, API configuration and model execution have separate records.
+
 ## Prepare the pinned release
 
 The release contains the built Next.js pages, public data, trusted catalogues and both Node gateways. It requires no dependency installation at runtime. Preserve the current workspace and back up both artifact manifests before editing them.
@@ -73,6 +75,8 @@ Open these read-only routes:
 - [E5 status](https://sdc-2026-seladevsuthm.replit.app/api/cloud-status)
 - [Council status](https://sdc-2026-seladevsuthm.replit.app/api/council-status)
 
-The status routes should return JSON. `configured: true` confirms the required settings are present; it does not submit a model job. Next, use an explicitly confirmed fictional example and the private demo code for an authorised E5 or Council request. A full Council result needs profile, roles, learning and critic completion receipts.
+Both status routes returned JSON with `configured: true`. This confirms settings are present and submits no model job. An explicitly confirmed fictional E5 request through the public app completed on CUDA and passed the six-role smoke check, with `cached: false`.
+
+The current server credential reaches E5; Council returned HTTP 403 before model execution. Include endpoint `yx2pzhigxtbnnm` in that credential's allowed endpoints before submitting another Council request. A full Council result needs profile, roles, learning and critic completion receipts.
 
 Retain the publication record, actual request receipts and a masked own-account screenshot. See [Replit and RunPod setup](REPLIT_RUNPOD_SETUP.md#9-record-deployment-acceptance) for the dated acceptance record and [RunPod execution](RUNPOD_EXECUTION.md) for the recorded CUDA jobs.

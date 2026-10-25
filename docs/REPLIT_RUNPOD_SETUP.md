@@ -81,7 +81,7 @@ docker build --platform linux/amd64 -f Dockerfile.council -t TEAM_REGISTRY/shift
 
 Replace `TEAM_REGISTRY` with the actual registry namespace, push the images through its authenticated workflow and deploy their immutable digests. This alternative is unnecessary when using direct GitHub builds. [Registry deployment](https://docs.runpod.io/serverless/workers/deploy).
 
-The E5 worker has a recorded direct CUDA completion on endpoint `7ib627oev3kwlb`; see [the execution record](RUNPOD_EXECUTION.md). This endpoint ID is a configuration identifier, not a credential. The application gateway must still be configured and tested.
+The E5 worker has a recorded direct CUDA completion on endpoint `7ib627oev3kwlb`; see [the execution record](RUNPOD_EXECUTION.md). This endpoint ID is a configuration identifier, not a credential. The published six-role E5 gateway also completed a non-cached CUDA request with the expected model and revision on 25 October 2026.
 
 ## 4. Configure Replit Secrets
 
@@ -142,6 +142,8 @@ The Council smoke check requests up to four jobs:
 CLOUD_APP_URL=https://sdc-2026-seladevsuthm.replit.app node scripts/smoke-council.mjs --run-four-cloud-jobs
 ```
 
+Before another Council request, update the existing server API key's endpoint access to include `yx2pzhigxtbnnm`. The current credential reaches E5, while the Council provider returned HTTP 403 before model execution. After correcting access, run one authorised Council request.
+
 Inspect `submission-evidence/runpod/latest-council-completion.json`, four actual provider job identities, model/revision/device, timing and token counts. Verify that skill levels and rubric scores remain unchanged. A timeout or interrupted client can leave provider work running; inspect jobs and account usage before another submission.
 
 ## 8. Publish the Node application
@@ -167,15 +169,17 @@ Keep source/release/image/model identifiers, configuration, test results and red
 | Acceptance item | Status |
 |---|---|
 | Replit project | Imported |
-| Public Replit landing and dashboard | HTTP 200 on 25 October 2026 at the published URL above |
-| Public API routes in the first published build | `/api/cloud-status` and `/api/council-status` returned HTTP 404; the complete Node release is being restored |
-| Complete Node release in Replit workspace | Both status routes returned HTTP 200 with `configured: true` on temporary port 3109; public acceptance follows publication |
+| Public Replit landing and dashboard | Next.js pages returned HTTP 200 on 25 October 2026; publication `7779ace0` |
+| Public E5 and Council status routes | HTTP 200 JSON; both `configured: true`, with the expected model names and pinned revisions |
+| Replit production hosting | Asia region; Autoscale, 2 vCPU / 4 GiB RAM, observed in our account |
 | RunPod sponsor credit | US$25 redeemed and auto-pay off, confirmed by the team; remaining balance is checked in Billing |
 | E5 image build/download/upload | Completed; build log and image tag recorded |
 | Council runtime / build provenance | Profile-stage CUDA completed; exact image/build records are separate |
-| E5 GPU completion | COMPLETED / CUDA; 3.452 s execution, 11.626 s delay; exact receipt retained |
+| E5 direct GPU completion | COMPLETED / CUDA; 3.452 s execution, 11.626 s delay; exact receipt retained |
+| Published six-role E5 gateway | Completed / CUDA, expected model and revision, `cached: false`; original smoke check validated all six role results |
 | Council endpoint | `yx2pzhigxtbnnm` |
 | Council profile completion | COMPLETED / CUDA; 5.927 s execution, 9.342 s delay |
-| Four-stage Council completion | Full application test is next |
+| Public Council provider access | HTTP 403 before model execution; add the Council endpoint to the existing server credential's allowed endpoints before retrying |
+| Four-stage Council completion | Run once after endpoint access is corrected; retain four validated stage receipts |
 
 After testing, inspect active workers, endpoints, Pods, volumes and billing. Export results before removing resources. No persistent volume is required by the baked-model recipes.

@@ -21,7 +21,7 @@ The team-supplied [provider response](evidence/runpod-e5-completion.json) passed
 | Queue delay | 11,626 ms |
 | Input | One fictional learner query and two authored role-description passages |
 
-The query describes spreadsheet/SQL analysis and explaining charts. Returned raw cosine similarities were `0.858772` for `data-analyst` and `0.761758` for `cloud-support`. These are text-similarity values, not calibrated probabilities, proficiency scores or hiring-demand estimates. One small fixture is not a quality, fairness, throughput or representative latency benchmark. The six-role application route remains a separate integration check.
+The query describes spreadsheet/SQL analysis and explaining charts. Returned raw cosine similarities were `0.858772` for `data-analyst` and `0.761758` for `cloud-support`. These are text-similarity values, not calibrated probabilities, proficiency scores or hiring-demand estimates. One small fixture is not a quality, fairness, throughput or representative latency benchmark. The later six-role public application check is recorded below.
 
 ## Image build
 
@@ -57,3 +57,10 @@ Our separate Qwen worker completed its profile-review stage on endpoint `yx2pzhi
 | Tokens | 343 input / 83 output |
 
 The review cites `profile` and quotes the actual fictional substring `used SQL to analyse public datasets`. Its interpretation remains a model suggestion rather than a proficiency assessment. Provider execution and worker duration are different measurements. This receipt establishes the first of four Council stages; roles, learning, critic and the full application flow require their own completions. Runtime success does not independently establish the exact registry image digest, build log, exported package freeze or model manifest.
+
+
+## Public Replit application request
+
+On 25 October 2026, our published Replit gateway completed an uncached synthetic E5 request with an explicit same-origin header. The receipt reports CUDA and the pinned multilingual-e5-base revision. It contains all six trusted O*NET-referenced roles and six dated research-title matches. The highest-ranked role was Business intelligence analyst with raw cosine similarity 0.7916. These remain similarity values rather than proficiency or employment probabilities.
+
+[Application completion receipt](evidence/replit-e5-public-completion.json). The receipt was exported through the team Replit editor; our own-account console capture is retained in the submission evidence folder. This completed application request is distinct from the earlier two-passage direct worker fixture and its timings.
