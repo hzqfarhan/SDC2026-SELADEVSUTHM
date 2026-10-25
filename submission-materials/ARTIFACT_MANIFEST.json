@@ -40,8 +40,8 @@
   "files": [
     {
       "path": "ASSET_PROVENANCE.json",
-      "bytes": 1868,
-      "sha256": "a7c215a051b4a385cff0753e75f4081d5bc75bcf3832fa07046ba3b5fd8b264d"
+      "bytes": 1818,
+      "sha256": "5810709ed0f175389ff193ccfbfd69398aa5b2d2da5c9aa9d665c04c7685d2eb"
     },
     {
       "path": "assets/e5-runpod-request-history.png",
@@ -85,8 +85,8 @@
     },
     {
       "path": "DESIGN_SOURCES.md",
-      "bytes": 4942,
-      "sha256": "4d21c29cb0e3b890add504d44bb0a2a385eeab11bc560b3f71452da3c997f293"
+      "bytes": 4894,
+      "sha256": "f432610aeb33bd6e57b3d250b3a6446a3295636049d43c33f35fd85eeb37ac87"
     },
     {
       "path": "evidence/README.md",
@@ -105,8 +105,8 @@
     },
     {
       "path": "evidence/runpod/council-profile-completion.json",
-      "bytes": 1093,
-      "sha256": "f2b1d3474100e26abbcbf49ce3c3d7ed65635a2679965d4883876dd7f45fecb8"
+      "bytes": 1058,
+      "sha256": "38d1d8dc6587849ae6edf14fb666d745aecb1cfad2cea1233f75b770ded4b79b"
     },
     {
       "path": "evidence/runpod/e5-completed-request-history.png",
@@ -115,8 +115,8 @@
     },
     {
       "path": "evidence/runpod/e5-completion.json",
-      "bytes": 706,
-      "sha256": "ef94cfdad17c4f63eabc9f2eb2ca94a07109941c82a8d0d2d6316c70cdc294fd"
+      "bytes": 677,
+      "sha256": "009f5c80300707a78d55461c6c88e25d9ac9db526a4a99c8ef1ed7a5d0e88b93"
     },
     {
       "path": "evidence/runpod/RunPod_Usage_Evidence.pdf",
@@ -130,8 +130,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3185,
-      "sha256": "858abee2f20dae050ff4be1cfe561146c79f0963887074e05f00b825ebe71bb9"
+      "bytes": 3159,
+      "sha256": "92da138998edc9fd1e87028785b035027ad0d9e98a5e41d2503af65c80452489"
     },
     {
       "path": "SDC2026_SELADEVSUTHM_Preliminary.pdf",
@@ -145,8 +145,8 @@
     },
     {
       "path": "SHIFTATLAS_Captions.srt",
-      "bytes": 9666,
-      "sha256": "6c57f2c5810f2c4962811dd243eec6cdec9a83ef4fe4334d2d85dec188c04959"
+      "bytes": 9323,
+      "sha256": "90da2818d725404b6ed90bf4d67f293ac997400e19802ad7f6319013950482d7"
     },
     {
       "path": "SHIFTATLAS_PitchAndDemo.mp4",
@@ -168,5 +168,6 @@
       "bytes": 3488,
       "sha256": "17c7af9b8c539dab08570b836b4192ae50ae0563abe7cf22779b34066a6c3429"
     }
-  ]
+  ],
+  "checksumBasis": "Git repository blob bytes; text files use repository line endings"
 }
